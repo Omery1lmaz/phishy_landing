@@ -450,7 +450,7 @@ const Header: React.FC = () => {
             description: 'Industry-specific security solutions',
             icon: 'globe',
             items: [
-              { title: 'Financial Services', description: 'BEC-focused scenarios, approval culture, compliance evidence', href: '/solutions/financial-services', icon: 'dollar' },
+              { title: 'Financial Services.', description: 'BEC-focused scenarios, approval culture, compliance evidence', href: '/solutions/financial-services', icon: 'dollar' },
               { title: 'Government / Public Sector', description: 'On-prem/air-gapped, transparent reporting, accessible UX', href: '/solutions/government', icon: 'building' },
               { title: 'Energy & Critical Infrastructure', description: 'Field-focused micro training, incident mitigation, risky moments', href: '/solutions/energy', icon: 'bolt' },
               { title: 'Telecom & ISP', description: 'Large user base, segmentation, centralized reports', href: '/solutions/telecom', icon: 'phone' },
