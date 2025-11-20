@@ -1,9 +1,10 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 export default function BlogBackground() {
-  const [particles, setParticles] = useState<Array<{
+  // Use lazy initialization to avoid setState in effect
+  const [particles] = useState<Array<{
     id: number;
     size: number;
     left: number;
@@ -11,16 +12,29 @@ export default function BlogBackground() {
     duration: number;
     delay: number;
     isPrimary: boolean;
-  }>>([]);
+  }>>(() => Array.from({ length: 30 }, (_, i) => ({
+    id: i,
+    size: 3 + Math.random() * 8, // 3px to 11px
+    left: Math.random() * 100, // 0% to 100%
+    top: Math.random() * 100, // 0% to 100%
+    duration: 8 + Math.random() * 12, // 8s to 20s
+    delay: Math.random() * 5, // 0s to 5s
+    isPrimary: Math.random() > 0.5, // Primary or Secondary color
+  })));
 
-  const [gridLines, setGridLines] = useState<Array<{
+  const [gridLines] = useState<Array<{
     id: number;
     duration: number;
     delay: number;
     position: number;
-  }>>([]);
+  }>>(() => Array.from({ length: 15 }, (_, i) => ({
+    id: i,
+    duration: 20 + Math.random() * 15,
+    delay: Math.random() * 10,
+    position: Math.random() * 100,
+  })));
 
-  const [floatingShapes, setFloatingShapes] = useState<Array<{
+  const [floatingShapes] = useState<Array<{
     id: number;
     size: number;
     left: number;
@@ -28,37 +42,15 @@ export default function BlogBackground() {
     duration: number;
     delay: number;
     rotation: number;
-  }>>([]);
-
-  useEffect(() => {
-    // Generate random values only on client-side
-    setParticles(Array.from({ length: 30 }, (_, i) => ({
-      id: i,
-      size: 3 + Math.random() * 8, // 3px to 11px
-      left: Math.random() * 100, // 0% to 100%
-      top: Math.random() * 100, // 0% to 100%
-      duration: 8 + Math.random() * 12, // 8s to 20s
-      delay: Math.random() * 5, // 0s to 5s
-      isPrimary: Math.random() > 0.5, // Primary or Secondary color
-    })));
-
-    setGridLines(Array.from({ length: 15 }, (_, i) => ({
-      id: i,
-      duration: 20 + Math.random() * 15,
-      delay: Math.random() * 10,
-      position: Math.random() * 100,
-    })));
-
-    setFloatingShapes(Array.from({ length: 8 }, (_, i) => ({
-      id: i,
-      size: 100 + Math.random() * 200, // 100px to 300px
-      left: Math.random() * 100,
-      top: Math.random() * 100,
-      duration: 15 + Math.random() * 20,
-      delay: Math.random() * 10,
-      rotation: Math.random() * 360,
-    })));
-  }, []);
+  }>>(() => Array.from({ length: 8 }, (_, i) => ({
+    id: i,
+    size: 100 + Math.random() * 200, // 100px to 300px
+    left: Math.random() * 100,
+    top: Math.random() * 100,
+    duration: 15 + Math.random() * 20,
+    delay: Math.random() * 10,
+    rotation: Math.random() * 360,
+  })));
 
   return (
     <div className="fixed inset-0 z-0 overflow-hidden" style={{ backgroundColor: 'transparent' }}>

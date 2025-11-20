@@ -362,7 +362,7 @@ const SolutionsPhishingProgramsPage: React.FC = () => {
                 Ready to take action?
               </CardTitle>
               <CardDescription className="text-lg text-white/80 mt-4">
-                Let's schedule your live demo. See how multi-channel phishing programs reduce risk across all attack vectors.
+                Let&apos;s schedule your live demo. See how multi-channel phishing programs reduce risk across all attack vectors.
               </CardDescription>
             </CardHeader>
             <CardContent className="flex flex-col sm:flex-row gap-4 justify-center items-center">

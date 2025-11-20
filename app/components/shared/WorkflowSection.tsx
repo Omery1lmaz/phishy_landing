@@ -49,7 +49,10 @@ const WorkflowSection = ({
     video.src = currentVideoSrc;
     video.loop = false; // Yeni video için loop'u tekrar aç
     video.load();
-    setVideoProgress(0);
+    // Use startTransition to avoid synchronous setState in effect
+    React.startTransition(() => {
+      setVideoProgress(0);
+    });
     
     // Video bittiğinde sonraki step'e geç
     const handleEnded = () => {

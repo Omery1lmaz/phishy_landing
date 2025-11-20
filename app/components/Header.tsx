@@ -49,7 +49,8 @@ const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isLocaleDropdownOpen, setIsLocaleDropdownOpen] = useState(false);
   const [activePlatformTab, setActivePlatformTab] = useState(0);
-  const [isMounted, setIsMounted] = useState(false);
+  // Use lazy initialization instead of setState in effect
+  const [isMounted] = useState(true);
   const localeCloseTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const t = useTranslations('Header');
   const locale = useLocale();
@@ -57,10 +58,6 @@ const Header: React.FC = () => {
   const pathname = usePathname();
   const params = useParams();
   const isMobile = useIsMobile();
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
 
   useEffect(() => {
     const handleScroll = () => {

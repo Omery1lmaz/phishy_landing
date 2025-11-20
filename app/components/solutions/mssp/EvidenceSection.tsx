@@ -19,7 +19,7 @@ const EvidenceSection: React.FC = () => {
             Real Results from Real MSSPs
           </h2>
           <p className="mt-4 text-base text-white/60 max-w-2xl mx-auto">
-            See how leading MSSPs are transforming their operations with Phishy's multi-tenant platform.
+            See how leading MSSPs are transforming their operations with Phishy&apos;s multi-tenant platform.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ const EvidenceSection: React.FC = () => {
           <Card className="border-white/10 bg-white/5 backdrop-blur-xl">
             <CardContent className="p-8">
               <blockquote className="text-lg italic text-white/80">
-                &ldquo;We managed 15 clients manually. Each client required separate setup and reporting. After implementing Phishy's multi-tenant platform, we now manage 150+ clients with the same team. White-label branding is perfect. Monthly summaries generate automatically. Billing integration saves 20 hours per month. Revenue increased 8x. The ROI is exceptional.&rdquo;
+                &ldquo;We managed 15 clients manually. Each client required separate setup and reporting. After implementing Phishy&apos;s multi-tenant platform, we now manage 150+ clients with the same team. White-label branding is perfect. Monthly summaries generate automatically. Billing integration saves 20 hours per month. Revenue increased 8x. The ROI is exceptional.&rdquo;
               </blockquote>
               <p className="mt-4 text-sm text-white/60">— MSSP Director, Managed Security Services Provider</p>
             </CardContent>

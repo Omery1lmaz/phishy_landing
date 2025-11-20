@@ -82,7 +82,7 @@ const ContactForm: React.FC<{sourcePage: string | null}> = ({sourcePage}) => {
           showToast(data.error || 'Bir hata oluştu. Lütfen tekrar deneyin.', 'error');
           return;
         }
-      } catch (error: any) {
+      } catch (error: unknown) {
         showToast('Mesaj gönderilirken bir hata oluştu.', 'error');
         return;
       }

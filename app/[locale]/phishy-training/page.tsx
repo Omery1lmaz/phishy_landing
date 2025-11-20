@@ -259,17 +259,8 @@ const RunSimulationsSection: React.FC = () => {
   );
 };
 
-// See Results Section Component - Using DashboardSection style
-const SeeResultsSection: React.FC = () => {
-  const t = useTranslations('Pages.PhishyTrainingPage');
-  const section = 'SeeResults' as const;
-  const analyticsCard = t.raw(`${section}.cards.analytics`) as AnalyticsCard;
-  const statisticsCard = t.raw(`${section}.cards.statistics`) as StatisticsCard;
-  const engagementCard = t.raw(`${section}.cards.engagement`) as EngagementCard;
-  const incidentCard = t.raw(`${section}.cards.incident`) as IncidentCard;
-
-  // Donut chart for email engagement
-  const DonutChart = ({
+// Donut chart for email engagement - moved outside to avoid creating during render
+const DonutChart = ({
     percentage,
     centerLabel,
     centerSubLabel,
@@ -320,10 +311,10 @@ const SeeResultsSection: React.FC = () => {
         </div>
       </div>
     );
-  };
+};
 
-  // Line chart for campaign activity
-  const LineChart = ({
+// Line chart for campaign activity - moved outside to avoid creating during render
+const LineChart = ({
     clicksData,
     reportsData,
     yAxisTicks,
@@ -565,7 +556,16 @@ const SeeResultsSection: React.FC = () => {
         </g>
       </svg>
     );
-  };
+};
+
+// See Results Section Component - Using DashboardSection style
+const SeeResultsSection: React.FC = () => {
+  const t = useTranslations('Pages.PhishyTrainingPage');
+  const section = 'SeeResults' as const;
+  const analyticsCard = t.raw(`${section}.cards.analytics`) as AnalyticsCard;
+  const statisticsCard = t.raw(`${section}.cards.statistics`) as StatisticsCard;
+  const engagementCard = t.raw(`${section}.cards.engagement`) as EngagementCard;
+  const incidentCard = t.raw(`${section}.cards.incident`) as IncidentCard;
 
   return (
     <section

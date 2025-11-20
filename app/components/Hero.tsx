@@ -320,7 +320,11 @@ const Hero: React.FC = () => {
                 return (
                   <div
                     key={card.id}
-                    ref={(el) => (cardRefs.current[index] = el) as any}
+                    ref={(el) => {
+                      if (cardRefs.current) {
+                        cardRefs.current[index] = el;
+                      }
+                    }}
                     className="group absolute liquid-card max-w-xs z-40 p-6 rounded-2xl transition-all duration-300 cursor-pointer outline-none"
                     style={{
                       left: `${x}%`,

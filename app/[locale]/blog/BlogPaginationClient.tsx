@@ -27,11 +27,14 @@ export default function BlogPaginationClient({ totalPosts, postsPerPage }: BlogP
     const pageFromUrl = parseInt(searchParams.get('page') || '1', 10);
     const validPage = Math.max(1, Math.min(pageFromUrl, totalPages || 1));
     
-    setCurrentPage(prevPage => {
-      if (prevPage !== validPage) {
-        return validPage;
-      }
-      return prevPage;
+    // Use startTransition to avoid synchronous setState in effect
+    React.startTransition(() => {
+      setCurrentPage(prevPage => {
+        if (prevPage !== validPage) {
+          return validPage;
+        }
+        return prevPage;
+      });
     });
     
     // Update URL if page is out of bounds

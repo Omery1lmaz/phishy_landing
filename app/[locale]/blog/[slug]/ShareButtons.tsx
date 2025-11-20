@@ -10,16 +10,16 @@ interface ShareButtonsProps {
 }
 
 export default function ShareButtons({ postTitle, postSlug, locale }: ShareButtonsProps) {
-  const [currentUrl, setCurrentUrl] = useState<string>('');
   const [isCopied, setIsCopied] = useState(false);
   const copyTimeoutRef = React.useRef<NodeJS.Timeout | null>(null);
 
-  // Get current URL on client side
-  useEffect(() => {
+  // Get current URL on client side - use lazy initialization
+  const [currentUrl] = useState(() => {
     if (typeof window !== 'undefined') {
-      setCurrentUrl(`${window.location.origin}/${locale}/blog/${postSlug}`);
+      return `${window.location.origin}/${locale}/blog/${postSlug}`;
     }
-  }, [locale, postSlug]);
+    return '';
+  });
 
   // Cleanup timeout on unmount
   useEffect(() => {

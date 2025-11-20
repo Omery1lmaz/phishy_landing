@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useRef, useMemo } from 'react';
+import React, { useRef, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, Sphere } from '@react-three/drei';
 import * as THREE from 'three';
@@ -16,7 +16,8 @@ function OrganicStructure() {
     }
   });
 
-  const structures = useMemo(() => {
+  // Use useState with lazy initialization to avoid Math.random during render
+  const [structures] = useState(() => {
     return Array.from({ length: 15 }, (_, i) => ({
       position: [
         (Math.random() - 0.5) * 8,
@@ -26,7 +27,7 @@ function OrganicStructure() {
       scale: 0.3 + Math.random() * 0.5,
       color: i % 3 === 0 ? '#A855F7' : i % 3 === 1 ? '#9333EA' : '#C084FC',
     }));
-  }, []);
+  });
 
   return (
     <group ref={groupRef}>

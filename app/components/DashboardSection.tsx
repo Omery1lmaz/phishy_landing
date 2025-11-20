@@ -3,9 +3,8 @@
 import React from 'react';
 import Image from 'next/image';
 
-const DashboardSection: React.FC = () => {
-  // Donut chart SVG component
-  const DonutChart = ({ percentage = 67 }: { percentage?: number }) => {
+// Donut chart SVG component - moved outside to avoid creating during render
+const DonutChart = ({ percentage = 67 }: { percentage?: number }) => {
     const size = 200;
     const strokeWidth = 20;
     const radius = (size - strokeWidth) / 2;
@@ -51,10 +50,10 @@ const DashboardSection: React.FC = () => {
         </div>
       </div>
     );
-  };
+};
 
-  // Line chart SVG component
-  const LineChart = () => {
+// Line chart SVG component - moved outside to avoid creating during render
+const LineChart = () => {
     const width = 280;
     const height = 120;
     const padding = 20;
@@ -142,8 +141,9 @@ const DashboardSection: React.FC = () => {
         </text>
       </svg>
     );
-  };
+};
 
+const DashboardSection: React.FC = () => {
   return (
     <section
       id="dashboard"

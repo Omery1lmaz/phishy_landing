@@ -33,7 +33,7 @@ const OverviewSection: React.FC = () => {
               <div>
                 <p className="text-white/90 font-medium mb-2">Why this persona cares:</p>
                 <p className="text-white/70">
-                  Managing multiple clients manually doesn't scale. Billing is complex. Client reporting is time-consuming. White-label options are limited.
+                  Managing multiple clients manually doesn&apos;t scale. Billing is complex. Client reporting is time-consuming. White-label options are limited.
                 </p>
               </div>
               <div>

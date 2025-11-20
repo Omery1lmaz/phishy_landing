@@ -61,7 +61,7 @@ const FAQSection: React.FC = () => {
               {/* FAQ's Badge */}
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-primary-600/20 to-secondary-600/20 border border-primary-500/30 backdrop-blur-sm">
                 <span className="text-sm font-medium text-primary-400 uppercase tracking-wider">
-                  FAQ's
+                  FAQ&apos;s
                 </span>
               </div>
               

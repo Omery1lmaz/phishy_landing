@@ -30,7 +30,7 @@ const InsightsSection: React.FC = () => {
             Meet Marvellous Insights
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Save your team's precious time. Config replaces the lengthy process of manual BOM
+            Save your team&apos;s precious time. Config replaces the lengthy process of manual BOM
           </p>
         </div>
 

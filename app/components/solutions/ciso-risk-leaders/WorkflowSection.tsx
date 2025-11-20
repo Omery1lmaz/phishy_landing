@@ -61,7 +61,7 @@ const WorkflowSection = () => {
   const [activeStep, setActiveStep] = useState(0);
   const sectionRef = useRef(null);
   const cardsRef = useRef(null);
-  const cardElementsRef = useRef([]);
+  const cardElementsRef = useRef<(HTMLDivElement | null)[]>([]);
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -371,7 +371,11 @@ const WorkflowSection = () => {
                 return (
                   <div
                     key={step.key}
-                    ref={(el) => ((cardElementsRef.current[index] as any) = el as any)}
+                    ref={(el) => {
+                      if (cardElementsRef.current) {
+                        cardElementsRef.current[index] = el;
+                      }
+                    }}
                     className="w-full h-full"
                   >
                     <Card className="relative h-full overflow-hidden rounded-[32px] border border-white/10 bg-gradient-to-br from-white/10 via-transparent to-indigo-500/20 shadow-[0_25px_70px_-30px_rgba(79,70,229,0.6)] backdrop-blur-2xl">

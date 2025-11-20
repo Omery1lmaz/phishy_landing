@@ -18,6 +18,7 @@ export default function BlogPostClient({ post, locale, blogUrl }: BlogPostClient
   const contentRef = useRef<HTMLElement>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isPaused, setIsPaused] = useState(true);
   const [audioProgress, setAudioProgress] = useState(0);
   const [audioDuration, setAudioDuration] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
@@ -88,9 +89,10 @@ export default function BlogPostClient({ post, locale, blogUrl }: BlogPostClient
     if (!audioPath) return;
 
     // If audio already exists and is paused, resume it
-    if (audioRef.current && audioRef.current.paused) {
+    if (audioRef.current && isPaused) {
       audioRef.current.play();
       setIsPlaying(true);
+      setIsPaused(false);
       return;
     }
 
@@ -106,6 +108,7 @@ export default function BlogPostClient({ post, locale, blogUrl }: BlogPostClient
 
     audio.addEventListener('loadstart', () => {
       setIsPlaying(true);
+      setIsPaused(false);
       setAudioProgress(0);
       setCurrentTime(0);
     });
@@ -121,6 +124,7 @@ export default function BlogPostClient({ post, locale, blogUrl }: BlogPostClient
 
     audio.addEventListener('ended', () => {
       setIsPlaying(false);
+      setIsPaused(true);
       setAudioProgress(100);
       setCurrentTime(audioDuration);
       setTimeout(() => {
@@ -132,6 +136,7 @@ export default function BlogPostClient({ post, locale, blogUrl }: BlogPostClient
     audio.addEventListener('error', (event) => {
       console.error('Audio playback error:', event);
       setIsPlaying(false);
+      setIsPaused(true);
       setAudioProgress(0);
       setCurrentTime(0);
       alert(locale === 'tr' 
@@ -142,6 +147,7 @@ export default function BlogPostClient({ post, locale, blogUrl }: BlogPostClient
     audio.play().catch((error) => {
       console.error('Error playing audio:', error);
       setIsPlaying(false);
+      setIsPaused(true);
       setAudioProgress(0);
       setCurrentTime(0);
     });
@@ -152,6 +158,7 @@ export default function BlogPostClient({ post, locale, blogUrl }: BlogPostClient
       audioRef.current.pause();
     }
     setIsPlaying(false);
+    setIsPaused(true);
   };
 
   const stopAudio = () => {
@@ -161,6 +168,7 @@ export default function BlogPostClient({ post, locale, blogUrl }: BlogPostClient
       audioRef.current = null;
     }
     setIsPlaying(false);
+    setIsPaused(true);
     setAudioProgress(0);
     setCurrentTime(0);
     setAudioDuration(0);
@@ -257,7 +265,7 @@ export default function BlogPostClient({ post, locale, blogUrl }: BlogPostClient
           <div className="flex-1 min-w-0 audio-player-card rounded-xl px-4 py-2 bg-gradient-to-br from-primary-900/20 via-secondary-900/15 to-primary-900/20 backdrop-blur-sm flex items-center">
             <div className="flex items-center gap-3 w-full">
             {/* Play/Pause Button */}
-            {!isPlaying && (!audioRef.current || audioRef.current.paused) ? (
+            {!isPlaying && isPaused ? (
               <button
                 onClick={startAudio}
                 className="group relative flex-shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:from-primary-400 hover:to-secondary-400 transition-all duration-300 shadow-lg shadow-primary-500/40 hover:shadow-primary-500/60 hover:scale-105 active:scale-95"
