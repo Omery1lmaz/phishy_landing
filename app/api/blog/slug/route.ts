@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getCorrespondingBlogSlug } from '@/lib/blog';
 
+export const runtime = 'edge';
+
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
   const currentSlug = searchParams.get('slug');
