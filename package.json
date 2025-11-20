@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "npm run generate:blog && next build",
     "build:cf": "npm run generate:blog && next-on-pages && npm run cleanup:build",
-      "deploy:cf": "npm run build:cf && wrangler pages deploy .vercel/output/static",
+    "deploy:cf": "npm run build:cf && wrangler pages deploy .vercel/output/static",
     "generate:blog": "tsx scripts/generate-blog-data.ts",
     "cleanup:build": "rm -f .vercel/output/static/_worker.js/nop-build-log.json .vercel/output/static/mp3/example.mp3 2>/dev/null || true",
     "start": "next start",
@@ -49,6 +49,6 @@
     "tailwindcss": "^3.4.18",
     "tsx": "^4.20.6",
     "typescript": "^5",
-    "vercel": "^48.10.5"
+    "vercel": "47.0.4"
   }
 }
