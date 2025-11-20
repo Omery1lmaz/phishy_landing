@@ -1,0 +1,1070 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  @keyframes spin-slow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+    opacity: 0;
+  }
+  
+  @keyframes gradientWave {
+    0%, 100% {
+      transform: translateX(0) translateY(0) scale(1);
+      opacity: 0.3;
+    }
+    50% {
+      transform: translateX(20px) translateY(-30px) scale(1.1);
+      opacity: 0.5;
+    }
+  }
+  
+  @keyframes meshMove {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(80px, 80px);
+    }
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translate(0, 0) scale(1);
+      opacity: 0.4;
+    }
+    25% {
+      transform: translate(20px, -30px) scale(1.2);
+      opacity: 0.7;
+    }
+    50% {
+      transform: translate(-15px, -50px) scale(0.9);
+      opacity: 0.5;
+    }
+    75% {
+      transform: translate(30px, -20px) scale(1.1);
+      opacity: 0.6;
+    }
+  }
+  
+  @keyframes gridLineMove {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(100vw);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes gridLineMoveVertical {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes orbFloat {
+    0%, 100% {
+      transform: translate(0, 0) scale(1);
+      opacity: 0.3;
+    }
+    25% {
+      transform: translate(30px, -40px) scale(1.1);
+      opacity: 0.4;
+    }
+    50% {
+      transform: translate(-20px, -60px) scale(0.95);
+      opacity: 0.35;
+    }
+    75% {
+      transform: translate(40px, -30px) scale(1.05);
+      opacity: 0.4;
+    }
+  }
+  
+  @keyframes gridLinePulse {
+    0%, 100% {
+      opacity: 0.2;
+    }
+    50% {
+      opacity: 0.6;
+    }
+  }
+  
+  @keyframes shapeFloat {
+    0%, 100% {
+      transform: translate(0, 0) rotate(0deg) scale(1);
+      opacity: 0.2;
+    }
+    33% {
+      transform: translate(50px, -80px) rotate(120deg) scale(1.2);
+      opacity: 0.3;
+    }
+    66% {
+      transform: translate(-40px, -120px) rotate(240deg) scale(0.9);
+      opacity: 0.25;
+    }
+  }
+  
+  @keyframes particleFloat {
+    0%, 100% {
+      transform: translate(0, 0) scale(1);
+      opacity: 0.5;
+    }
+    25% {
+      transform: translate(15px, -25px) scale(1.3);
+      opacity: 0.8;
+    }
+    50% {
+      transform: translate(-10px, -40px) scale(0.8);
+      opacity: 0.6;
+    }
+    75% {
+      transform: translate(20px, -15px) scale(1.1);
+      opacity: 0.7;
+    }
+  }
+  
+  @keyframes lightRay {
+    0%, 100% {
+      opacity: 0.2;
+      transform: scaleY(0.8);
+    }
+    50% {
+      opacity: 0.5;
+      transform: scaleY(1.2);
+    }
+  }
+  
+  /* Custom Scrollbar for Table of Contents - ALWAYS VISIBLE */
+  [data-table-of-contents] .custom-scrollbar {
+    scrollbar-width: thin !important;
+    scrollbar-color: rgba(156, 163, 175, 1) rgba(255, 255, 255, 0.1) !important;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  [data-table-of-contents] .custom-scrollbar::-webkit-scrollbar {
+    width: 10px !important;
+    display: block !important;
+    -webkit-appearance: none !important;
+    background: transparent !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  
+  [data-table-of-contents] .custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 10px !important;
+    margin: 4px !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  
+  [data-table-of-contents] .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(156, 163, 175, 0.9) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    min-height: 30px !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  
+  [data-table-of-contents] .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(156, 163, 175, 1) !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+  }
+
+  /* Mobile specific scrollbar - same style but ensure visibility */
+  @media (max-width: 1023px) {
+    [data-table-of-contents] .custom-scrollbar {
+      scrollbar-width: thin !important;
+      scrollbar-color: rgba(156, 163, 175, 1) rgba(255, 255, 255, 0.1) !important;
+      overflow-y: scroll !important;
+      overflow-x: hidden !important;
+      -webkit-overflow-scrolling: touch !important;
+    }
+
+    [data-table-of-contents] .custom-scrollbar::-webkit-scrollbar {
+      width: 10px !important;
+      display: block !important;
+      -webkit-appearance: none !important;
+      background: transparent !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+    
+    [data-table-of-contents] .custom-scrollbar::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.1) !important;
+      border-radius: 10px !important;
+      margin: 4px !important;
+      border: 1px solid rgba(255, 255, 255, 0.05) !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+    
+    [data-table-of-contents] .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: rgba(156, 163, 175, 0.9) !important;
+      border-radius: 10px !important;
+      border: 1px solid rgba(255, 255, 255, 0.2) !important;
+      min-height: 30px !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+    
+    [data-table-of-contents] .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: rgba(156, 163, 175, 1) !important;
+      border-color: rgba(255, 255, 255, 0.3) !important;
+    }
+  }
+
+  /* General custom scrollbar */
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(156, 163, 175, 0.9) rgba(255, 255, 255, 0.05);
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    display: block;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(156, 163, 175, 0.9);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    min-height: 30px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(156, 163, 175, 1);
+  }
+
+  /* Shadcn ScrollArea - Always visible scrollbar for Table of Contents */
+  [data-table-of-contents] [data-radix-scroll-area-root] {
+    position: relative !important;
+    height: 100% !important;
+    width: 100% !important;
+    flex: 1 !important;
+    min-height: 0 !important;
+  }
+
+  /* Force scrollbar to ALWAYS be visible - override ALL possible states */
+  [data-table-of-contents] [data-radix-scroll-area-scrollbar],
+  [data-table-of-contents] [data-radix-scroll-area-scrollbar][data-state],
+  [data-table-of-contents] [data-radix-scroll-area-scrollbar][data-state="hidden"],
+  [data-table-of-contents] [data-radix-scroll-area-scrollbar][data-state="visible"],
+  [data-table-of-contents] [data-radix-scroll-area-scrollbar][data-orientation="vertical"],
+  [data-table-of-contents] [data-radix-scroll-area-scrollbar][data-orientation="horizontal"],
+  [data-table-of-contents] [data-radix-scroll-area-scrollbar][data-orientation="vertical"][data-state="hidden"],
+  [data-table-of-contents] [data-radix-scroll-area-scrollbar][data-orientation="vertical"][data-state="visible"] {
+    opacity: 1 !important;
+    display: flex !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+    transform: none !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 10px !important;
+    padding: 2px !important;
+    z-index: 10 !important;
+    min-width: 10px !important;
+    max-width: 10px !important;
+  }
+
+  /* Override any Radix UI default styles that might hide the scrollbar */
+  [data-table-of-contents] [data-radix-scroll-area-scrollbar] * {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  [data-table-of-contents] [data-radix-scroll-area-thumb] {
+    opacity: 1 !important;
+    visibility: visible !important;
+    background-color: rgba(156, 163, 175, 0.9) !important;
+    min-height: 20px !important;
+    display: block !important;
+    width: 6px !important;
+    border-radius: 3px !important;
+  }
+
+  [data-table-of-contents] [data-radix-scroll-area-thumb]:hover {
+    background-color: rgba(156, 163, 175, 1) !important;
+  }
+
+  /* Ensure viewport has space for scrollbar and proper height */
+  [data-table-of-contents] [data-radix-scroll-area-viewport] {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+  }
+
+  /* Ensure the viewport's inner div also has proper height */
+  [data-table-of-contents] [data-radix-scroll-area-viewport] > div {
+    height: 100% !important;
+    min-height: 100% !important;
+  }
+  
+  /* Table of Contents text wrapping */
+  nav button {
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  nav button span {
+    display: block;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  /* Blog Masonry Grid - Equal Height Cards */
+  .blog-masonry-grid {
+    grid-auto-rows: minmax(320px, auto); /* Minimum height, auto grow */
+    align-items: stretch; /* Stretch all items to fill row */
+  }
+  
+  .blog-post-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .blog-post-card > article {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 320px;
+  }
+  
+  @media (min-width: 768px) {
+    .blog-masonry-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .blog-masonry-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    }
+  }
+  
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  @keyframes gradient-shift {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  @keyframes badge-glow {
+    0%, 100% {
+      box-shadow: 0 0 20px rgba(127, 61, 255, 0.3), 0 0 40px rgba(59, 130, 246, 0.2);
+    }
+    50% {
+      box-shadow: 0 0 30px rgba(127, 61, 255, 0.5), 0 0 60px rgba(59, 130, 246, 0.3);
+    }
+  }
+  
+  @keyframes text-shimmer {
+    0%, 100% {
+      background-position: 0% 50%;
+      opacity: 0.9;
+    }
+    50% {
+      background-position: 100% 50%;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes dot-float {
+    0%, 100% {
+      transform: translate(0, 0) scale(1);
+      opacity: 0.6;
+    }
+    25% {
+      transform: translate(20px, -30px) scale(1.1);
+      opacity: 0.8;
+    }
+    50% {
+      transform: translate(-15px, 20px) scale(0.9);
+      opacity: 1;
+    }
+    75% {
+      transform: translate(30px, 10px) scale(1.05);
+      opacity: 0.7;
+    }
+  }
+  
+  @keyframes dot-glow {
+    0%, 100% {
+      box-shadow: 0 0 10px rgba(127, 61, 255, 0.4), 0 0 20px rgba(127, 61, 255, 0.3), 0 0 30px rgba(127, 61, 255, 0.2);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(127, 61, 255, 0.6), 0 0 40px rgba(127, 61, 255, 0.4), 0 0 60px rgba(127, 61, 255, 0.3);
+    }
+  }
+  
+  @keyframes dot-glow-blue {
+    0%, 100% {
+      box-shadow: 0 0 10px rgba(59, 130, 246, 0.4), 0 0 20px rgba(59, 130, 246, 0.3), 0 0 30px rgba(59, 130, 246, 0.2);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(59, 130, 246, 0.6), 0 0 40px rgba(59, 130, 246, 0.4), 0 0 60px rgba(59, 130, 246, 0.3);
+    }
+  }
+
+  @keyframes hero-card-float {
+    0%, 100% {
+      transform: translateY(0) scale(1);
+      box-shadow:
+        0 0 60px rgba(99, 102, 241, 0.18),
+        0 20px 60px rgba(2, 6, 23, 0.65);
+    }
+    50% {
+      transform: translateY(-12px) scale(1.01);
+      box-shadow:
+        0 0 90px rgba(236, 72, 153, 0.25),
+        0 35px 80px rgba(2, 6, 23, 0.75);
+    }
+  }
+
+  @keyframes hero-card-glow {
+    0%, 100% {
+      opacity: 0.25;
+      transform: scale(0.95) rotate(-2deg);
+    }
+    50% {
+      opacity: 0.55;
+      transform: scale(1.05) rotate(2deg);
+    }
+  }
+  
+  @keyframes lamp-glow {
+    0%, 100% {
+      opacity: 0.7;
+      transform: translateX(-50%) scaleY(1) scaleX(1);
+    }
+    50% {
+      opacity: 0.85;
+      transform: translateX(-50%) scaleY(1.08) scaleX(1.02);
+    }
+  }
+
+  .hero-card-animate {
+    animation: hero-card-float 12s ease-in-out infinite;
+    will-change: transform, box-shadow;
+  }
+
+  .hero-card-light {
+    animation: hero-card-glow 8s ease-in-out infinite;
+    filter: blur(50px);
+  }
+  
+  .animate-lamp-glow {
+    animation: lamp-glow 4s ease-in-out infinite;
+  }
+  
+  @keyframes draw-line-1 {
+    0% {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.6;
+    }
+    100% {
+      stroke-dashoffset: 0;
+      opacity: 0.6;
+    }
+  }
+  
+  @keyframes draw-line-2 {
+    0% {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      stroke-dashoffset: 0;
+      opacity: 0.5;
+    }
+  }
+  
+  @keyframes draw-line-3 {
+    0% {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    100% {
+      stroke-dashoffset: 0;
+      opacity: 0.4;
+    }
+  }
+  
+  @keyframes draw-diagonal-1 {
+    0% {
+      stroke-dasharray: 2000;
+      stroke-dashoffset: 2000;
+      opacity: 0;
+    }
+    100% {
+      stroke-dashoffset: 0;
+      opacity: 0.2;
+    }
+  }
+  
+  @keyframes draw-diagonal-2 {
+    0% {
+      stroke-dasharray: 2000;
+      stroke-dashoffset: 2000;
+      opacity: 0;
+    }
+    100% {
+      stroke-dashoffset: 0;
+      opacity: 0.2;
+    }
+  }
+  
+  @keyframes pulse-glow {
+    0%, 100% {
+      opacity: 0.4;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.8;
+      transform: scale(1.2);
+    }
+  }
+  
+  @keyframes float-particle {
+    0% {
+      transform: translateY(0) translateX(0);
+      opacity: 0.4;
+    }
+    25% {
+      transform: translateY(-20px) translateX(10px);
+      opacity: 0.6;
+    }
+    50% {
+      transform: translateY(-40px) translateX(-5px);
+      opacity: 0.8;
+    }
+    75% {
+      transform: translateY(-20px) translateX(-10px);
+      opacity: 0.6;
+    }
+    100% {
+      transform: translateY(0) translateX(0);
+      opacity: 0.4;
+    }
+  }
+  
+  .animate-draw-line-1 {
+    animation: draw-line-1 3s ease-out forwards;
+  }
+  
+  .animate-draw-line-2 {
+    animation: draw-line-2 3.5s ease-out forwards;
+    animation-delay: 0.3s;
+  }
+  
+  .animate-draw-line-3 {
+    animation: draw-line-3 4s ease-out forwards;
+    animation-delay: 0.6s;
+  }
+  
+  .animate-draw-diagonal-1 {
+    animation: draw-diagonal-1 4s ease-out forwards;
+    animation-delay: 0.5s;
+  }
+  
+  .animate-draw-diagonal-2 {
+    animation: draw-diagonal-2 4s ease-out forwards;
+    animation-delay: 0.8s;
+  }
+  
+  .animate-pulse-glow {
+    animation: pulse-glow 3s ease-in-out infinite;
+  }
+  
+  .animate-float-particle {
+    animation: float-particle 8s ease-in-out infinite;
+  }
+  
+  .animate-spin-slow {
+    animation: spin-slow 20s linear infinite;
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-out forwards;
+  }
+  
+  .animate-shimmer {
+    animation: shimmer 2s ease-in-out infinite;
+  }
+  
+  .animate-gradient-shift {
+    background-size: 200% 200%;
+    animation: gradient-shift 3s ease infinite;
+  }
+  
+  .animate-badge-glow {
+    animation: badge-glow 2s ease-in-out infinite;
+  }
+  
+  .animate-text-shimmer {
+    background: linear-gradient(90deg, 
+      rgba(255, 255, 255, 0.8) 0%, 
+      rgba(255, 255, 255, 1) 25%, 
+      rgba(167, 139, 250, 1) 50%, 
+      rgba(255, 255, 255, 1) 75%, 
+      rgba(255, 255, 255, 0.8) 100%);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: text-shimmer 3s ease-in-out infinite;
+  }
+  
+  .glassmorphism {
+    background: rgba(15, 15, 15, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(127, 61, 255, 0.2);
+  }
+  
+  .liquid-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.6), 0 16px 32px rgba(0, 0, 0, 0.12);
+    backdrop-filter: url(#frosted);
+    -webkit-backdrop-filter: url(#frosted);
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .blog-post-content {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .blog-post-content .prose {
+    max-width: 100% !important;
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+
+  @media (min-width: 1024px) {
+    .blog-post-content .prose {
+      padding-left: 1.5rem !important;
+      padding-right: 1.5rem !important;
+    }
+  }
+  
+  .blog-post-content:hover {
+    box-shadow: none !important;
+  }
+
+  /* Blog Image Styling - Uniform Size */
+  .blog-image-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 2rem auto;
+  }
+
+  .blog-image-wrapper {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    background: rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: 0.75rem;
+  }
+
+  /* Modern browsers with aspect-ratio support */
+  @supports (aspect-ratio: 16 / 9) {
+    .blog-image-wrapper {
+      aspect-ratio: 16 / 9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .blog-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+  }
+
+  /* Fallback for browsers without aspect-ratio support */
+  @supports not (aspect-ratio: 16 / 9) {
+    .blog-image-wrapper {
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      height: 0;
+    }
+
+    .blog-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+  }
+
+  /* Responsive adjustments */
+  @media (min-width: 768px) {
+    .blog-image-container {
+      max-width: 900px;
+      margin: 2.5rem auto;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .blog-image-container {
+      max-width: 1000px;
+      margin: 3rem auto;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .blog-image-container {
+      max-width: 1100px;
+    }
+  }
+  
+  .audio-player-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: none !important;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.25), 0 0 20px rgba(255, 255, 255, 0.15), 0 16px 32px rgba(0, 0, 0, 0.12) !important;
+    backdrop-filter: url(#frosted);
+    -webkit-backdrop-filter: url(#frosted);
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .audio-player-card:hover {
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.35), 0 0 25px rgba(255, 255, 255, 0.25), 0 20px 40px rgba(0, 0, 0, 0.2) !important;
+  }
+  
+.glass{
+  position:fixed;inset:50% auto auto 50%;transform:translate(-50%,-50%);
+  width:20rem;height:20rem;border-radius:50%;
+  background:rgba(255,255,255,.08);border:2px solid transparent;
+  box-shadow:0 0 0 2px rgba(255,255,255,.6),0 16px 32px rgba(0,0,0,.12);
+  backdrop-filter:url(#frosted);-webkit-backdrop-filter:url(#frosted);
+  display:grid;place-items:center;cursor:pointer;outline:0;
+}
+
+.glass::before,
+.glass::after{
+  content:"";position:absolute;width:40%;height:10px;background:#fff;border-radius:10px;
+}
+.glass::after{transform:rotate(90deg)}
+  .liquid-card:hover {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.8), 0 20px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  .trust-card {
+    opacity: 1;
+  }
+  
+  .gradient-text {
+    background: linear-gradient(135deg, #7F3DFF 0%, #3B82F6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .gradient-border {
+    position: relative;
+    background: rgba(15, 15, 15, 0.6);
+  }
+  
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, #7F3DFF, #3B82F6);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+
+  .blog-post-header,
+  .blog-post-content,
+  .blog-header,
+  .blog-post-card {
+    opacity: 1;
+  }
+
+  @keyframes customerScroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-33.333%);
+    }
+  }
+
+  .animate-customer-scroll {
+    animation: customerScroll 40s linear infinite;
+    will-change: transform;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+  }
+
+  .group:hover .animate-customer-scroll {
+    animation-play-state: paused;
+  }
+
+  .animate-customer-scroll:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes complianceScroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-33.333%);
+    }
+  }
+
+  .compliance-scroll-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+
+  .compliance-scroll-track {
+    display: flex;
+    gap: 1.5rem;
+    width: fit-content;
+    animation: complianceScroll 40s linear infinite;
+    will-change: transform;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+  }
+
+  .compliance-scroll-container:hover .compliance-scroll-track {
+    animation-play-state: paused;
+  }
+
+  .compliance-card {
+    margin-right: 0;
+  }
+}
+
+
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Copy button checkmark animation */
+@keyframes checkmark {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.copy-checkmark {
+  animation: checkmark 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.copy-text {
+  animation: slideInRight 0.4s ease-out;
+}

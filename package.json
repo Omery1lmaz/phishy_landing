@@ -1,0 +1,53 @@
+{
+  "name": "temp_next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run generate:blog && next build",
+    "build:cf": "npm run generate:blog && npx @cloudflare/next-on-pages && npm run cleanup:build",
+    "cleanup:build": "rm -f .vercel/output/static/_worker.js/nop-build-log.json .vercel/output/static/mp3/example.mp3 2>/dev/null || true",
+    "deploy:cf": "npm run build:cf && wrangler pages deploy .vercel/output/static",
+    "generate:blog": "tsx scripts/generate-blog-data.ts",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@cloudflare/next-on-pages": "^1.13.16",
+    "@radix-ui/react-accordion": "^1.2.12",
+    "@radix-ui/react-navigation-menu": "^1.2.14",
+    "@radix-ui/react-scroll-area": "^1.2.10",
+    "@radix-ui/react-separator": "^1.1.8",
+    "@radix-ui/react-tabs": "^1.1.13",
+    "@radix-ui/react-tooltip": "^1.2.8",
+    "@react-three/drei": "^10.7.6",
+    "@react-three/fiber": "^9.4.0",
+    "@types/three": "^0.181.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "formik": "^2.4.9",
+    "gsap": "^3.13.0",
+    "lucide-react": "^0.552.0",
+    "next": "16.0.1",
+    "next-intl": "^4.4.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "recharts": "^3.4.1",
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss-animate": "^1.0.7",
+    "three": "^0.181.0",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18",
+    "typescript": "^5",
+    "vercel": "^48.10.4"
+  }
+}

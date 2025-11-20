@@ -1,0 +1,19 @@
+name = "phishy-website"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Cloudflare Pages için build output directory
+# @cloudflare/next-on-pages build sonrası .vercel/output klasörü oluşturur
+pages_build_output_dir = ".vercel/output/static"
+
+[env.production]
+name = "phishy-website"
+
+[env.production.vars]
+NODE_ENV = "production"
+
+# Environment variables buraya eklenebilir
+# [env.production.vars]
+# NEXT_PUBLIC_API_URL = "https://api.example.com"
+# DATABASE_URL = "your-database-url"
+

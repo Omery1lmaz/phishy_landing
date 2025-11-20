@@ -1,0 +1,2672 @@
+{
+  "Header": {
+    "brand": "Phishy",
+    "nav": {
+      "howItWorks": {
+        "label": "Nasıl Çalışır",
+        "dropdown": {
+          "title": "Phishy güvenliği nasıl güçlendirir",
+          "description": "Phishy'nin farkındalığı ölçülebilir sonuçlara dönüştürdüğünü görün."
+        }
+      },
+      "whyPhishy": {
+        "label": "Neden Biz",
+        "dropdown": {
+          "title": "Güvenlik liderleri neden Phishy'yi seçiyor",
+          "description": "Güvenlik liderlerinin neden Phishy'ye güvendiğini keşfedin.",
+          "sections": {
+            "outcomes": {
+              "title": "Kanıtlanmış Sonuçlar",
+              "description": "Regüle sektörlerde oltalama riskini azaltın.",
+              "icon": "target"
+            },
+            "innovation": {
+              "title": "Sürekli İnovasyon",
+              "description": "Her ay yeni yapay zekâ destekli savunmalar yayınlayın.",
+              "icon": "bolt"
+            },
+            "support": {
+              "title": "Güvenilir Danışmanlar",
+              "description": "Başarınıza odaklanan stratejistlerle çalışın.",
+              "icon": "handshake"
+          }
+        }
+        }
+      },
+      "products": {
+        "label": "Ürünler",
+        "dropdown": {
+          "title": "Phishy platformunu keşfedin",
+          "description": "İnsan dayanıklılığını güçlendiren modüler ürünleri inceleyin.",
+          "sections": {
+            "catalog": {
+              "title": "Ürün Paketi",
+              "description": "Güvenlik hedeflerinize uyan modülleri seçin.",
+              "icon": "layers",
+              "items": {
+                "simulation": {
+                  "title": "Simülasyon",
+                  "description": "Gerçekçi oltalama tatbikatlarını otomatik takiplerle yönetin.",
+                  "href": "/phishing-simulation"
+                },
+                "phishyTraining": {
+                  "title": "Phishy Training",
+                  "description": "Davranışı değiştiren 2 dakikalık oyunlaştırılmış eğitimleri sunun.",
+                  "href": "/phishy-training"
+                },
+               
+                "incidentResponse": {
+                  "title": "Phishy Incident Response",
+                  "description": "Tehditler sızdığında hızlı müdahaleyi koordine edin.",
+                  "href": "/incident-response"
+                },
+                "phishypot": {
+                  "title": "Phishypot",
+                  "description": "Zararlı e-postaları gelen kutusuna ulaşmadan yakalayın.",
+                  "href": "/products/phishypot"
+                }
+              }
+            }
+          }
+        }
+      },
+    
+      "contact": {
+        "label": "Bize Ulaşın"
+      },
+      "requestDemo": {
+        "label": "Demo Talep Et"
+      },
+      "blog": {
+        "label": "Blog"
+      },
+      "phishingSimulation": {
+        "label": "Phishing Simülasyonu"
+      },
+      "languageSwitcher": {
+        "label": "Dil seçin",
+        "options": {
+          "en": "English",
+          "tr": "Türkçe"
+        }
+      },
+      "cta": {
+        "getDemo": "Demo Talep Et"
+      }
+    },
+    "languageSwitcher": {
+      "label": "Dil seçin",
+      "options": {
+        "en": "English",
+        "tr": "Türkçe"
+      }
+    },
+    "cta": {
+      "getDemo": "Demo Talep Et"
+    }
+  },
+  "Hero": {
+    "statsBadge": "Dünya çapında 10.000+ şirket tarafından güveniliyor",
+    "heading": "Siber güvenlik ve oltalama korumasında dünyanın en iyisi",
+    "subheading": "Farkındalıktan aksiyona - gelişmiş eğitim ve simülasyon araçlarıyla her tıklamayı güvenceye alın.",
+    "cta": {
+      "primary": "Demo iste",
+      "secondary": "Videoyu izle"
+    },
+    "tooltipCards": {
+      "simulation": {
+        "title": "Simülasyon Motoru",
+        "description": "50+ hazır senaryo ile gelişmiş oltalama simülasyonları"
+      },
+      "training": {
+        "title": "Eğitim Modülü",
+        "description": "Oyunlaştırılmış siber güvenlik eğitim seansları"
+      },
+      "detection": {
+        "title": "Yapay Zekâ Tespiti",
+        "description": "10 saniyede akıllı oltalama tespiti"
+      },
+      "analytics": {
+        "title": "Gerçek Zamanlı Analiz",
+        "description": "Kapsamlı içgörüler ve raporlama"
+      }
+    },
+    "platformImageAlt": "Phishy Güvenlik Platformu"
+  },
+  "WhatWeDo": {
+    "heading": "Ne Yapıyoruz",
+    "description": "Kapsamlı siber güvenlik koruması için, akıllı simülasyonlar, eğitimler ve gerçek zamanlı tehdit tespiti ile dakikalar içinde kuruluşunuzu güvence altına alan gelişmiş bir platform sunuyoruz.",
+    "features": {
+      "simulation": "Simülasyon Motoru",
+      "training": "Eğitim Modülü",
+      "aiDetection": "Yapay Zekâ Tespiti",
+      "analytics": "Gerçek Zamanlı Analiz",
+      "incidentResponse": "Olay Müdahalesi",
+      "phishypot": "Phishypot",
+      "secure": "Güvenli ve Hızlı",
+      "dashboard": "Kontrol Paneli",
+      "integrations": "Entegrasyonlar"
+    },
+    "cta": "Demo Talep Et",
+    "imageAlt": "Kod Editörü"
+  },
+  "Threats": {
+    "badge": "Tehdit Manzarası",
+    "heading": "<highlight>İnsan Faktörünü</highlight> Güvence Altına Almak",
+    "subheading": "Tehdidi anlamak",
+    "items": {
+      "hackerTarget": {
+        "title": "Hedef: İnsan",
+        "description": "Saldırganlar insan hatasını hedefler—ekibinizi sağlam bir bariyere dönüştürün."
+      },
+      "phishingArt": {
+        "title": "Oltalamanın Sanatı",
+        "description": "Güvenilir mesaj kılığına giren e-postaları ekiplerinize tanıma ve etkisiz hâle getirme becerisi kazandırın."
+      },
+      "userInteraction": {
+        "title": "Kullanıcı Etkileşimi",
+        "description": "Her ekip üyesini güvenliğin aktif bir paydaşı hâline getirin."
+      }
+    }
+  },
+  "ValueProposition": {
+    "badge": "Değer Önerisi",
+    "heading": "Phishy: <highlight>Siber Dayanıklılık</highlight> İnşa Ediyor",
+    "items": {
+      "proactiveDetection": {
+        "title": "Proaktif Tespit",
+        "description": "Çalışanların tehditleri ilk anda fark etmesini sağlayın.",
+        "before": "Reaktif yaklaşım",
+        "after": "Proaktif tespit"
+      },
+      "behavioralShield": {
+        "title": "Davranış Kalkanı",
+        "description": "Etkileşimli eğitimlerle en iyi uygulamaları günlük rutine yerleştirin.",
+        "before": "Pasif bilgilendirme",
+        "after": "Aktif davranış değişimi"
+      },
+      "culturalTransformation": {
+        "title": "Kültürel Dönüşüm",
+        "description": "Her çalışanın dijital tehditlere karşı tetikte olduğu bir kültür oluşturun.",
+        "before": "Teknoloji odaklı bakış",
+        "after": "Kültür odaklı yaklaşım"
+      }
+    }
+  },
+  "Features": {
+    "heading": "Bizi Öne Çıkaran Nedir",
+    "subheading": "Ekiplerin Phishy'ye güvenmesinin başlıca nedenleri.",
+    "cards": {
+      "dashboard": {
+        "title": "Kolay Kontrol Paneli",
+        "description": "Program yönetimini basitleştiren sezgisel panel ile kampanyaları başlatın, izleyin ve optimize edin."
+      },
+      "secure": {
+        "title": "Güvenli, Hızlı ve Güvenilir",
+        "description": "Kurumsal düzeyde performansla güvenli simülasyon ve eğitim deneyimi sunun."
+      },
+      "integrations": {
+        "title": "Entegrasyonları Keşfedin",
+        "description": "Ekiplerinizin hâlihazırda kullandığı araçlarla sorunsuz bağlantı kurun."
+      },
+      "analytics": {
+        "title": "Performansı Analiz Edin",
+        "description": "Katılımı, sonuçları ve ilerlemeyi zengin analitiklerle takip edin.",
+        "subtitle": ""
+      },
+      "chatbox": {
+        "title": "OpenAI Chatbox Gücünde",
+        "description": "Yapay zekâ destekli koçlukla kişiselleştirilmiş rehberlik sunun."
+      },
+      "publish": {
+        "title": "Kendi Alan Adınızda Yayınlayın",
+        "description": "Markanıza uygun eğitim portalları ve raporlar yayınlayın."
+      }
+    }
+  },
+  "Function": {
+    "badge": "Fonksiyon",
+    "heading": "Gelecek Şimdi Yaşanıyor",
+    "description": "Uyarlanabilir yapay zekâ destekli güvenlik asistanlarımız ekiplerin iş yükünü azaltırken yanıt hızını ve doğruluğunu artırır.",
+    "items": {
+      "threatDetection": {
+        "title": "Yapay Zekâ Destekli Tehdit Tespiti",
+        "description": "Akıllı ve özelleştirilebilir iş akışlarıyla tehdit tespiti ve müdahaleyi hızlandırın."
+      },
+      "collaboration": {
+        "title": "Gerçek Zamanlı İş Birliği",
+        "description": "Otomatik görevlendirmeler ve paylaşılan içgörülerle ekipleri anında koordine edin.",
+        "keywords": {
+          "realTimeSync": "Gerçek zamanlı Senkronizasyon",
+          "taskAutomation": "Görev Otomasyonu",
+          "smartSuggestions": "Akıllı Öneriler",
+          "autoTask": "Otomatik Görev Atama",
+          "crossPlatform": "Çapraz Platform Entegrasyonu"
+        }
+      },
+      "notifications": {
+        "title": "Otomatik Bildirimler",
+        "description": "Yapay zekâ destekli uyarı, hatırlatma ve eskalasyonlarla proaktif kalın."
+      },
+      "performance": {
+        "title": "Yüksek Performanslı Çözümler",
+        "description": "Ölçeklenebilir operasyonlar için hızlı ve güvenilir güvenlik süreçleri yönetin."
+      },
+      "customization": {
+        "title": "Küresel Özelleştirme",
+        "description": "Bölgesel ve kurumsal gereksinimlere uygun yapay zekâ iş akışları tasarlayın."
+      },
+      "dataIntegration": {
+        "title": "Veri Entegrasyonu",
+        "description": "Veri kaynaklarını birleştirerek gerçek zamanlı aksiyon alınabilir içgörüler oluşturun."
+      }
+    }
+  },
+  "Pages": {
+    "HowItWorks": {
+      "title": "Phishy Nasıl Çalışır",
+      "subtitle": "Uçtan uca güvenlik sonuçları",
+      "description": "Phishy'nin simülasyon, eğitim ve içgörüleri bir araya getirerek çalışan davranışlarını nasıl dönüştürdüğünü keşfedin.",
+      "sections": [
+        {
+          "title": "Hazırlığı Ölçün",
+          "description": "Bir tehdit gerçekleşmeden önce ekiplerinizin risk seviyesini belirleyin.",
+          "points": [
+            "Hazır şablonlarla risk durumunu kıyaslayın",
+            "Kitleleri fonksiyon, kıdem veya lokasyona göre segmentleyin",
+            "Eğitim planlarını regülasyon gereksinimlerine uyarlayın"
+          ]
+        },
+        {
+          "title": "Gerçekçi Simülasyonlar Başlatın",
+          "description": "Gerçek saldırganları taklit eden kampanyaları otomatikleştirin.",
+          "points": [
+            "Hazır senaryoları kullanın veya kendi şablonlarınızı içe aktarın",
+            "Çalışan davranışlarına göre otomatik takipler tetikleyin",
+            "Anlık etkileşim metriklerini canlı izleyin"
+          ]
+        },
+        {
+          "title": "Koçluk Yapın ve Ölçün",
+          "description": "Bilgi açıklarını kapatın ve davranış değişimini kanıtlayın.",
+          "points": [
+            "Çalışma akışının içinde mikro öğrenme içerikleri sunun",
+            "Yönetici özetlerini tek tıkla paylaşın",
+            "Risk azaltma hedeflerine ilerlemeyi takip edin"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Demo talep edin",
+        "href": "/request-demo"
+      }
+    },
+    "WhyPhishy": {
+      "title": "Neden Phishy",
+      "subtitle": "İnsanları güvende ve üretken tutan güvenlik",
+      "description": "Phishy'nin insan içgörüsü ile otomasyonu birleştirerek oltalama kampanyalarını nasıl daha hızlı etkisizleştirdiğini keşfedin.",
+      "hero": {
+        "headlinePrimary": "Oltalama kampanyalarını insanlara ulaşmadan görün",
+        "headlineAccent": "İnsan içgörüsünü otomatik savunmalarla orkestre edin",
+        "body": "Phishy davranış analitiğini, yem istihbaratını ve yönlendirmeli müdahaleyi bir araya getirerek ekipler odaklanmış kalırken kuruluşunuzun dirençli olmasını sağlar.",
+        "card": {
+          "title": "Birleşik Olay Konsolu",
+          "status": "Aktif",
+          "description": "Bildirilmiş her tehdidi tek bir çalışma alanında izleyin ve bir sonraki en doğru aksiyonu tetikleyin.",
+          "metrics": {
+            "first": {
+              "title": "Gerçek Zamanlı Uyarılar",
+              "description": "Yüksek riskli etkinlikleri anında görün ve gerçekten önemli olana öncelik verin."
+            },
+            "second": {
+              "title": "Yanıt Oyun Planları",
+              "description": "Triyajı, atamayı ve iş birliğini yerleşik iş akışlarıyla otomatikleştirin."
+            },
+            "third": {
+              "title": "Ekosistem Entegrasyonları",
+              "description": "Tüm paydaşlar uyumlu kalsın diye SIEM, bilet ve sohbet sistemlerinize bağlanın."
+            }
+          }
+        }
+      },
+      "featureTabs": {
+        "heading": "Ekibinize göre uyarlanmış proaktif oltalama savunması.",
+        "subheading": "Phishy'nin yemleri, tespitleri ve müdahaleyi birleştirerek saldırılar büyümeden nasıl etkisiz hale getirdiğini keşfedin.",
+        "metrics": {
+          "first": {
+            "title": "Sinyal Gücü",
+            "description": "Şüpheli aktörler yemlerle etkileşime geçtiğinde anında görünürlük sağlayın."
+          },
+          "second": {
+            "title": "Yanıt Hızı",
+            "description": "Kritik olayları doğru yanıtlayıcılara hızla ulaştıran otomatik iş akışları."
+          }
+        },
+        "items": [
+          {
+            "key": "proactive-defense",
+            "label": "Proaktif Savunma",
+            "description": "Oltalama yayılmadan önce durduran yemleri ve otomatik tespitleri devreye alın.",
+            "icon": "shield",
+            "sectionKey": "Proaktif Savunma Ağı"
+          },
+          {
+            "key": "intelligent-visibility",
+            "label": "Akıllı Görünürlük",
+            "description": "İnsanlardan, posta kutularından ve altyapıdan gelen sinyalleri anlık olarak ilişkilendirin.",
+            "icon": "radar",
+            "sectionKey": "Zekâ ile Güçlenen Görünürlük"
+          },
+          {
+            "key": "people-first",
+            "label": "İnsan Odaklı Uyum",
+            "description": "Her çalışanı bağlamsal dürtmelerle eğitin ve davranış değişimini ölçün.",
+            "icon": "bell",
+            "sectionKey": "İnsan Öncelikli Güçlendirme"
+          }
+        ]
+      },
+      "segments": {
+        "eyebrow": "Kimin için",
+        "capabilitiesTitle": "Öne Çıkan Yetenekler",
+        "items": [
+          {
+            "key": "ai-automation",
+            "label": "Yapay Zekâ ve Otomasyon Ekipleri",
+            "eyebrow": "Otonom iş akışlarını güvenceye alın",
+            "headline": "Yapay zekâ destekli operasyonları kanıtlanabilir şekilde güvenli kılın.",
+            "description": "Otonom ajanların araçlara, verilere ve insan onaylarına erişimini inovasyonu yavaşlatmadan yönetin.",
+            "capabilities": [
+              "Token kasalama",
+              "Politika farkında otomasyon",
+              "Sıfır güven onayları"
+            ],
+            "primary": {
+              "label": "Her işlemi sertleştirin",
+              "description": "Duyarlı olaylar gerçekleşmeden önce ajanları, uygulamaları ve kullanıcıları doğrulayın."
+            },
+            "secondary": {
+              "label": "Güvenle yönlendirin",
+              "description": "Risk arttığında insanı devreye alan eskalasyonları otomatikleştirin."
+            },
+            "tertiary": {
+              "label": "Ekibi eğitin",
+              "description": "Çalışanların zaten kullandığı araçların içinde bağlamsal koçluk sunun."
+            },
+            "callout": {
+              "headline": "Otonom Oturum Koruma Altında",
+              "copy": "Yapay zekâ talepleri doğrulandı, puanlandı ve tüm kanallarda kaydedildi.",
+              "chips": [
+                "Ajan doğrulandı",
+                "Politika uygulandı"
+              ]
+            }
+          },
+          {
+            "key": "sec-ops",
+            "label": "Güvenlik ve BT Operasyonları",
+            "eyebrow": "Her yanıtlayıcıyı koordine edin",
+            "headline": "Kararlı, ekipler arası müdahaleyi orkestre edin.",
+            "description": "Analistlere oltalama ihbarlarını otomasyon ve iş birliğiyle bağlayan ortak bir çalışma alanı verin.",
+            "capabilities": [
+              "Hibrit inceleme kuyrukları",
+              "Vaka iş birliği",
+              "Otomatik izolasyon"
+            ],
+            "primary": {
+              "label": "Triyajı hızlandırın",
+              "description": "Posta kutuları, SIEM ve insanlardan gelen sinyalleri dakikalar içinde normalleştirin."
+            },
+            "secondary": {
+              "label": "İyileştirmeyi otomatikleştirin",
+              "description": "Erişimi iptal eden, varlıkları karantinaya alan ve sahipleri bilgilendiren iş akışlarını tetikleyin."
+            },
+            "tertiary": {
+              "label": "Sonuçları kanıtlayın",
+              "description": "Yanıt süresini, kapsama alanını ve çözülen kök nedenleri tek bir görünümde izleyin."
+            },
+            "callout": {
+              "headline": "Olay İş Birliği Canlı",
+              "copy": "Kritik uyarılar sohbet, bilet ve kriz odalarına gerçek zamanlı senkronlandı.",
+              "chips": [
+                "Oyun planı çalışıyor",
+                "Sorumlular bilgilendirildi"
+              ]
+            }
+          },
+          {
+            "key": "exec-leadership",
+            "label": "Üst Düzey Liderlik",
+            "eyebrow": "Ölçülebilir güven kazanın",
+            "headline": "Liderlere ihtiyaç duydukları kanıtı sunun.",
+            "description": "Oltalama dayanıklılığını şeffaf raporlarla iş sonuçlarına dönüştürün.",
+            "capabilities": [
+              "Sonuç panoları",
+              "Risk trendi içgörüleri",
+              "Yönetim kurulu hazır özetler"
+            ],
+            "primary": {
+              "label": "Gerçek etkiyi gösterin",
+              "description": "Davranış değişimini azaltılan olay hacmi ve daha hızlı yanıtla ilişkilendirin."
+            },
+            "secondary": {
+              "label": "Maruziyeti öngörün",
+              "description": "Hangi iş birimlerinin yatırıma ihtiyaç duyduğunu saldırılar gerçekleşmeden modelleyin."
+            },
+            "tertiary": {
+              "label": "Paydaşları hizalayın",
+              "description": "Yöneticiler, iş ortakları ve düzenleyicilerle seçilmiş güncellemeler paylaşın."
+            },
+            "callout": {
+              "headline": "Yönetici Özeti Hazır",
+              "copy": "Canlı metrikler ve anlatı liderlik görüşmeleri için paketlendi.",
+              "chips": [
+                "KPI'lar güncellendi",
+                "İçgörüler paylaşıldı"
+              ]
+            }
+          }
+        ]
+      },
+      "workflow": {
+        "eyebrow": "Yem Fonksiyonu",
+        "heading": "Gelecek şimdiden yaşanıyor",
+        "description": "Uyarlanabilir yem iş akışlarımız, güvenlik ekiplerinin yükünü azaltırken yanıt hızını ve doğruluğunu artırır.",
+        "features": [
+          {
+            "title": "Akıllı Yemleri Devreye Alın",
+            "description": "Tohumlanmış posta kutuları, web formları ve iş birliği tuzaklarını harmanlayarak saldırganları güvenle çekin.",
+            "emoji": "📨",
+            "chips": [
+              "Uyarlanabilir kimlikler",
+              "Güvenli payload yakalama",
+              "Posta kutusu eşliği"
+            ]
+          },
+          {
+            "title": "Kör Noktasız İzleme",
+            "description": "Her etkileşimi birleşik analitiklere aktararak yeni kampanyaları daha hızlı ortaya çıkarın.",
+            "emoji": "🛰️",
+            "chips": [
+              "Canlı sinyal senkronu",
+              "Gürültü bastırma",
+              "Otomatik görev yönlendirme"
+            ]
+          },
+          {
+            "title": "İnsan Koçluğunu Otomatikleştirin",
+            "description": "Tespitleri bağlamsal rehberlikle eşleştirerek çalışanların ne olduğunu ve nasıl tepki vereceğini bilmelerini sağlayın.",
+            "emoji": "🧠",
+            "chips": [
+              "Davranış puanlama",
+              "Hedefli dürtmeler",
+              "Risk analitiği"
+            ]
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Proaktif Savunma Ağı",
+          "description": "Yemleri, kötüye kullanım posta kutusu otomasyonunu ve tehdit istihbaratını harmanlayarak kampanyaları erken durdurun.",
+          "points": [
+            "Risk kanallarına sürekli izlenen yem kimlikleri dağıtın",
+            "Şüpheli trafiği bağlamsal kanıtlarla otomatik olarak eskale edin",
+            "Manuel işe gerek kalmadan insan ve otomatik incelemeyi harmanlayın"
+          ]
+        },
+        {
+          "title": "Zekâ ile Güçlenen Görünürlük",
+          "description": "Davranış, telemetri ve otomasyon sonuçlarını tek bir gerçeklik kaynağında birleştirin.",
+          "points": [
+            "Oltalama ihbarlarını, SIEM verilerini ve posta kutusu sinyallerini anında birleştirin",
+            "Karmaşık tespitleri paydaşların anlayacağı anlatılara dönüştürün",
+            "Yatırım, kadro ve politika kararlarını yönlendiren trendleri ortaya çıkarın"
+          ]
+        },
+        {
+          "title": "İnsan Öncelikli Güçlendirme",
+          "description": "Yoğun ekipleri yormadan kalıcı davranış değişimi sağlayın.",
+          "points": [
+            "Anlık koçluğu doğrudan iş birliği araçlarının içine ulaştırın",
+            "Her bölge, işlev ve risk profili için deneyimleri yerelleştirin",
+            "Güvenlik dışındaki ekiplerle de yankı bulan metriklerle ilerlemeyi kutlayın"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Güvenlik danışmanlarıyla görüşün",
+        "href": "/contact-us"
+      }
+    },
+    "Products": {
+      "title": "Phishy Ürün Paketi",
+      "subtitle": "Modüler yetenekler, ortak amaç",
+      "description": "Güvenlik hedeflerinize uygun simülasyon, eğitim ve otomasyon araçlarını seçin.",
+      "sections": [
+        {
+          "title": "Simülasyon",
+          "description": "Bakım gerektirmeyen gelişmiş oltalama tatbikatları yürütün.",
+          "points": [
+            "Hedefli saldırı senaryoları kitaplığı",
+            "Dinamik payload üretimi ve bağlantı takibi",
+            "Yönetici ve operasyon panoları"
+          ]
+        },
+        {
+          "title": "Eğitim",
+          "description": "Gerçek davranış değişimi sağlayan unutulmaz öğrenme anları sunun.",
+          "points": [
+            "İş akışına gömülü mikro öğrenme",
+            "Oyunlaştırılmış modüller ve bilgi kontrolleri",
+            "Kişiselleştirilmiş pekiştirme yolları"
+          ]
+        },
+        {
+          "title": "Olay Müdahalesi",
+          "description": "İhbar edilen tehditlere saldırganlardan daha hızlı yanıt verin.",
+          "points": [
+            "İhbar edilen tehditler için merkezi sıra",
+            "Manuel işleri azaltan otomasyon kuralları",
+            "Güvenlik ve BT ekipleri için iş birliği araçları"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Tüm ürünleri keşfedin",
+        "href": "/contact-us"
+      }
+    },
+    "ProductsSimulation": {
+      "hero": {
+        "eyebrow": "Simülasyon Motoru",
+        "title": "Simülasyon Motoru ile başlayın",
+        "highlight": "Dakikalar içinde gerçekçi oltalama yolculukları başlatın",
+        "description": "Gerçek saldırgan taktiklerini taklit eden simülasyonları eski araçlara dokunmadan tasarlayın, yönetin ve ölçün.",
+        "note": "Değer üretmek için mühendislik gerekmez.",
+        "checklist": [
+          "Yapay zekâ desteğiyle gerçek oltalama şablonlarını klonlayın",
+          "Olayları mevcut SOC iş akışlarınıza yönlendirin",
+          "Riskli davranış sonrası çalışanları anında koçluk edin"
+        ],
+        "cta": {
+          "label": "Demo talep edin",
+          "href": "/request-demo"
+        },
+        "secondaryCta": {
+          "label": "Tüm ürünleri görün",
+          "href": "/products"
+        }
+      },
+      "steps": {
+        "create": {
+          "badge": "Adım 1",
+          "title": "Bir Simülasyon Oluşturun",
+          "description": "Motoru oltalama şablonunuza yönlendirin ve deneyimi yaşayacak kitleyi seçin.",
+          "promptLabel": "Simülasyon gönderilecek ekipler",
+          "promptPlaceholder": "security@phishy.io → Finans, Üst Düzey, EMEA",
+          "fields": [
+            {
+              "label": "Kampanya Adı",
+              "value": "Yönetim kuruluna yönelik oltalama"
+            },
+            {
+              "label": "Senaryo Kaynağı",
+              "value": "Gerçek e-postadan içe aktar"
+            },
+            {
+              "label": "Başlatma Zamanı",
+              "value": "18 Kasım haftası • Zaman optimizasyonu otomatik"
+            }
+          ],
+          "tags": [
+            "Otomatik kişiselleştirme",
+            "Güvenli içerik"
+          ],
+          "helper": "Onay gelmezse simülasyonlar otomatik olarak süresi dolar.",
+          "cta": "Taslak kampanya oluştur"
+        },
+        "configure": {
+          "badge": "Adım 2",
+          "title": "Yanıtları Yapılandırın",
+          "description": "Platformun her tıklamayı nasıl puanlayacağını, olayları nasıl yönlendireceğini ve çalışanları nasıl koçluk edeceğini seçin.",
+          "route": {
+            "method": "POST",
+            "path": "/api/simulations/v1/events"
+          },
+          "requestSections": [
+            {
+              "label": "Olay Gövdesi",
+              "items": [
+                "event: click_detected",
+                "risk_score: adaptive",
+                "coaching: micro-lesson"
+              ]
+            },
+            {
+              "label": "Yanıt Aksiyonları",
+              "items": [
+                "Yüksek riskli sinyallerde SOC ekibini bilgilendir",
+                "Jira görevini otomatik oluştur",
+                "Yöneticilere Slack özeti gönder"
+              ]
+            }
+          ],
+          "policies": [
+            "PCI Verisi",
+            "AB Verisi",
+            "Davranış Analitiği"
+          ],
+          "helper": "Tüm payload ve olaylar aktarımda ve saklamada şifrelenir.",
+          "cta": "Yönlendirme politikasını kaydet"
+        }
+      }
+    },
+    "ProductsTraining": {
+      "title": "Eğitim",
+      "subtitle": "Güvenli ve bilinçli ekipler oluşturun",
+      "description": "Simülasyonlar arasında çalışanları tetikte tutan kişiselleştirilmiş dersler sunun.",
+      "sections": [
+        {
+          "title": "Mikro Öğrenme Kütüphanesi",
+          "description": "Beş dakikalık seanslara uygun modern içerikler.",
+          "points": [
+            "Video, etkileşimli ve hikâye anlatımı formatları",
+            "20'den fazla dilde yerelleştirilmiş içerik",
+            "Erişilebilirlik standartlarına uygun deneyimler"
+          ]
+        },
+        {
+          "title": "Uyarlanabilir Öğrenme Yolları",
+          "description": "Davranış ve risk profiline göre kurslar atayın.",
+          "points": [
+            "Simülasyon sonuçlarına göre otomatik kayıt",
+            "Yöneticiler için tamamlama panoları",
+            "E-posta, sohbet veya LMS entegrasyonları üzerinden hatırlatmalar"
+          ]
+        },
+        {
+          "title": "Sertifikasyon ve Raporlama",
+          "description": "Uyumluluğu kanıtlayın ve ilerlemeyi kutlayın.",
+          "points": [
+            "Politika onayı iş akışları",
+            "Denetçiler için indirilebilir sertifikalar",
+            "Regülasyon çerçeveleriyle uyumlu KPI'lar"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Katalogu inceleyin",
+        "href": "/contact-us"
+      }
+    },
+    "ProductsIncidentResponse": {
+      "title": "Olay Müdahalesi",
+      "subtitle": "Oltalama sinyallerine hızla yanıt verin",
+      "description": "İlk ihbardan kapanışa kadar soruşturmaları düzenli ve uyumlu tutun.",
+      "sections": [
+        {
+          "title": "Birleşik Gelen Kutusu",
+          "description": "E-posta, sohbet ve biletleme araçlarından gelen uyarıları tek yerde toplayın.",
+          "points": [
+            "Gönderen itibarı ve payload riskine göre önceliklendirin",
+            "Görevleri doğru analiste otomatik atayın",
+            "Ekipler arasında SLA performansını izleyin"
+          ]
+        },
+        {
+          "title": "Otomatik Oyun Planları",
+          "description": "Analistlerin karar almaya odaklanması için tekrarlı işleri orkestre edin.",
+          "points": [
+            "Ekleri sandbox ortamlarında analiz edin",
+            "İhbar edilen e-postaları posta kutularından karantinaya alın",
+            "Çalışan geri bildirimlerini anında iletin"
+          ]
+        },
+        {
+          "title": "Olay Sonrası İçgörüler",
+          "description": "Gelecek hazırlığını güçlendirmek için öğrenilen dersleri toplayın.",
+          "points": [
+            "Kapanış raporlarını tek tıkla oluşturun",
+            "Bulguları yeni simülasyon kampanyalarına besleyin",
+            "Özetleri paydaşlarla güvenle paylaşın"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Müdahale uzmanlarıyla görüşün",
+        "href": "/contact-us"
+      }
+    },
+    "SolutionsStartups": {
+      "title": "Startup'lar",
+      "subtitle": "Startup'lar için güvenlik çözümleri",
+      "description": "Startup'ınız büyürken personellerinizi riske atmak istemezsiniz. Uygun fiyata bu hizmeti alarak güncel olaylardan haberdar olabilir ve bunların personelinize simülasyonunu yapıp eğitimlerini atayarak riski minimize edebilirsiniz.",
+      "hero": {
+        "headlinePrimary": "Startup Güvenlik Çözümleri",
+        "headlineAccent": "Cloud SaaS, Sıfır Kurulum, Anında Başlangıç",
+        "cards": {
+          "first": {
+            "title": "Cloud SaaS - Sıfır Kurulum",
+            "description": "Tamamen bulut tabanlı çözüm. Sıfır kurulum, anında kullanmaya başlayın. Kurulum gerekmez."
+          },
+          "second": {
+            "title": "Uygun Fiyat",
+            "description": "Startup'lar için uygun fiyatlandırma. Kurumsal düzeyde güvenlik, kurumsal maliyetler olmadan."
+          },
+          "third": {
+            "title": "Güncel Kalın ve Eğitin",
+            "description": "Güncel tehditlerden haberdar olun. Simülasyonlar çalıştırın ve eğitim atayarak riski minimize edin."
+          }
+        }
+      },
+      "featureTabs": {
+        "heading": "Startup odaklı güvenlik çözümleri",
+        "subheading": "Büyürken personellerinizi güvende tutun. Startup'ınızla birlikte ölçeklenen uygun fiyatlı güvenlik alın.",
+        "metrics": {
+          "first": {
+            "title": "Anında Başlangıç",
+            "description": "Sıfır kurulum, anında kullanmaya başlayın. Kurulum veya yapılandırma gerekmez."
+          },
+          "second": {
+            "title": "Uygun Fiyat",
+            "description": "Startup dostu fiyatlandırma ile kurumsal düzeyde güvenlik alın. Büyüdükçe ölçeklendirin."
+          }
+        }
+      },
+      "sections": [
+        {
+          "title": "Cloud SaaS ve Sıfır Kurulum",
+          "description": "Tamamen bulut tabanlı SaaS çözümü. Sıfır kurulum, anında kullanmaya başlayın. Kurulum gerekmez.",
+          "points": [
+            "Tamamen bulut tabanlı çözüm",
+            "Sıfır kurulum, anında kullanım",
+            "Hemen kullanmaya başlayın",
+            "Kurulum gerekmez",
+            "Herhangi bir yapılandırma olmadan çalışır"
+          ]
+        },
+        {
+          "title": "Büyürken Uygun Fiyatlı Güvenlik",
+          "description": "Startup'lar için uygun fiyatlandırma. Büyürken personellerinizi riske atmak istemezsiniz. Güncel olaylardan haberdar olun ve riski minimize edin.",
+          "points": [
+            "Startup'lar için uygun fiyatlandırma",
+            "Büyürken personellerinizi riske atmayın",
+            "Güncel olaylardan haberdar olun",
+            "Simülasyonlar çalıştırın ve eğitim atayın",
+            "Riski minimize edin"
+          ]
+        },
+        {
+          "title": "Risk Minimizasyonu",
+          "description": "Güncel tehditlerden haberdar olun. Güncel olaylara dayalı simülasyonlar çalıştırın ve personellerinize eğitim atayarak riski minimize edin.",
+          "points": [
+            "Güncel tehditlerden haberdar olun",
+            "Güncel olaylara dayalı simülasyonlar çalıştırın",
+            "Personellerinize eğitim atayın",
+            "Uygun fiyatlı hizmet ile riski minimize edin",
+            "Büyürken güvenliği koruyun"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Demo Talep Et",
+        "href": "/request-demo"
+      }
+    },
+    "SolutionsNonprofits": {
+      "title": "Kâr Amacı Gütmeyen Kuruluşlar",
+      "subtitle": "Kâr amacı gütmeyen kuruluşlar için güvenlik çözümleri",
+      "description": "Kâr amacı gütmeyen kuruluşlar, misyonlarıyla uyumlu uygun fiyatlı güvenlik çözümlerine ihtiyaç duyar. Özel fiyatlandırma, misyon odaklı çözümler ve etik lisanslama ile kuruluşunuzu, bağışçılarınızı ve gönüllülerinizi koruyun.",
+      "hero": {
+        "headlinePrimary": "Kâr Amacı Gütmeyen Kuruluşlar için Güvenlik Çözümleri",
+        "headlineAccent": "Özel Fiyatlandırma, Misyon Odaklı, Etik Lisanslama",
+        "cards": {
+          "first": {
+            "title": "Özel Fiyatlandırma",
+            "description": "Kâr amacı gütmeyen kuruluşlar için özel fiyatlandırma. Kâr amacı gütmeyen kuruluş dostu fiyatlarla kurumsal düzeyde güvenlik alın."
+          },
+          "second": {
+            "title": "Misyon Odaklı Çözüm",
+            "description": "Kâr amacı gütmeyen kuruluşların misyonlarına ve değerlerine uygun çözümler. Misyonunuzdan ödün vermeden kuruluşunuzu koruyun."
+          },
+          "third": {
+            "title": "Etik Lisanslama",
+            "description": "Kâr amacı gütmeyen kuruluşlar için tasarlanmış etik lisanslama seçenekleri. Şeffaf fiyatlandırma ve misyon odaklı çözümler."
+          }
+        }
+      },
+      "featureTabs": {
+        "heading": "Kâr amacı gütmeyen kuruluş odaklı güvenlik çözümleri",
+        "subheading": "Misyon odaklı güvenlik çözümleri ile kuruluşunuzu, bağışçılarınızı ve gönüllülerinizi koruyun.",
+        "metrics": {
+          "first": {
+            "title": "Özel Fiyatlandırma",
+            "description": "Kâr amacı gütmeyen kuruluş dostu fiyatlarla kurumsal düzeyde güvenlik alın. Misyon odaklı kuruluşlar için şeffaf fiyatlandırma."
+          },
+          "second": {
+            "title": "Misyon Odaklı",
+            "description": "Misyonunuzu desteklemek için tasarlanmış çözümler. Değerlerinizden ödün vermeden kuruluşunuzu koruyun."
+          }
+        }
+      },
+      "sections": [
+        {
+          "title": "Özel Fiyatlandırma ve Etik Lisanslama",
+          "description": "Kâr amacı gütmeyen kuruluşlar için özel fiyatlandırma. Misyon odaklı kuruluşlar için tasarlanmış etik lisanslama seçenekleri.",
+          "points": [
+            "Kâr amacı gütmeyen kuruluşlar için özel fiyatlandırma",
+            "Etik lisanslama seçenekleri",
+            "Sınırlı bütçeler için uygun fiyatlı güvenlik",
+            "Misyon odaklı kuruluşlar için destek",
+            "Şeffaf fiyatlandırma ve misyon odaklı çözümler"
+          ]
+        },
+        {
+          "title": "Misyon Odaklı Güvenlik",
+          "description": "Kâr amacı gütmeyen kuruluşların misyonlarına uygun çözümler. Bağışçı verilerinin ve gizliliğinin korunması, kâr amacı gütmeyen kuruluş düzenlemelerine uyumluluk.",
+          "points": [
+            "Kâr amacı gütmeyen kuruluş misyonlarına uygun çözümler",
+            "Bağışçı verilerinin ve gizliliğinin korunması",
+            "Kâr amacı gütmeyen kuruluş düzenlemelerine uyumluluk",
+            "Güven ve şeffaflık",
+            "Misyonunuzdan ödün vermeden güvenlik"
+          ]
+        },
+        {
+          "title": "Gönüllü ve Personel Güvenliği",
+          "description": "Güvenlik farkındalığı eğitimi ile gönüllüleri ve personeli koruyun. Simülasyonlar çalıştırın ve eğitim atayarak hassas bilgileri koruyun.",
+          "points": [
+            "Gönüllü yönetimi ve eğitimi",
+            "Personel güvenlik farkındalığı",
+            "Simülasyonlar çalıştırın ve eğitim atayın",
+            "Hassas bilgileri koruyun",
+            "Gönüllüler ve personel için güvenli ortam"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Demo Talep Et",
+        "href": "/request-demo"
+      }
+    },
+    "SolutionsLDTraining": {
+      "hero": {
+        "badge": "Rol Bazlı / L&D / Eğitim",
+        "headline": "Tamamlama ve Sertifikasyon Takibi ile Mikro İçerik Planları",
+        "description": "Segmentasyon ile mikro içerik planları tasarlayın. Tamamlama oranlarını takip edin ve sertifikalar oluşturun. Eğitim etkinliğini ölçün. Mevcut LMS platformlarıyla entegre edin.",
+        "cta": {
+          "primary": "Demo İste"
+        },
+        "metrics": {
+          "description": "Mikro içerik ve otomatik takiple eğitim tamamlama oranları artar"
+        }
+      },
+      "overview": {
+        "title": "Bu sayfa şunlar için:",
+        "role": {
+          "label": "Rol:",
+          "value": "L&D Direktörleri, Eğitim Yöneticileri, Öğrenme Koordinatörleri, İK Ekipleri"
+        },
+        "companySize": {
+          "label": "Şirket Büyüklüğü:",
+          "value": "Tüm boyutlar—özellikle yapılandırılmış eğitim programları gerektiren 200+ çalışanlı organizasyonlar"
+        },
+        "useCase": {
+          "label": "Kullanım Durumu:",
+          "value": "Mikro içerik planlama, tamamlama takibi, sertifika oluşturma, segmentasyon, LMS entegrasyonu"
+        },
+        "why": {
+          "label": "Bu kişi neden önemser:",
+          "value": "Eğitim tamamlaması takip edilmesi zor. Sertifikalar manuel. İçerik segmentlenmemiş. Eğitim etkinliği ölçülmüyor."
+        },
+        "goal": {
+          "label": "Hedefiniz:",
+          "value": "Eğitim teslimatını ve takibini otomatikleştirin. Phishy, mikro içerik planları, otomatik tamamlama takibi, sertifika oluşturma ve segmentasyon sağlayarak yardımcı olur."
+        }
+      },
+      "problems": {
+        "badge": "Problemler ve Çözümler",
+        "heading": "Problemler → Etki → Hedef Sonuçlar",
+        "subheading": "Her problem etkiye yol açar, bu da hedeflenmiş sonuçları tetikler.",
+        "0": {
+          "problem": "Eğitim tamamlaması otomatik takip edilmiyor",
+          "impact": "Tamamlama oranları bilinmiyor. Sertifikalar manuel. Uyumluluk boşlukları oluşuyor.",
+          "result": "%100 tamamlama takibi. Otomatik sertifika oluşturma. Uyumluluk kanıtı korunuyor."
+        },
+        "1": {
+          "problem": "İçerik role veya riske göre segmentlenmemiş",
+          "impact": "Tek boyutlu eğitim. Düşük katılım. Kaynaklar boşa harcanıyor.",
+          "result": "Rol bazlı segmentasyon. Risk bazlı hedefleme. Katılım %60-80 artıyor."
+        },
+        "2": {
+          "problem": "Eğitim etkinliği ölçülmüyor",
+          "impact": "ROI belirsiz. Program iyileştirmeleri veri odaklı değil. Bütçe desteği azalıyor.",
+          "result": "Etkinlik metrikleri takip ediliyor. İyileştirme skorları hesaplanıyor. ROI görünür."
+        }
+      },
+      "workflow": {
+        "badge": "İş Akışı",
+        "heading": "Nasıl Çalışır",
+        "subheading": "L&D eğitim programları için 5 adımlı operasyonel akış"
+      },
+      "modules": {
+        "badge": "Modül Eşlemesi",
+        "heading": "Modül Eşlemesi",
+        "simulation": {
+          "label": "Simülasyon",
+          "title": "Simülasyon",
+          "description": "Simülasyonlar eğitim ihtiyaçlarını belirler. Tıklama verileri içerik atamasını bilgilendirir. Risk bazlı segmentasyon."
+        },
+        "training": {
+          "label": "Eğitim",
+          "title": "Eğitim",
+          "description": "Ana modül: Mikro içerik teslimi, tamamlama takibi, sertifika oluşturma, segmentasyon, etkinlik ölçümü."
+        },
+        "incident": {
+          "label": "Olay Müdahalesi",
+          "title": "Olay Müdahalesi",
+          "description": "Genellikle L&D programlarının odağı değildir, ancak olay bazlı eğitim tetikleyicileri için mevcuttur."
+        },
+        "phishysafe": {
+          "label": "PhishySafe",
+          "title": "PhishySafe",
+          "description": "Genellikle L&D programlarında kullanılmaz, ancak altyapı testleri için mevcuttur."
+        },
+        "phishypot": {
+          "label": "PhishyPot",
+          "title": "PhishyPot",
+          "description": "Genellikle L&D programlarında kullanılmaz, ancak erken uyarı sistemleri için mevcuttur."
+        },
+        "integrations": {
+          "label": "Entegrasyonlar",
+          "title": "Entegrasyonlar",
+          "description": "M365, Google Workspace, Exchange: Kullanıcı senkronizasyonu. LMS entegrasyonu (Cornerstone, Workday, SAP SuccessFactors). HRIS entegrasyonu. Sertifika yönetim sistemleri."
+        }
+      },
+      "timeline": {
+        "badge": "Zaman Çizelgesi",
+        "heading": "Zaman Çizelgesi",
+        "0": {
+          "week": "Hafta 1",
+          "title": "İçerik planı ve segmentasyon",
+          "description": "Mikro içerik planı tasarlayın. Segmentleri yapılandırın. Modülleri seçin."
+        },
+        "1": {
+          "week": "Hafta 1-2",
+          "title": "LMS entegrasyon kurulumu",
+          "description": "LMS ile entegre edin. Kullanıcı senkronizasyonunu yapılandırın. Sertifika şablonlarını ayarlayın."
+        },
+        "2": {
+          "week": "Hafta 2",
+          "title": "Eğitim dağıtımı",
+          "description": "Eğitimi segmentlere dağıtın. Modülleri atayın. İlk ilerlemeyi takip edin."
+        },
+        "3": {
+          "week": "Hafta 3-4",
+          "title": "Tamamlama izleme",
+          "description": "Tamamlama oranlarını izleyin. Tamamlamayanlarla takip edin. Sertifikalar oluşturun."
+        },
+        "4": {
+          "week": "Ay sonu",
+          "title": "Etkinlik değerlendirmesi",
+          "description": "Etkinlik metriklerini hesaplayın. Raporlar oluşturun. ROI ölçün."
+        }
+      },
+      "kpi": {
+        "badge": "KPI & ROI",
+        "heading": "KPI & ROI"
+      },
+      "testimonials": {
+        "badge": "Kanıt ve Referanslar",
+        "heading": "Kanıt ve Referanslar",
+        "trusted": "Önde Gelen Organizasyonlar Tarafından Güveniliyor"
+      },
+      "security": {
+        "badge": "Güvenlik ve Gizlilik",
+        "heading": "Güvenlik ve Gizlilik",
+        "0": {
+          "label": "Şirket İçi / Hava Bağlantısız",
+          "description": "Tam şirket içi dağıtım mevcut"
+        },
+        "1": {
+          "label": "Veri Yerleşimi",
+          "description": "Veriler bölgenizde kalır"
+        },
+        "2": {
+          "label": "MFA/SSO",
+          "description": "Kurumsal kimlik doğrulama desteklenir"
+        },
+        "3": {
+          "label": "Şifreleme",
+          "description": "Beklemede ve aktarımda uçtan uca şifreleme"
+        },
+        "4": {
+          "label": "SOC2 (Yakında)",
+          "description": "SOC2 Tip II sertifikasyonu devam ediyor"
+        }
+      },
+      "faq": {
+        "0": {
+          "question": "Mikro içerik nedir?",
+          "answer": "Mikro içerik, tam zamanında öğrenme için tasarlanmış kısa, odaklı eğitim modülleridir (2-5 dakika). Uzun formlu eğitime kıyasla tamamlama oranlarını ve katılımı artırır."
+        },
+        "1": {
+          "question": "Segmentasyon nasıl çalışır?",
+          "answer": "Segmentasyon, role, departmana, risk seviyesine veya özel özelliklere göre farklı kullanıcı gruplarına farklı eğitim içeriği atamanıza olanak tanır. Doğru içeriği doğru öğrenenlere sağlar."
+        },
+        "2": {
+          "question": "Sertifikaları özelleştirebilir miyiz?",
+          "answer": "Evet. Sertifika şablonları tamamen özelleştirilebilir. Markanızı, formatınızı ve özel bilgilerinizi ekleyin. Sertifikalar tamamlama üzerine otomatik olarak oluşturulur."
+        },
+        "3": {
+          "question": "Hangi LMS platformları destekleniyor?",
+          "answer": "Phishy, Cornerstone, Workday, SAP SuccessFactors, Moodle ve daha fazlası dahil olmak üzere büyük LMS platformlarıyla entegre olur. Özel entegrasyonlar mevcuttur."
+        },
+        "4": {
+          "question": "Eğitim etkinliği nasıl ölçülür?",
+          "answer": "Etkinlik, tamamlama oranları, iyileştirme skorları, katılım metrikleri ve davranış değişikliği ile ölçülür. Raporlar zaman içinde eğitim etkisini gösterir."
+        }
+      },
+      "cta": {
+        "heading": "Harekete geçmeye hazır mısınız?",
+        "description": "Canlı demo planlayalım. Otomatik eğitim takibinin tamamlama oranlarını ve katılımı nasıl iyileştirdiğini görün.",
+        "copy": "Aşağıdaki sık sorulan sorularla sürecin nasıl çalıştığını öğrenin. Ek detaylar için bizimle iletişime geçin.",
+        "primary": "Demo İste"
+      }
+    },
+    "SolutionsCyberAwareness": {
+      "title": "Siber Farkındalığı Artırma",
+      "description": "Phishy ile organizasyonunuz genelinde daha güçlü siber farkındalık oluşturun. Simülasyonlar, eğitimler ve ölçülebilir metriklerle siber güvenlik farkındalığınızı artırın.",
+      "hero": {
+        "title": "Siber Farkındalığı Artırma",
+        "subtitle": "Organizasyonunuz genelinde daha güçlü güvenlik farkındalığı oluşturun"
+      },
+      "problems": {
+        "title": "Zorluk",
+        "description": "Organizasyonlar güçlü siber farkındalık oluşturma ve sürdürme konusunda önemli zorluklarla karşılaşmaktadır.",
+        "items": [
+          {
+            "title": "Çalışanların Farkındalık Eksikliği",
+            "description": "Çalışanlar siber güvenlik tehditlerini tanıma ve bunlara karşı korunma konusunda yeterli bilgiye sahip değil.",
+            "icon": "alert-triangle"
+          },
+          {
+            "title": "Farkındalık Seviyesini Ölçme Zorluğu",
+            "description": "Mevcut farkındalık seviyesini ölçmek ve iyileştirme alanlarını belirlemek zor.",
+            "icon": "bar-chart"
+          },
+          {
+            "title": "Sistematik Eğitim Eksikliği",
+            "description": "Düzenli ve sistematik bir eğitim yaklaşımı olmadan farkındalık seviyesini artırmak zor.",
+            "icon": "brain"
+          },
+          {
+            "title": "Reaktif Yaklaşım",
+            "description": "Proaktif yerine reaktif bir yaklaşım, sorunlar ortaya çıktıktan sonra müdahale etmeyi gerektirir.",
+            "icon": "alert-triangle"
+          }
+        ]
+      },
+      "solutions": {
+        "title": "Phishy Nasıl Yardımcı Olur",
+        "description": "Phishy, siber farkındalığı etkili bir şekilde oluşturmak ve ölçmek için kapsamlı araçlar ve çözümler sunar.",
+        "items": [
+          {
+            "title": "Phishing Simülasyonları",
+            "description": "Gerçekçi phishing simülasyonları ile çalışanlarınızın farkındalık seviyesini test edin ve zayıf noktaları belirleyin.",
+            "icon": "target"
+          },
+          {
+            "title": "Eğitim Modülleri ve Mikro Öğrenme",
+            "description": "2 dakikalık oyunlaştırılmış eğitimlerle davranış değişikliği sağlayın. Otomatik takip eğitimleri ile riskli davranışların ardından anında öğrenme fırsatları sunun.",
+            "icon": "lightbulb"
+          },
+          {
+            "title": "Gerçek Zamanlı Farkındalık Metrikleri",
+            "description": "Farkındalık skorlarını, tıklama oranlarını ve iyileştirme alanlarını gerçek zamanlı olarak izleyin ve ölçün.",
+            "icon": "trending-up"
+          },
+          {
+            "title": "Otomatik Takip Eğitimleri",
+            "description": "Riskli davranışların ardından otomatik olarak mikro öğrenme içerikleri göndererek sürekli iyileştirme sağlayın.",
+            "icon": "shield-check"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Ne Elde Edersiniz",
+        "description": "Phishy'yi siber farkındalık için kullanmanın ölçülebilir sonuçları ve faydaları.",
+        "items": [
+          {
+            "title": "Gelişmiş Farkındalık Skorları",
+            "description": "Düzenli simülasyonlar ve eğitimlerle farkındalık skorlarında ölçülebilir iyileştirmeler görün.",
+            "metric": "+40%",
+            "icon": "trending-up"
+          },
+          {
+            "title": "Azaltılmış Tıklama Oranları",
+            "description": "Phishing e-postalarına tıklama oranlarında önemli düşüşler kaydedin.",
+            "metric": "-60%",
+            "icon": "target"
+          },
+          {
+            "title": "Daha İyi Olay Raporlama",
+            "description": "Çalışanlar şüpheli e-postaları daha hızlı ve daha sık raporluyor.",
+            "metric": "+80%",
+            "icon": "users"
+          },
+          {
+            "title": "Ölçülebilir ROI",
+            "description": "Yatırım getirisini net metriklerle ölçün ve raporlayın.",
+            "icon": "bar-chart"
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Gerçek Dünya Kullanım Senaryoları",
+        "description": "Organizasyonların farklı senaryolarda Phishy'yi siber farkındalığı artırmak için nasıl kullandığını görün.",
+        "items": [
+          {
+            "title": "Yeni Çalışan Oryantasyonu",
+            "description": "Yeni çalışanları işe başladıkları ilk günlerde siber güvenlik farkındalığı konusunda eğitin.",
+            "outcomes": [
+              "İlk hafta içinde temel farkındalık eğitimi",
+              "İlk ay içinde phishing simülasyonu",
+              "Sürekli takip ve değerlendirme"
+            ],
+            "icon": "users"
+          },
+          {
+            "title": "Üç Aylık Farkındalık Kampanyaları",
+            "description": "Her çeyrekte düzenli simülasyonlar ve eğitimlerle farkındalık seviyesini koruyun ve artırın.",
+            "outcomes": [
+              "Düzenli farkındalık ölçümü",
+              "Güncel tehditlere dayalı simülasyonlar",
+              "Departman bazlı performans karşılaştırması"
+            ],
+            "icon": "target"
+          },
+          {
+            "title": "Uyumluluk Odaklı Eğitim",
+            "description": "GDPR, HIPAA gibi düzenlemelere uyum için gerekli eğitimleri otomatik olarak atayın ve takip edin.",
+            "outcomes": [
+              "Otomatik uyumluluk raporlama",
+              "Düzenleyici gereksinimlere uyum",
+              "Denetim için hazır dokümantasyon"
+            ],
+            "icon": "shield-check"
+          }
+        ]
+      },
+      "ctaSection": {
+        "title": "Siber Farkındalığınızı Artırmaya Hazır mısınız?",
+        "description": "Bugün organizasyonunuz genelinde daha güçlü güvenlik farkındalığı oluşturmaya başlayın."
+      },
+      "cta": {
+        "label": "Demo Talep Et",
+        "href": "/request-demo"
+      }
+    },
+    "SolutionsPhishingIncidents": {
+      "title": "Phishing Olaylarını Yönetme",
+      "description": "Phishy ile phishing tehditlerine etkili bir şekilde yanıt verin ve yönetin. Birleşik gelen kutusu, otomatik playbook'lar ve gerçek zamanlı tehdit istihbaratı ile olay yönetimini kolaylaştırın.",
+      "hero": {
+        "title": "Phishing Olaylarını Yönetme",
+        "subtitle": "Phishing tehditlerine etkili bir şekilde yanıt verin ve yönetin"
+      },
+      "problems": {
+        "title": "Zorluk",
+        "description": "Phishing olaylarını etkili bir şekilde yönetmek doğru araçlar ve süreçler gerektirir.",
+        "items": [
+          {
+            "title": "Yavaş Olay Yanıt Süreleri",
+            "description": "Olaylara yanıt verme süreleri uzun olduğunda hasar artar ve güvenlik riski yükselir.",
+            "icon": "clock"
+          },
+          {
+            "title": "Olay Takibi ve Yönetimi Zorluğu",
+            "description": "Çok sayıda olayı takip etmek, önceliklendirmek ve yönetmek karmaşık ve zaman alıcıdır.",
+            "icon": "mail"
+          },
+          {
+            "title": "Otomasyon Eksikliği",
+            "description": "Manuel süreçler hata riskini artırır ve yanıt sürelerini uzatır.",
+            "icon": "alert-triangle"
+          },
+          {
+            "title": "Tehdit Görünürlüğü Eksikliği",
+            "description": "Tehdit manzarasına dair görünürlük eksikliği proaktif önlemler almayı zorlaştırır.",
+            "icon": "activity"
+          }
+        ]
+      },
+      "solutions": {
+        "title": "Phishy Nasıl Yardımcı Olur",
+        "description": "Phishy, phishing tehditlerine yanıt vermek ve yönetmek için kapsamlı olay yönetim araçları sunar.",
+        "items": [
+          {
+            "title": "Birleşik Olay Yönetim Gelen Kutusu",
+            "description": "Tüm phishing olaylarını tek bir merkezi yerde toplayın, önceliklendirin ve yönetin. Tüm olaylar için tek bir görünüm.",
+            "icon": "mail"
+          },
+          {
+            "title": "Otomatik Playbook'lar ve İş Akışları",
+            "description": "Yaygın senaryolar için otomatik playbook'lar oluşturun. Olaylar otomatik olarak doğru iş akışına yönlendirilir.",
+            "icon": "zap"
+          },
+          {
+            "title": "Gerçek Zamanlı Tehdit İstihbaratı",
+            "description": "Güncel tehdit istihbaratı ile proaktif önlemler alın. Tehdit trendlerini izleyin ve analiz edin.",
+            "icon": "activity"
+          },
+          {
+            "title": "Olay Sonrası Analiz ve İçgörüler",
+            "description": "Olay sonrası detaylı analizler yapın, iyileştirme alanlarını belirleyin ve gelecekteki olayları önleyin.",
+            "icon": "bar-chart"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Ne Elde Edersiniz",
+        "description": "Phishy'yi olay yönetimi için kullanmanın ölçülebilir sonuçları ve faydaları.",
+        "items": [
+          {
+            "title": "Daha Hızlı Yanıt Süreleri",
+            "description": "Otomasyon ve merkezi yönetim ile olaylara yanıt sürelerini önemli ölçüde azaltın.",
+            "metric": "-70%",
+            "icon": "zap"
+          },
+          {
+            "title": "Daha İyi Olay Takibi",
+            "description": "Tüm olayları merkezi bir yerde takip edin ve durumlarını gerçek zamanlı olarak izleyin.",
+            "metric": "100%",
+            "icon": "target"
+          },
+          {
+            "title": "Otomatik Düzeltme",
+            "description": "Yaygın senaryolar için otomatik düzeltme işlemleri ile manuel müdahale ihtiyacını azaltın.",
+            "metric": "+50%",
+            "icon": "shield-alert"
+          },
+          {
+            "title": "Gelişmiş Güvenlik Durumu",
+            "description": "Proaktif önlemler ve hızlı yanıt ile genel güvenlik duruşunuzu iyileştirin.",
+            "icon": "check-circle"
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Gerçek Dünya Kullanım Senaryoları",
+        "description": "Organizasyonların Phishy'yi phishing olaylarını etkili bir şekilde yönetmek için nasıl kullandığını görün.",
+        "items": [
+          {
+            "title": "Otomatik Olay Yanıtı",
+            "description": "Yaygın phishing senaryoları için otomatik playbook'lar oluşturun ve olayları otomatik olarak çözün.",
+            "outcomes": [
+              "Anında olay tespiti ve yanıt",
+              "Otomatik düzeltme işlemleri",
+              "Manuel müdahale ihtiyacında azalma"
+            ],
+            "icon": "zap"
+          },
+          {
+            "title": "Tehdit İstihbaratı Entegrasyonu",
+            "description": "Harici tehdit istihbaratı kaynaklarıyla entegre olun ve proaktif önlemler alın.",
+            "outcomes": [
+              "Gerçek zamanlı tehdit uyarıları",
+              "Proaktif tehdit önleme",
+              "Gelişmiş güvenlik görünürlüğü"
+            ],
+            "icon": "activity"
+          },
+          {
+            "title": "Uyumluluk Raporlama",
+            "description": "Olay yönetimi süreçlerinizi düzenleyici gereksinimlere uygun şekilde dokümante edin ve raporlayın.",
+            "outcomes": [
+              "Otomatik uyumluluk raporları",
+              "Denetim için hazır dokümantasyon",
+              "Düzenleyici gereksinimlere uyum"
+            ],
+            "icon": "file-text"
+          }
+        ]
+      },
+      "ctaSection": {
+        "title": "Olay Yönetiminizi İyileştirmeye Hazır mısınız?",
+        "description": "Bugün phishing olaylarını daha etkili bir şekilde yönetmeye başlayın."
+      },
+      "cta": {
+        "label": "Demo Talep Et",
+        "href": "/request-demo"
+      }
+    },
+    "CompanyAbout": {
+      "title": "Phishy Hakkında",
+      "subtitle": "Hikâyemiz ve vizyonumuz",
+      "description": "İnsana odaklı güvenlik tutkusunun Phishy platformunu nasıl doğurduğunu öğrenin.",
+      "sections": [
+        {
+          "title": "Fikirden Etkiye",
+          "description": "Phishy, modası geçmiş farkındalık programlarından bıkan güvenlik uzmanları tarafından kuruldu.",
+          "points": [
+            "Ürün mükemmelliğine odaklanmak için önyatırımsız başlatıldı",
+            "Güvenliği ilgi çekici kılmak için tasarım uzmanlarıyla ortaklık",
+            "İlk yıl içerisinde yoğun hedefli sektörlerin güvenini kazandı"
+          ]
+        },
+        {
+          "title": "Müşterilerle Birlikte İnşa",
+          "description": "Yol haritamız güvenlik, BT ve uyumluluk ekipleriyle birlikte şekilleniyor.",
+          "points": [
+            "Sektörler arası müşteri danışma kurulları",
+            "Öncü özellikler için erken erişim programları",
+            "Paydaşların önem verdiği ortak başarı metrikleri"
+          ]
+        },
+        {
+          "title": "Geleceğe Odak",
+          "description": "Saldırganların önünde kalmak için araştırma ve inovasyona yatırım yapmaya devam ediyoruz.",
+          "points": [
+            "Yeni oltalama teknikleri için özel Ar-Ge",
+            "Üniversitelerle davranış bilimi iş birlikleri",
+            "Etik ve sorumlu yapay zekâ taahhüdü"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Bizimle bağlantı kurun",
+        "href": "/contact-us"
+      }
+    },
+    "PhishyTraining": {
+      "hero": {
+        "title": "Davranışları Dönüştüren 2 Dakikalık Oyunlaştırılmış Eğitimler",
+        "subtitle": "Hızlı ve etkileşimli siber güvenlik eğitimine katılın. Ekibinizi dijital dünyada güvenle ilerlemeye hazırlayın. %94 kullanıcı memnuniyetiyle her tık bilinçli bir güvenlik tercihi olur.",
+        "cta": "Demo Al"
+      },
+      "mainFeatures": {
+        "title": "Ana Özellikler",
+        "heading": "İlgi Çekici Eğitim, Kolay Erişim",
+        "description": "Phishy Training, siber güvenlik öğrenimini odaklı, eğlenceli ve ekiplerinizin ihtiyacı olan her an erişilebilir hâle getirir.",
+        "items": {
+          "videoLibrary": {
+            "icon": "video",
+            "title": "İlgi Çekici Video Kütüphanesi",
+            "description": "60+ özel üretim, 2 dakikalık 2D videoyla siber güvenlik öğrenimini hızlı ve keyifli hale getirir."
+          },
+          "oneClickAccess": {
+            "icon": "click",
+            "title": "Tek Tıkla Öğrenme Erişimi",
+            "description": "Kullanıcılar sadeleştirilmiş portal sayesinde atanan eğitim oturumlarına tek tıkla ulaşır."
+          },
+          "userFeedback": {
+            "icon": "star",
+            "title": "Olumlu Kullanıcı Geri Bildirimleri",
+            "description": "Zaman kaybettirmeden öğrenmeyi artırmak için tasarlanan kısa videolarımız kullanıcılar tarafından çok seviliyor."
+          }
+        }
+      },
+      "visualOne": {
+        "image": "/Asset-12.png",
+        "imageAlt": "İlerleme metriklerini gösteren eğitim paneli",
+        "caption": "Seamless Training Management"
+      },
+      "management": {
+        "title": "Seamless Training Management",
+        "subtitle": "Kolay Atayın, Hassas Takip Edin",
+        "bullets": [
+          "Eğitim modüllerini bireylere veya ekiplere birkaç tıkla atayın.",
+          "Kullanıcı dostu panoda gerçek zamanlı ilerlemeyi takip edin.",
+          "Her ekip üyesinin eğitimini tamamlamasını otomatik takip ile güvenceye alın.",
+          "Bekleyen oturumlar için nazik hatırlatma bildirimleriyle ekibi yolda tutun."
+        ]
+      },
+      "uniqueApproach": {
+        "title": "Öğrenmeye Benzersiz Yaklaşım",
+        "subtitle": "Kişiselleştirilmiş Eğitim, Kanıtlanmış Etki",
+        "curriculum": {
+          "title": "Özel Siber Güvenlik Müfredatı",
+          "subtitle": "Özel içerik oluşturun ve etkisini kanıtlayın",
+          "bullets": [
+            "Siber güvenlik farkındalığını artırdığı kanıtlanmış, uzmanlarca hazırlanmış özel içerik.",
+            "Dünya çapındaki lider şirketlerin kullandığı güvenilir eğitim modülleri.",
+            "En güncel güvenlik tehditlerine uyum sağlamak için düzenli olarak güncellenen materyaller.",
+            "Gerçek hayata uyarlamayı güçlendiren interaktif ve uygulamalı alıştırmalar."
+          ]
+        }
+      },
+      "visualTwo": {
+        "image": "/Asset-11.png",
+        "imageAlt": "Siber güvenlik eğitim materyalleri"
+      },
+      "impact": {
+        "title": "Gerçek Etki, Gerçek Geri Bildirim",
+        "subtitle": "Kullanıcı Onaylı Eğitim Deneyimi",
+        "heading": "Zihinleri Dönüştüren ve Becerileri Geliştiren Eğitim",
+        "description": "Eğitim platformumuz, siber güvenlik farkındalığında gerçek iyileşmeler yaşayan kullanıcıların olumlu geri bildirimleriyle öne çıkıyor."
+      },
+      "testimonials": {
+        "title": "Dönüştürücü Sonuçlar",
+        "cards": {
+          "fitEducation": {
+            "title": "Günü Planınıza Uydurun",
+            "lines": [
+              "Yoğun takvimler, etkili öğrenmeye engel değil.",
+              "Kullanıcılar eğitim modüllerinin zamana uyumunu seviyor."
+            ]
+          },
+          "neverFallBehind": {
+            "title": "Asla Geride Kalmayın",
+            "lines": [
+              "Phishy'nin hatırlatma sistemi atanan her eğitimin tamamlanmasını sağlar.",
+              "Tüm ekip üyeleri siber güvenlik eğitiminde aynı çizgide kalır."
+            ]
+          },
+          "behavioralChange": {
+            "title": "Davranışsal Değişim",
+            "lines": [
+              "Eğitim içerikleri sadece öğretmekle kalmaz, kalıcı davranış değişimi yaratır.",
+              "Siber tehditlere karşı daha güvenli iş yerleri inşa edin."
+            ]
+          },
+          "futureFeature": {
+            "title": "",
+            "lines": []
+          }
+        }
+      },
+      "footerCta": {
+        "title": "Başlayın",
+        "subtitle": "Ekibinizi siber güvenlik konusunda eğitmeye bugün başlayın.",
+        "primaryCta": "Şimdi Başla",
+        "secondaryCta": "Daha Fazla Bilgi Al"
+      }
+    },
+    "PhishyTrainingPage": {
+      "Hero": {
+        "badge": "Dünya çapındaki güvenlik liderlerinin tercihi",
+        "title": "Kimlik Avı Simülasyonu",
+        "subtitle": "Gerçek Dünya Savunması",
+        "description": "Bu ürün, şirketlerin siber güvenliğini güçlendirmek için tasarlandı. Ekibinizi gelişmiş simülasyon araçlarıyla gerçek tehditlere hazırlayın.",
+        "primaryCta": "Demo Talep Et",
+        "secondaryCta": "Videoyu izle"
+      },
+      "Prepare": {
+        "title": "Simülasyonları Hazırlayın",
+        "description": "Profesyonel kimlik avı simülasyonlarını hızlıca oluşturun. Gerçekçi eğitim senaryoları için sürükle-bırak arayüzler, özel markalama ve gerçek web sitesi içeriklerini kullanın.",
+        "features": [
+          "Sürükle-Bırak E-posta Oluşturma",
+          "Özel Web Sitesi Markalaması",
+          "İçerik Toplama",
+          "Planlama ve Hedefleme"
+        ],
+        "cta": "Başlayın",
+        "imageAlt": "Simülasyonları Hazırlayın"
+      },
+      "RunSimulations": {
+        "title": "Simülasyonları Çalıştırın",
+        "subtitle": "Kampanyaları başlatın ve gerçek zamanlı olarak takip edin",
+        "features": {
+          "liveMonitoring": {
+            "title": "Canlı Kampanya İzleme",
+            "description": "Kampanyaları başlatın ve ekibiniz yanıt verirken canlı verileri izleyin. Simüle edilen kimlik avı girişimlerine çalışanlarınızın nasıl tepki verdiğine dair anlık içgörüler elde edin; zafiyetleri belirleyip güvenlik farkındalığını hemen artırın.",
+            "longDescription": "Canlı izleme sistemimiz kampanya performansına kapsamlı görünürlük sağlar. E-posta açılmalarını, bağlantı tıklamalarını ve kullanıcı yanıtlarını gerçek zamanlı takip edin. Kullanıcılar simüle edilen tehditlerle etkileşime girdiğinde anında bildirim alın; hızlı müdahale ve anlık eğitim fırsatları yakalayın. Sezgisel panomuzla birden fazla kampanyayı aynı anda izleyin; temel metrikleri, yanıt oranlarını ve etkileşim desenlerini görüntüleyin.",
+            "bullets": [
+              "Gerçek zamanlı aktivite takibi",
+              "Anlık uyarı bildirimleri",
+              "Çok kampanyalı pano",
+              "Canlı yanıt analitiği"
+            ]
+          },
+          "interactionTracking": {
+            "title": "Tıklama ve Etkileşim Takibi",
+            "description": "Hangi kullanıcıların bağlantılara tıkladığını ve bilgi paylaştığını görün. Kullanıcı davranış kalıplarını ayrıntılı biçimde analiz edin ve organizasyonunuzda en etkili kimlik avı türlerini belirleyin.",
+            "longDescription": "Simüle edilen kimlik avı kampanyalarınızdaki her kullanıcı etkileşimini kapsamlı biçimde takip edin. Bağlantı tıklamalarını, form gönderimlerini ve veri girişi desenlerini izleyin. İlk e-postanın alınmasından son etkileşime kadar kullanıcı yolculuğunun tamamını anlayın. Ek eğitim gerektiren yüksek riskli davranışları ve kırılgan departmanları belirleyin. Etkileşim zaman çizelgelerini, tıklama oranlarını ve kullanıcı katılım metriklerini gösteren ayrıntılı raporları dışa aktarın.",
+            "bullets": [
+              "Bağlantı tıklama takibi",
+              "Form gönderimi izleme",
+              "Kullanıcı yolculuğu haritalama",
+              "Davranış analitiği"
+            ]
+          },
+          "fileTracking": {
+            "title": "Dosya İndirme Takibi",
+            "description": "Her ekip üyesi için indirmeleri ve dosya açılışlarını takip edin. Kimlik avı e-postalarındaki eklerin ne zaman indirildiğini ve hangi dosyaların açıldığını izleyerek güvenlik farkındalığı hakkında kritik içgörüler elde edin.",
+            "longDescription": "Simüle edilen kimlik avı kampanyalarındaki her indirmeyi ve dosya etkileşimini izleyen gelişmiş dosya takibi yetenekleri. Hangi eklerin indirildiğini, ne zaman açıldığını ve kullanıcıların potansiyel zararlı içerikle nasıl etkileşime girdiğini takip edin. Şüpheli ekleri sıkça indiren ve derhal güvenlik eğitimi gerektiren çalışanları belirleyin. Tehlikeli olabilecek dosya türleriyle etkileşim olduğunda uyarılar alın; hızlı tepki ve eğitim sağlayın.",
+            "bullets": [
+              "İndirme aktivitesi takibi",
+              "Dosya açma izleme",
+              "Ek türü analizi",
+              "Risk düzeyi değerlendirmesi"
+            ]
+          },
+          "statistics": {
+            "title": "Kampanya İstatistikleri",
+            "description": "Kimlik avı kampanyalarını durduran kullanıcıların kapsamlı istatistiklerini görüntüleyin. Başarı oranlarını analiz edin, eğilimleri belirleyin ve güvenlik eğitim programlarınızın etkinliğini zaman içinde ölçün.",
+            "longDescription": "Kampanya performansı ve kullanıcı davranışı hakkında derin içgörüler sunan güçlü analitik pano. Başarı oranlarını takip edin, eğilimleri belirleyin ve güvenlik eğitimi programlarınızın etkinliğini ölçün. Farklı departmanlar, kampanyalar ve zaman dilimleri arasında performansı karşılaştırın. İyileşme metriklerini, zafiyet desenlerini ve eğitimin etkisini gösteren ayrıntılı raporlar oluşturun. Kimlik avı simülasyonu stratejinizi optimize etmek ve kurumsal güvenliği güçlendirmek için veriye dayalı içgörülerden yararlanın.",
+            "bullets": [
+              "Performans analitiği",
+              "Eğilim tespiti",
+              "Departman karşılaştırmaları",
+              "Eğitim etkinliği metrikleri"
+            ]
+          }
+        }
+      },
+      "SeeResults": {
+        "cards": {
+          "analytics": {
+            "badge": "Analitik",
+            "title": "E-posta Etkileşim Analitiği",
+            "description": "Açılan e-postalar, tıklanan bağlantılar ve girilen veriler üzerine ayrıntılı raporlarla kampanya etkinliğini ölçün.",
+            "bullets": [
+              "E-posta açılma oranlarını takip edin.",
+              "Bağlantı tıklama oranlarını izleyin."
+            ],
+            "cta": "Raporları Görüntüle"
+          },
+          "statistics": {
+            "title": "Kampanya İstatistikleri",
+            "metricLabel": "Toplam Tıklama",
+            "metricValue": "1.247",
+            "metricDelta": "Geçen haftaya göre %23 artış",
+            "barHeights": [65, 80, 55],
+            "chart": {
+              "yAxisTicks": [0, 25, 50, 75, 100],
+              "clicks": [
+                {"x": 0, "y": 45, "label": "Pzt"},
+                {"x": 25, "y": 60, "label": "Sal"},
+                {"x": 50, "y": 40, "label": "Çar"},
+                {"x": 75, "y": 70, "label": "Per"},
+                {"x": 100, "y": 55, "label": "Cum"}
+              ],
+              "reports": [
+                {"x": 0, "y": 20, "label": "Pzt"},
+                {"x": 25, "y": 35, "label": "Sal"},
+                {"x": 50, "y": 25, "label": "Çar"},
+                {"x": 75, "y": 45, "label": "Per"},
+                {"x": 100, "y": 30, "label": "Cum"}
+              ],
+              "legend": {
+                "clicks": "Tıklamalar",
+                "reports": "Raporlar"
+              }
+            }
+          },
+          "engagement": {
+            "title": "Etkileşim Metrikleri",
+            "donut": {
+              "percentage": 73,
+              "centerLabel": "73%",
+              "centerSubLabel": "Açıldı",
+              "callout": "27% Açılmadı"
+            },
+            "metrics": [
+              {"label": "Açılan E-postalar", "value": "73%"},
+              {"label": "Tıklanan Bağlantılar", "value": "42%"},
+              {"label": "Girilen Veriler", "value": "18%"}
+            ]
+          },
+          "incident": {
+            "badge": "Raporlar",
+            "title": "Olay Bildirim Etkinliği",
+            "description": "Ekibinizin olay bildirim sürecinin ve dosya aktivitesi takibinin etkinliğini ölçün.",
+            "stats": [
+              {"value": "92%", "label": "Bildirilen Olaylar"},
+              {"value": "1.450", "label": "Takip Edilen Dosyalar"}
+            ]
+          }
+        }
+      }
+    },
+    "Company": {
+      "title": "Phishy'nin İç Yüzü",
+      "subtitle": "İnsanlar, misyon ve ivme",
+      "description": "Phishy'nin arkasındaki ekibi ve dünya çapındaki iş ortaklıklarımızı tanıyın.",
+      "sections": [
+        {
+          "title": "Misyon ve Değerler",
+          "description": "Her çalışanı güvenliğin aktif savunucusu yapmayı hedefliyoruz.",
+          "points": [
+            "Ürünlerimizin tamamında insan odaklı tasarım",
+            "Müşteriler ve ekip arkadaşlarıyla radikal şeffaflık",
+            "Anlamlı sonuçlar için hesap verebilirlik"
+          ]
+        },
+        {
+          "title": "Liderlik",
+          "description": "Güvenlik ve ürün geliştirme uzmanları yol haritamızı şekillendiriyor.",
+          "points": [
+            "Fortune 500 güvenlik ekiplerinden derin tecrübe",
+            "CISO ve davranış bilimcilerden oluşan danışma kurulu",
+            "Küresel bakış açılarını temsil eden kapsayıcı liderlik"
+          ]
+        },
+        {
+          "title": "Küresel Ayak İzi",
+          "description": "Konumdan bağımsız modern ekipleri destekliyoruz.",
+          "points": [
+            "Kuzey Amerika, EMEA ve APAC'ta operasyonlar",
+            "7/24 çok dilli müşteri başarısı desteği",
+            "Yüksek regülasyonlu sektörlere hazır uyumluluk"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Ekiple tanışın",
+        "href": "/company/about"
+      }
+    },
+    "ProductsPhishypot": {
+      "title": "Phishypot",
+      "subtitle": "Tehditleri gelen kutusuna gelmeden yakalayın",
+      "description": "Saldırganları cezbeden sahte hesaplar kurarak yeni kampanyaları ortaya çıkarın.",
+      "sections": [
+        {
+          "title": "Akıllı Tuzaklar",
+          "description": "Fazladan operasyon yükü olmadan sahte hesapları ortamınıza entegre edin.",
+          "points": [
+            "Gerçekçi personayı tek tıkla oluşturun",
+            "Kimlik bilgilerini ve posta kutusu aktivitelerini otomatik döndürün",
+            "Kapsamı genişletmek için iş birliği araçlarını yansıtın"
+          ]
+        },
+        {
+          "title": "Tehdit İstihbaratı",
+          "description": "Yakalanan nesneleri eyleme dönüştürülebilir bilgiler haline getirin.",
+          "points": [
+            "Alan adlarını, payload'ları ve TTP'leri otomatik çıkarın",
+            "Göstergeleri engelleme listelerine ve SIEM'lere aktarın",
+            "Alarmları küresel beslemelerle zenginleştirin"
+          ]
+        },
+        {
+          "title": "Sürekli Optimizasyon",
+          "description": "Saldırganları bağlı tutmak için tuzakları dinamik tutun.",
+          "points": [
+            "Davranışa göre yemleri düzenli olarak yenileyin",
+            "Otomasyon ve uzman müdahalesini harmanlayın",
+            "Net hunî analitiğiyle etkiyi ölçün"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Detaylı inceleme planlayın",
+        "href": "/request-demo"
+      }
+    },
+    "ProductsRequestMode": {
+      "title": "Request Mode",
+      "subtitle": "Her çalışanı hızlı raporlama için güçlendirin",
+      "description": "Şüpheli mesaj ve dosyaların güvenlik ekibinize kolayca ulaşmasını sağlayın.",
+      "sections": [
+        {
+          "title": "Sürtünmesiz Raporlama",
+          "description": "Raportlamayı ekiplerinizin zaten kullandığı araçlara entegre edin.",
+          "points": [
+            "Outlook, Gmail, Slack ve Teams'e düğmeler ekleyin",
+            "Mobil cihazlardan tek dokunuşla raporlama",
+            "Doğru davranışı pekiştiren anlık teşekkür mesajları"
+          ]
+        },
+        {
+          "title": "Otomatik Zenginleştirme",
+          "description": "Rapor gönderildiği anda tüm bağlamı toplayın.",
+          "points": [
+            "Başlıkları, ekleri ve kullanıcı notlarını yakalayın",
+            "Sandbox sonuçlarını saniyeler içinde ekleyin",
+            "Mükerrer kayıtları tespit edip ilişkilendirin"
+          ]
+        },
+        {
+          "title": "Geri Bildirim Döngüleri",
+          "description": "Çalışanların raporlamaya devam etmesi için süreci kapatın.",
+          "points": [
+            "Güvenli mi yoksa kötü amaçlı mı sonuçlarını otomatik paylaşın",
+            "En çok raporlayanları panolarla ödüllendirin",
+            "Gerekli durumlarda anında mikro eğitim gönderin"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Request Mode'u etkinleştirin",
+        "href": "/contact-us"
+      }
+    },
+    "SolutionsSecOps": {
+      "hero": {
+        "badge": "By Role / SecOps / SOC",
+        "headline": "Şüpheli e-posta → tek tık triage.",
+        "description": "Otomatik zenginleştirme ve playbook'larla kapatma süresini dakikalara indirin.",
+        "cta": {
+          "primary": "Demo iste"
+        },
+        "metrics": {
+          "description": "Triage metrikleriniz anlık dashboard'ta güncellenir."
+        }
+      },
+      "problems": {
+        "badge": "Problems → Impact → Target Results",
+        "heading": "Problemler ve Hedef Sonuçlar",
+        "subheading": "Her risk net bir hedefle eşleşir; yolculuk tek akışta görünür.",
+        "1": {
+          "title": "Manuel triage süresi uzun",
+          "description": "Her e-posta manuel inceleniyor."
+        },
+        "2": {
+          "title": "False positive yükü",
+          "description": "Gereksiz alarmlar zaman kaybettiriyor."
+        },
+        "3": {
+          "title": "Playbook eksikliği",
+          "description": "Tutarlı müdahale süreçleri yok."
+        }
+      },
+      "targets": {
+        "1": {
+          "title": "Triage süresini dakikalara indir",
+          "description": "Otomasyonla tutarlılık sağla."
+        },
+        "2": {
+          "title": "False positive'leri azalt",
+          "description": "Akıllı filtreleme ile gürültüyü azalt."
+        },
+        "3": {
+          "title": "Playbook otomasyonu",
+          "description": "Standart müdahale süreçleri kur."
+        }
+      },
+      "howItWorks": {
+        "heading": "Nasıl Çalışır",
+        "steps": {
+          "receive": {
+            "description": "Şüpheli e-posta raporlanır."
+          },
+          "enrich": {
+            "description": "Otomatik IOC çıkarımı ve zenginleştirme."
+          },
+          "analyze": {
+            "description": "Playbook'lar ile analiz."
+          },
+          "decide": {
+            "description": "Güvenli mi yoksa kötü amaçlı mı?"
+          },
+          "close": {
+            "description": "Kapat veya eskalasyon."
+          }
+        }
+      },
+      "modules": {
+        "heading": "Modül Eşlemesi"
+      },
+      "timeline": {
+        "badge": "Timeline",
+        "heading": "Örnek Senaryo Timeline",
+        "subheading": "Uygulama zaman çizelgesi kurulumdan ölçeğe"
+      },
+      "kpi": {
+        "badge": "Program KPI Paneli",
+        "heading": "KPI & ROI",
+        "description": "Triage metriklerinizi orbit dashboard'da izleyin; KPI kartları çeyrek hedeflerinizle hizalanır."
+      },
+      "evidence": {
+        "heading": "Kanıt ve SSS"
+      },
+      "cta": {
+        "heading": "Hazır mısınız?",
+        "description": "SecOps panelinizi canlı görmek için bir demo planlayalım.",
+        "copy": "Aşağıdaki sık sorulan sorularla sürecin nasıl ilerlediğini öğrenin. Ek detaylar için bize ulaşın.",
+        "primary": "Demo iste"
+      }
+    },
+    "SolutionsEnterprises": {
+      "title": "Kurumsal Çözümler",
+      "subtitle": "Kurumsal düzeyde güvenlik çözümleri",
+      "description": "Kaç personeliniz olursa olsun, Phishy ile siber güvenlik risklerine ne kadar hazır olduğunuzu ölçün ve KPI'larınızı optimize edin.",
+      "hero": {
+        "headlinePrimary": "Kurumsal Güvenlik Çözümleri",
+        "headlineAccent": "Ölçeklenebilirlik ve Uyumluluk İçin İnşa Edildi",
+        "cards": {
+          "first": {
+            "title": "100k+ Kullanıcı Sorunsuz",
+            "description": "Büyük kurumsal dağıtımlar için kanıtlanmış ölçeklenebilirlik. Ekip boyutu ne olursa olsun sistem etkili çalışır."
+          },
+          "second": {
+            "title": "On-Premise Hazır",
+            "description": "Regülatif uyumluluk ile tam on-premise dağıtım. Verileriniz gizli ve güvende kalır."
+          },
+          "third": {
+            "title": "İnternet Bağlantısına İhtiyaç Yok",
+            "description": "Yalnızca Phishy subdomain'lerine erişim yeterlidir. Erişim olmadan da çalışabilir, ancak bazı özellikler kullanılamayabilir."
+          }
+        }
+      },
+      "featureTabs": {
+        "heading": "Kurumsal düzeyde güvenlik çözümleri",
+        "subheading": "Phishy'nin güvenlik ve uyumluluğu korurken kurumsal ihtiyaçları karşılamak için nasıl ölçeklendiğini keşfedin.",
+        "metrics": {
+          "first": {
+            "title": "Ölçeklenebilirlik",
+            "description": "Sistem, ekip boyutu veya kullanıcı sayısı ne olursa olsun etkili çalışır."
+          },
+          "second": {
+            "title": "Uyumluluk",
+            "description": "On-premise dağıtım, regülatif uyumluluğu ve veri gizliliğini garanti eder."
+          }
+        }
+      },
+      "sections": [
+        {
+          "title": "Ölçeklenebilirlik ve Performans",
+          "description": "100.000+ son kullanıcı desteği. Ölçeklenebilir mimari sayesinde sistem, personel sayısı ne olursa olsun etkili çalışır.",
+          "points": [
+            "100.000+ son kullanıcıya kadar destek",
+            "Ekip boyutu ne olursa olsun sistem etkili çalışır",
+            "Ölçeklenebilir mimari ile sınırsız büyüme",
+            "Yüksek performans ve düşük gecikme süreleri"
+          ]
+        },
+        {
+          "title": "On-Premise Dağıtım ve Veri Gizliliği",
+          "description": "Tamamen on-premise dağıtım imkanı. Verileriniz gizli ve güvende kalır. Yalnızca bizim subdomain'lerimize erişim vermeniz yeterlidir, başka hiçbir yere erişmesine gerek yok.",
+          "points": [
+            "Tamamen on-premise dağıtım imkanı",
+            "Regülatif uyumluluk için on-premise mimari",
+            "Verileriniz gizli ve güvende kalır",
+            "Minimal erişim gereksinimleri: Sadece subdomain'lerimize erişim yeterli",
+            "Hiçbir veri buluta çıkmaz"
+          ]
+        },
+        {
+          "title": "Kurumsal Anlayış",
+          "description": "Kurumsal zorlukları anlıyoruz: Büyük kullanıcı kitlesi önemli risk potansiyeli demektir ve çözümlerimizi buna göre uyarlıyoruz.",
+          "points": [
+            "Kurumsal zorlukları derinlemesine anlıyoruz",
+            "Büyük kullanıcı kitlesi = önemli risk potansiyeli",
+            "Kurumsal ölçek için özelleştirilmiş çözümler",
+            "Ciddi kullanıcı kitlesi olan kurumlar için tasarlandı"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Demo Talep Et",
+        "href": "/request-demo"
+      }
+    },
+    "SolutionsCISO": {
+      "hero": {
+        "badge": "By Role / CISO & Risk Leaders",
+        "headline": "İnsan kaynaklı siber güvenlik risklerini görünür ve ölçülebilir kılın.",
+        "description": "Phishy, kullanıcı davranışı ve olay süreçlerini tek panelde toplayıp ölçer; metrikleri çeyrek hedeflerinize bağlar.",
+        "metrics": {
+          "description": "Davranış metrikleriniz anlık dashboardta güncellenir.",
+          "nextAction": "Triage playbook'unu tetikleyerek kritik raporları dakikalar içinde kapatın.",
+          "clickRate": {
+            "label": "Click rate",
+            "badge": "Risk ↓"
+          },
+          "reportRate": {
+            "label": "Report rate",
+            "badge": "Awareness"
+          },
+          "triageTime": {
+            "label": "Time-to-Triage",
+            "badge": "Response"
+          }
+        },
+        "centerCard": {
+          "badge": "Live",
+          "title": "CISO Dashboard",
+          "description": "İnsan kaynaklı siber güvenlik riskleri görünür ve ölçülebilir.",
+          "valueLabel": "Click Rate"
+        },
+        "cta": {
+          "primary": "Demo iste",
+          "secondary": "2 dakikalık özet"
+        }
+      },
+      "problems": {
+        "badge": "Problems → Impact → Target Results",
+        "heading": "Problemler ve Hedef Sonuçlar",
+        "subheading": "Her risk net bir hedefle eşleşir; yolculuk tek akışta görünür.",
+        "1": {
+          "title": "Yönetim özetleri parçalı",
+          "description": "Karar metrikleri gecikiyor."
+        },
+        "2": {
+          "title": "Eğitim etkisi ölçülmüyor",
+          "description": "Eğitim tamamlanıyor ama davranışa etkisi ölçülmüyor."
+        },
+        "3": {
+          "title": "Olay süreçleri dağınık",
+          "description": "Triage ve kapanış süresi uzun."
+        }
+      },
+      "targets": {
+        "1": {
+          "title": "Click rate düşür, raporlama artır",
+          "description": "Click rate'i X% → Y% düşür, raporlama oranını arttır."
+        },
+        "2": {
+          "title": "Triage süresini dakikalara indir",
+          "description": "Otomasyonla tutarlılık sağla."
+        },
+        "3": {
+          "title": "Uyum kanıtları tek tık",
+          "description": "PDF/CSV ile çeyrek hedeflerine bağla."
+        }
+      },
+      "howItWorks": {
+        "badge": "Workflow",
+        "heading": "Nasıl Çalışır",
+        "subheading": "5 adımda program yönetimi",
+        "steps": {
+          "plan": {
+            "label": "Planla",
+            "description": "Segment seç, hazır şablonları uygula."
+          },
+          "run": {
+            "label": "Çalıştır",
+            "description": "Kampanya ve bildirim akışları başlar."
+          },
+          "triage": {
+            "label": "Triage",
+            "description": "Raporlanan mailler otomatik zenginleştirilir, karar ver."
+          },
+          "train": {
+            "label": "Eğit",
+            "description": "Tıklayanlara mikro içerik/quiz atanır."
+          },
+          "report": {
+            "label": "Raporla",
+            "description": "Yönetim paneli ve dışa aktarım (PDF/CSV)."
+          }
+        }
+      },
+      "modules": {
+        "heading": "Modül Eşlemesi"
+      },
+      "timeline": {
+        "badge": "Timeline",
+        "heading": "Örnek Senaryo Timeline",
+        "subheading": "Uygulama zaman çizelgesi kurulumdan ölçeğe",
+        "events": {
+          "1": {
+            "time": "Hafta 1",
+            "title": "Program KPI ve eşikler",
+            "description": "Hedef metrikleri belirle ve eşik değerlerini ayarla."
+          },
+          "2": {
+            "time": "Hafta 2–3",
+            "title": "Segment bazlı simülasyon",
+            "description": "Farklı kullanıcı gruplarına özel kampanyalar başlat."
+          },
+          "3": {
+            "time": "Hafta 3",
+            "title": "Triage & playbook",
+            "description": "Raporlanan olayları otomatik triage et ve playbook uygula."
+          },
+          "4": {
+            "time": "Hafta 4",
+            "title": "Mikro eğitim + quiz",
+            "description": "Tıklayan kullanıcılara anında eğitim içeriği gönder."
+          },
+          "5": {
+            "time": "Ay sonu",
+            "title": "Yönetim özeti & kanıt paketi",
+            "description": "Raporları oluştur ve uyum kanıtlarını hazırla."
+          }
+        }
+      },
+      "kpi": {
+        "heading": "KPI & ROI",
+        "badge": "Program KPI Paneli",
+        "description": "İnsan kaynaklı riskleri orbit dashboard'da izleyin; KPI kartları çeyrek hedeflerinizle hizalanır.",
+        "labels": {
+          "clickRate": "Click rate",
+          "reportRate": "Report rate",
+          "triageTime": "Time-to-Triage",
+          "completionRate": "Tamamlama oranı",
+          "improvementScore": "Gelişim skoru"
+        },
+        "tooltips": {
+          "clickRate": "Tıklama oranı azalması",
+          "reportRate": "Raporlama oranı artışı",
+          "triageTime": "Triage süresi azalması",
+          "completionRate": "Eğitim tamamlama oranı",
+          "improvementScore": "Kullanıcı gelişim skoru"
+        },
+        "centerCard": {
+          "badge": "ROI Model",
+          "title": "ROI Formülü",
+          "description": "Azalan olay × Ortalama olay maliyeti = tahmini tasarruf",
+          "content": "Rapor, çeyrek kapanışında otomatik olarak yönetim ekibine e-posta edilebilir."
+        },
+        "directionLabels": {
+          "up": "Artış",
+          "down": "Azalış"
+        }
+      },
+      "evidence": {
+        "heading": "Kanıt & SSS"
+      },
+      "faq": {
+        "badge": "FAQ's",
+        "questionLabel": "Soru",
+        "items": {
+          "1": {
+            "question": "Kurulum süresi ve veri güvenliği nasıl?",
+            "answer": "Kurulum süresi organizasyonunuzun büyüklüğüne göre değişir. Verileriniz tamamen güvende, on-premise seçeneği mevcuttur."
+          },
+          "2": {
+            "question": "Hangi entegrasyonlar mevcut (M365/Google/Exchange)?",
+            "answer": "M365, Google Workspace ve Exchange entegrasyonları mevcuttur. Ayrıntılar için demo talep edin."
+          },
+          "3": {
+            "question": "Uyum kanıt paketinde neler yer alır?",
+            "answer": "ISO/NIST/KVKK haritalama, kanıt paketleri (PDF/CSV) ve denetim izi dahildir."
+          },
+          "4": {
+            "question": "Eğitim içeriğini özelleştirebilir miyiz?",
+            "answer": "Evet, eğitim içeriklerini tamamen özelleştirebilir ve kendi markanızla sunabilirsiniz."
+          },
+          "5": {
+            "question": "Lisanslama ve destek modeli nedir?",
+            "answer": "Esnek lisanslama seçenekleri ve 7/24 destek hizmeti sunuyoruz. Detaylar için iletişime geçin."
+          }
+        }
+      },
+      "cta": {
+        "heading": "Hazır mısınız?",
+        "description": "CISO panelinizi canlı görmek için bir demo planlayalım.",
+        "copy": "Aşağıdaki sık sorulan sorularla sürecin nasıl ilerlediğini öğrenin. Ek detaylar için bize ulaşın.",
+        "primary": "Demo iste",
+        "secondary": "2 dakikalık özet"
+      }
+    },
+    "SolutionsMSSP": {
+      "timeline": {
+        "badge": "Uygulama Zaman Çizelgesi",
+        "heading": "Kurulumdan Ölçeğe",
+        "subheading": "MSSP platformunuzu bir ay içinde kurulum ve çalışır hale getirin. Akışkan uygulama süreci, hemen ölçeklendirmeye başlamanızı sağlar.",
+        "events": {
+          "1": {
+            "time": "Hafta 1",
+            "title": "Platform Kurulumu",
+            "description": "Çok kiracılı platformu yapılandırın. Beyaz etiket şablonlarını ayarlayın. Hizmet paketlerini tanımlayın."
+          },
+          "2": {
+            "time": "Hafta 1-2",
+            "title": "Müşteri Katılımı",
+            "description": "İlk müşterileri dahil edin. Kiracı izolasyonunu yapılandırın. Markayı ayarlayın."
+          },
+          "3": {
+            "time": "Hafta 2-3",
+            "title": "Hizmet Dağıtımı",
+            "description": "Güvenlik farkındalık hizmetlerini dağıtın. Müşteri faaliyetlerini izleyin. Performansı takip edin.",
+            "highlight": true
+          },
+          "4": {
+            "time": "Hafta 3-4",
+            "title": "Rapor Otomasyonu",
+            "description": "Aylık özetleri yapılandırın. Otomatik teslimatı ayarlayın. Fatura entegrasyonunu test edin."
+          },
+          "5": {
+            "time": "Ay sonu",
+            "title": "Operasyonları Ölçeklendirin",
+            "description": "Ek müşterileri dahil edin. Operasyonları optimize edin. Geliri ölçeklendirin."
+          }
+        }
+      }
+    },
+    "RequestDemo": {
+      "title": "Demo Talep Edin",
+      "subtitle": "Phishy'yi şirketinize göre görün",
+      "description": "Birkaç bilgi paylaşın, hedeflerinize odaklanan bir anlatımı hazırlayalım.",
+      "sections": [
+        {
+          "title": "Neler Göreceksiniz",
+          "description": "30 dakikanın altında platformu uçtan uca deneyimleyin.",
+          "points": [
+            "Senaryo oluşturucu ve uyarlanabilir simülasyonlar",
+            "Kişiselleştirilmiş öğrenme yolları sunan eğitim kitaplığı",
+            "Değeri hızla kanıtlayan yönetici içgörüleri"
+          ]
+        },
+        {
+          "title": "Kimler Katılmalı",
+          "description": "Güvenlik kültürünü etkileyen paydaşları davet edin.",
+          "points": [
+            "Güvenlik veya BT operasyon liderleri",
+            "Eğitim ve iletişimden sorumlu ekipler",
+            "Regülasyon sonuçlarını takip eden uyumluluk sahipleri"
+          ]
+        },
+        {
+          "title": "Sonraki Adımlar",
+          "description": "Başlatma veya geçiş için net bir planla ayrılın.",
+          "points": [
+            "Uygulama yol haritası ve başarı kilometre taşları",
+            "Kuruluşunuza uygun fiyatlandırma",
+            "Yönetimi ve çalışanları sürece dahil edecek kaynaklar"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Seansı planlayın",
+        "href": "/contact-us"
+      }
+    },
+    "Contact": {
+      "title": "Phishy ile İletişime Geçin",
+      "subtitle": "Yardım için buradayız",
+      "description": "Güvenlik girişimlerinize destek olmak için doğru ekiple iletişim kurun.",
+      "cardTitle": "Demo planlayın",
+      "cardDescription": "Kurumsal e-postanızı paylaşın, ekibimiz kısa sürede size dönüş yapsın.",
+      "ctaPrompt": "Kurumsal e-postanızı paylaşın, ekibimiz kısa sürede size dönüş yapsın.",
+      "emailPlaceholder": "ad.soyad@firma.com",
+      "cta": {
+        "label": "Gönder"
+      }
+    },
+    "SolutionsSecurityOnboarding": {}
+  },
+  "Blog": {
+    "badge": "Blog",
+    "title": "Blog",
+    "subtitle": "Siber güvenlik, phishing koruması ve dijital güvenlik hakkında güncel yazılar ve ipuçları",
+    "readMore": "Devamını Oku",
+    "noPosts": "Henüz blog yazısı bulunmamaktadır.",
+    "backToBlog": "Blog'a Dön",
+    "postNotFound": "Yazı Bulunamadı",
+    "postNotFoundTitle": "Yazı Bulunamadı - Phishy",
+    "postNotFoundDescription": "Aradığınız blog yazısı bulunamadı.",
+    "tags": "Etiketler",
+    "relatedPosts": "Diğer Yazılar",
+    "mostReadPosts": "En Çok Okunan Yazılar",
+    "newsletter": {
+      "title": "Newsletter",
+      "emailPlaceholder": "E-posta adresinizi girin",
+      "subscribe": "Abone Ol"
+    },
+    "author": "Yazar",
+    "date": "Tarih",
+    "pagination": {
+      "pageInfo": "Sayfa {currentPage} / {totalPages} • Toplam {total} yazı",
+      "previousPage": "Önceki sayfa",
+      "nextPage": "Sonraki sayfa",
+      "pageNumber": "Sayfa {page}"
+    },
+    "audio": {
+      "play": "Oynat",
+      "pause": "Duraklat",
+      "mute": "Sesi Kapat",
+      "unmute": "Sesi Aç",
+      "close": "Kapat",
+      "low": "Düşük",
+      "normal": "Normal",
+      "high": "Yüksek"
+    },
+    "summary": {
+      "button": "Özetle",
+      "title": "Yazı Özeti",
+      "loading": "Özet oluşturuluyor...",
+      "error": "Özet oluşturulurken bir hata oluştu"
+    },
+    "tableOfContents": {
+      "title": "İçindekiler",
+      "moveLeft": "Sola taşı",
+      "moveRight": "Sağa taşı"
+    },
+    "readAloud": {
+      "start": "Sesli Oku",
+      "stop": "Durdur",
+      "reading": "Okunuyor..."
+    },
+    "search": {
+      "placeholder": "Makalelerde ara...",
+      "clear": "Aramayı temizle"
+    },
+    "filter": {
+      "category": "Tüm Kategoriler",
+      "allCategories": "Tüm Kategoriler",
+      "clearAll": "Tümünü Temizle",
+      "resultsCount": "{count} makale gösteriliyor",
+      "filteredResultsCount": "{count} / {total} makale gösteriliyor"
+    },
+    "sort": {
+      "newest": "En Yeni",
+      "oldest": "En Eski",
+      "titleAsc": "Başlık A-Z",
+      "titleDesc": "Başlık Z-A"
+    },
+    "ProductsPhishypot": {
+      "title": "Phishypot",
+      "subtitle": "Tehditleri gelen kutusuna gelmeden yakalayın",
+      "description": "Saldırganları cezbeden sahte hesaplar kurarak yeni kampanyaları ortaya çıkarın.",
+      "sections": [
+        {
+          "title": "Akıllı Tuzaklar",
+          "description": "Fazladan operasyon yükü olmadan sahte hesapları ortamınıza entegre edin.",
+          "points": [
+            "Gerçekçi personayı tek tıkla oluşturun",
+            "Kimlik bilgilerini ve posta kutusu aktivitelerini otomatik döndürün",
+            "Kapsamı genişletmek için iş birliği araçlarını yansıtın"
+          ]
+        },
+        {
+          "title": "Tehdit İstihbaratı",
+          "description": "Yakalanan nesneleri eyleme dönüştürülebilir bilgiler haline getirin.",
+          "points": [
+            "Alan adlarını, payload'ları ve TTP'leri otomatik çıkarın",
+            "Göstergeleri engelleme listelerine ve SIEM'lere aktarın",
+            "Alarmları küresel beslemelerle zenginleştirin"
+          ]
+        },
+        {
+          "title": "Sürekli Optimizasyon",
+          "description": "Saldırganları bağlı tutmak için tuzakları dinamik tutun.",
+          "points": [
+            "Davranışa göre yemleri düzenli olarak yenileyin",
+            "Otomasyon ve uzman müdahalesini harmanlayın",
+            "Net hunî analitiğiyle etkiyi ölçün"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Detaylı inceleme planlayın",
+        "href": "/request-demo"
+      }
+    },
+    "ProductsRequestMode": {
+      "title": "Request Mode",
+      "subtitle": "Her çalışanı hızlı raporlama için güçlendirin",
+      "description": "Şüpheli mesaj ve dosyaların güvenlik ekibinize kolayca ulaşmasını sağlayın.",
+      "sections": [
+        {
+          "title": "Sürtünmesiz Raporlama",
+          "description": "Raportlamayı ekiplerinizin zaten kullandığı araçlara entegre edin.",
+          "points": [
+            "Outlook, Gmail, Slack ve Teams'e düğmeler ekleyin",
+            "Mobil cihazlardan tek dokunuşla raporlama",
+            "Doğru davranışı pekiştiren anlık teşekkür mesajları"
+          ]
+        },
+        {
+          "title": "Otomatik Zenginleştirme",
+          "description": "Rapor gönderildiği anda tüm bağlamı toplayın.",
+          "points": [
+            "Başlıkları, ekleri ve kullanıcı notlarını yakalayın",
+            "Sandbox sonuçlarını saniyeler içinde ekleyin",
+            "Mükerrer kayıtları tespit edip ilişkilendirin"
+          ]
+        },
+        {
+          "title": "Geri Bildirim Döngüleri",
+          "description": "Çalışanların raporlamaya devam etmesi için süreci kapatın.",
+          "points": [
+            "Güvenli mi yoksa kötü amaçlı mı sonuçlarını otomatik paylaşın",
+            "En çok raporlayanları panolarla ödüllendirin",
+            "Gerekli durumlarda anında mikro eğitim gönderin"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Request Mode'u etkinleştirin",
+        "href": "/contact-us"
+      }
+    },
+    "SolutionsEnterprises": {
+      "title": "Kurumsal Çözümler",
+      "subtitle": "Kurumsal düzeyde güvenlik çözümleri",
+      "description": "Kaç personeliniz olursa olsun, Phishy ile siber güvenlik risklerine ne kadar hazır olduğunuzu ölçün ve KPI'larınızı optimize edin.",
+      "hero": {
+        "headlinePrimary": "Kurumsal Güvenlik Çözümleri",
+        "headlineAccent": "Ölçeklenebilirlik ve Uyumluluk İçin İnşa Edildi",
+        "cards": {
+          "first": {
+            "title": "100k+ Kullanıcı Sorunsuz",
+            "description": "Büyük kurumsal dağıtımlar için kanıtlanmış ölçeklenebilirlik. Ekip boyutu ne olursa olsun sistem etkili çalışır."
+          },
+          "second": {
+            "title": "On-Premise Hazır",
+            "description": "Regülatif uyumluluk ile tam on-premise dağıtım. Verileriniz gizli ve güvende kalır."
+          },
+          "third": {
+            "title": "İnternet Bağlantısına İhtiyaç Yok",
+            "description": "Yalnızca Phishy subdomain'lerine erişim yeterlidir. Erişim olmadan da çalışabilir, ancak bazı özellikler kullanılamayabilir."
+          }
+        }
+      },
+      "featureTabs": {
+        "heading": "Kurumsal düzeyde güvenlik çözümleri",
+        "subheading": "Phishy'nin güvenlik ve uyumluluğu korurken kurumsal ihtiyaçları karşılamak için nasıl ölçeklendiğini keşfedin.",
+        "metrics": {
+          "first": {
+            "title": "Ölçeklenebilirlik",
+            "description": "Sistem, ekip boyutu veya kullanıcı sayısı ne olursa olsun etkili çalışır."
+          },
+          "second": {
+            "title": "Uyumluluk",
+            "description": "On-premise dağıtım, regülatif uyumluluğu ve veri gizliliğini garanti eder."
+          }
+        }
+      },
+      "sections": [
+        {
+          "title": "Ölçeklenebilirlik ve Performans",
+          "description": "100.000+ son kullanıcı desteği. Ölçeklenebilir mimari sayesinde sistem, personel sayısı ne olursa olsun etkili çalışır.",
+          "points": [
+            "100.000+ son kullanıcıya kadar destek",
+            "Ekip boyutu ne olursa olsun sistem etkili çalışır",
+            "Ölçeklenebilir mimari ile sınırsız büyüme",
+            "Yüksek performans ve düşük gecikme süreleri"
+          ]
+        },
+        {
+          "title": "On-Premise Dağıtım ve Veri Gizliliği",
+          "description": "Tamamen on-premise dağıtım imkanı. Verileriniz gizli ve güvende kalır. Yalnızca bizim subdomain'lerimize erişim vermeniz yeterlidir, başka hiçbir yere erişmesine gerek yok.",
+          "points": [
+            "Tamamen on-premise dağıtım imkanı",
+            "Regülatif uyumluluk için on-premise mimari",
+            "Verileriniz gizli ve güvende kalır",
+            "Minimal erişim gereksinimleri: Sadece subdomain'lerimize erişim yeterli",
+            "Hiçbir veri buluta çıkmaz"
+          ]
+        },
+        {
+          "title": "Kurumsal Anlayış",
+          "description": "Kurumsal zorlukları anlıyoruz: Büyük kullanıcı kitlesi önemli risk potansiyeli demektir ve çözümlerimizi buna göre uyarlıyoruz.",
+          "points": [
+            "Kurumsal zorlukları derinlemesine anlıyoruz",
+            "Büyük kullanıcı kitlesi = önemli risk potansiyeli",
+            "Kurumsal ölçek için özelleştirilmiş çözümler",
+            "Ciddi kullanıcı kitlesi olan kurumlar için tasarlandı"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Demo Talep Et",
+        "href": "/request-demo"
+      }
+    },
+    "SolutionsCISO": {
+      "hero": {
+        "badge": "By Role / CISO & Risk Leaders",
+        "headline": "İnsan kaynaklı siber güvenlik risklerini görünür ve ölçülebilir kılın.",
+        "description": "Phishy, kullanıcı davranışı ve olay süreçlerini tek panelde toplayıp ölçer; metrikleri çeyrek hedeflerinize bağlar.",
+        "metrics": {
+          "description": "Davranış metrikleriniz anlık dashboardta güncellenir.",
+          "nextAction": "Triage playbook'unu tetikleyerek kritik raporları dakikalar içinde kapatın.",
+          "clickRate": {
+            "label": "Click rate",
+            "badge": "Risk ↓"
+          },
+          "reportRate": {
+            "label": "Report rate",
+            "badge": "Awareness"
+          },
+          "triageTime": {
+            "label": "Time-to-Triage",
+            "badge": "Response"
+          }
+        },
+        "centerCard": {
+          "badge": "Live",
+          "title": "CISO Dashboard",
+          "description": "İnsan kaynaklı siber güvenlik riskleri görünür ve ölçülebilir.",
+          "valueLabel": "Click Rate"
+        },
+        "cta": {
+          "primary": "Demo iste",
+          "secondary": "2 dakikalık özet"
+        }
+      },
+      "problems": {
+        "badge": "Problems → Impact → Target Results",
+        "heading": "Problemler ve Hedef Sonuçlar",
+        "subheading": "Her risk net bir hedefle eşleşir; yolculuk tek akışta görünür.",
+        "1": {
+          "title": "Yönetim özetleri parçalı",
+          "description": "Karar metrikleri gecikiyor."
+        },
+        "2": {
+          "title": "Eğitim etkisi ölçülmüyor",
+          "description": "Eğitim tamamlanıyor ama davranışa etkisi ölçülmüyor."
+        },
+        "3": {
+          "title": "Olay süreçleri dağınık",
+          "description": "Triage ve kapanış süresi uzun."
+        }
+      },
+      "targets": {
+        "1": {
+          "title": "Click rate düşür, raporlama artır",
+          "description": "Click rate'i X% → Y% düşür, raporlama oranını arttır."
+        },
+        "2": {
+          "title": "Triage süresini dakikalara indir",
+          "description": "Otomasyonla tutarlılık sağla."
+        },
+        "3": {
+          "title": "Uyum kanıtları tek tık",
+          "description": "PDF/CSV ile çeyrek hedeflerine bağla."
+        }
+      },
+      "howItWorks": {
+        "badge": "Workflow",
+        "heading": "Nasıl Çalışır",
+        "subheading": "5 adımda program yönetimi",
+        "steps": {
+          "plan": {
+            "label": "Planla",
+            "description": "Segment seç, hazır şablonları uygula."
+          },
+          "run": {
+            "label": "Çalıştır",
+            "description": "Kampanya ve bildirim akışları başlar."
+          },
+          "triage": {
+            "label": "Triage",
+            "description": "Raporlanan mailler otomatik zenginleştirilir, karar ver."
+          },
+          "train": {
+            "label": "Eğit",
+            "description": "Tıklayanlara mikro içerik/quiz atanır."
+          },
+          "report": {
+            "label": "Raporla",
+            "description": "Yönetim paneli ve dışa aktarım (PDF/CSV)."
+          }
+        }
+      },
+      "modules": {
+        "heading": "Modül Eşlemesi"
+      },
+      "timeline": {
+        "badge": "Timeline",
+        "heading": "Örnek Senaryo Timeline",
+        "subheading": "Uygulama zaman çizelgesi kurulumdan ölçeğe",
+        "events": {
+          "1": {
+            "time": "Hafta 1",
+            "title": "Program KPI ve eşikler",
+            "description": "Hedef metrikleri belirle ve eşik değerlerini ayarla."
+          },
+          "2": {
+            "time": "Hafta 2–3",
+            "title": "Segment bazlı simülasyon",
+            "description": "Farklı kullanıcı gruplarına özel kampanyalar başlat."
+          },
+          "3": {
+            "time": "Hafta 3",
+            "title": "Triage & playbook",
+            "description": "Raporlanan olayları otomatik triage et ve playbook uygula."
+          },
+          "4": {
+            "time": "Hafta 4",
+            "title": "Mikro eğitim + quiz",
+            "description": "Tıklayan kullanıcılara anında eğitim içeriği gönder."
+          },
+          "5": {
+            "time": "Ay sonu",
+            "title": "Yönetim özeti & kanıt paketi",
+            "description": "Raporları oluştur ve uyum kanıtlarını hazırla."
+          }
+        }
+      },
+      "kpi": {
+        "heading": "KPI & ROI",
+        "badge": "Program KPI Paneli",
+        "description": "İnsan kaynaklı riskleri orbit dashboard'da izleyin; KPI kartları çeyrek hedeflerinizle hizalanır.",
+        "labels": {
+          "clickRate": "Click rate",
+          "reportRate": "Report rate",
+          "triageTime": "Time-to-Triage",
+          "completionRate": "Tamamlama oranı",
+          "improvementScore": "Gelişim skoru"
+        },
+        "tooltips": {
+          "clickRate": "Tıklama oranı azalması",
+          "reportRate": "Raporlama oranı artışı",
+          "triageTime": "Triage süresi azalması",
+          "completionRate": "Eğitim tamamlama oranı",
+          "improvementScore": "Kullanıcı gelişim skoru"
+        },
+        "centerCard": {
+          "badge": "ROI Model",
+          "title": "ROI Formülü",
+          "description": "Azalan olay × Ortalama olay maliyeti = tahmini tasarruf",
+          "content": "Rapor, çeyrek kapanışında otomatik olarak yönetim ekibine e-posta edilebilir."
+        },
+        "directionLabels": {
+          "up": "Artış",
+          "down": "Azalış"
+        }
+      },
+      "evidence": {
+        "heading": "Kanıt & SSS"
+      },
+      "faq": {
+        "badge": "FAQ's",
+        "questionLabel": "Soru",
+        "items": {
+          "1": {
+            "question": "Kurulum süresi ve veri güvenliği nasıl?",
+            "answer": "Kurulum süresi organizasyonunuzun büyüklüğüne göre değişir. Verileriniz tamamen güvende, on-premise seçeneği mevcuttur."
+          },
+          "2": {
+            "question": "Hangi entegrasyonlar mevcut (M365/Google/Exchange)?",
+            "answer": "M365, Google Workspace ve Exchange entegrasyonları mevcuttur. Ayrıntılar için demo talep edin."
+          },
+          "3": {
+            "question": "Uyum kanıt paketinde neler yer alır?",
+            "answer": "ISO/NIST/KVKK haritalama, kanıt paketleri (PDF/CSV) ve denetim izi dahildir."
+          },
+          "4": {
+            "question": "Eğitim içeriğini özelleştirebilir miyiz?",
+            "answer": "Evet, eğitim içeriklerini tamamen özelleştirebilir ve kendi markanızla sunabilirsiniz."
+          },
+          "5": {
+            "question": "Lisanslama ve destek modeli nedir?",
+            "answer": "Esnek lisanslama seçenekleri ve 7/24 destek hizmeti sunuyoruz. Detaylar için iletişime geçin."
+          }
+        }
+      },
+      "cta": {
+        "heading": "Hazır mısınız?",
+        "description": "CISO panelinizi canlı görmek için bir demo planlayalım.",
+        "copy": "Aşağıdaki sık sorulan sorularla sürecin nasıl ilerlediğini öğrenin. Ek detaylar için bize ulaşın.",
+        "primary": "Demo iste",
+        "secondary": "2 dakikalık özet"
+      }
+    },
+    "SolutionsMSSP": {
+      "timeline": {
+        "badge": "Uygulama Zaman Çizelgesi",
+        "heading": "Kurulumdan Ölçeğe",
+        "subheading": "MSSP platformunuzu bir ay içinde kurulum ve çalışır hale getirin. Akışkan uygulama süreci, hemen ölçeklendirmeye başlamanızı sağlar.",
+        "events": {
+          "1": {
+            "time": "Hafta 1",
+            "title": "Platform Kurulumu",
+            "description": "Çok kiracılı platformu yapılandırın. Beyaz etiket şablonlarını ayarlayın. Hizmet paketlerini tanımlayın."
+          },
+          "2": {
+            "time": "Hafta 1-2",
+            "title": "Müşteri Katılımı",
+            "description": "İlk müşterileri dahil edin. Kiracı izolasyonunu yapılandırın. Markayı ayarlayın."
+          },
+          "3": {
+            "time": "Hafta 2-3",
+            "title": "Hizmet Dağıtımı",
+            "description": "Güvenlik farkındalık hizmetlerini dağıtın. Müşteri faaliyetlerini izleyin. Performansı takip edin.",
+            "highlight": true
+          },
+          "4": {
+            "time": "Hafta 3-4",
+            "title": "Rapor Otomasyonu",
+            "description": "Aylık özetleri yapılandırın. Otomatik teslimatı ayarlayın. Fatura entegrasyonunu test edin."
+          },
+          "5": {
+            "time": "Ay sonu",
+            "title": "Operasyonları Ölçeklendirin",
+            "description": "Ek müşterileri dahil edin. Operasyonları optimize edin. Geliri ölçeklendirin."
+          }
+        }
+      }
+    },
+    "RequestDemo": {
+      "title": "Demo Talep Edin",
+      "subtitle": "Phishy'yi şirketinize göre görün",
+      "description": "Birkaç bilgi paylaşın, hedeflerinize odaklanan bir anlatımı hazırlayalım.",
+      "sections": [
+        {
+          "title": "Neler Göreceksiniz",
+          "description": "30 dakikanın altında platformu uçtan uca deneyimleyin.",
+          "points": [
+            "Senaryo oluşturucu ve uyarlanabilir simülasyonlar",
+            "Kişiselleştirilmiş öğrenme yolları sunan eğitim kitaplığı",
+            "Değeri hızla kanıtlayan yönetici içgörüleri"
+          ]
+        },
+        {
+          "title": "Kimler Katılmalı",
+          "description": "Güvenlik kültürünü etkileyen paydaşları davet edin.",
+          "points": [
+            "Güvenlik veya BT operasyon liderleri",
+            "Eğitim ve iletişimden sorumlu ekipler",
+            "Regülasyon sonuçlarını takip eden uyumluluk sahipleri"
+          ]
+        },
+        {
+          "title": "Sonraki Adımlar",
+          "description": "Başlatma veya geçiş için net bir planla ayrılın.",
+          "points": [
+            "Uygulama yol haritası ve başarı kilometre taşları",
+            "Kuruluşunuza uygun fiyatlandırma",
+            "Yönetimi ve çalışanları sürece dahil edecek kaynaklar"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Seansı planlayın",
+        "href": "/contact-us"
+      }
+    },
+    "Contact": {
+      "title": "Phishy ile İletişime Geçin",
+      "subtitle": "Yardım için buradayız",
+      "description": "Güvenlik girişimlerinize destek olmak için doğru ekiple iletişim kurun.",
+      "cardTitle": "Demo planlayın",
+      "cardDescription": "Kurumsal e-postanızı paylaşın, ekibimiz kısa sürede size dönüş yapsın.",
+      "ctaPrompt": "Kurumsal e-postanızı paylaşın, ekibimiz kısa sürede size dönüş yapsın.",
+      "emailPlaceholder": "ad.soyad@firma.com",
+      "cta": {
+        "label": "Gönder"
+      }
+    },
+    "SolutionsSecurityOnboarding": {}
+  }
+}

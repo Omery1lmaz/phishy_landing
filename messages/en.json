@@ -1,0 +1,2313 @@
+{
+  "Header": {
+    "brand": "Phishy",
+    "nav": {
+      "howItWorks": {
+        "label": "How It Works",
+        "dropdown": {
+          "title": "How Phishy Delivers Security Gains",
+          "description": "See how Phishy turns awareness into measurable outcomes.",
+          "sections": {
+            "design": {
+              "title": "Design Scenarios",
+              "description": "Build tailored campaigns in minutes.",
+              "icon": "compass"
+            },
+            "engage": {
+              "title": "Engage Employees",
+              "description": "Deliver just-in-time lessons after each simulation.",
+              "icon": "sparkle"
+            },
+            "measure": {
+              "title": "Measure Progress",
+              "description": "Visualize behavior change with crisp analytics.",
+              "icon": "chart"
+            }
+          }
+        }
+      },
+      "whyPhishy": {
+        "label": "Why Phishy.io",
+        "dropdown": {
+          "title": "Why Security Leaders Choose Phishy",
+          "description": "Discover why security leaders rely on Phishy.",
+          "sections": {
+            "outcomes": {
+              "title": "Proven Outcomes",
+              "description": "Reduce phishing risk across regulated industries.",
+              "icon": "target"
+            },
+            "innovation": {
+              "title": "Constant Innovation",
+              "description": "Ship fresh AI-driven defenses every month.",
+              "icon": "bolt"
+            },
+            "support": {
+              "title": "Trusted Advisors",
+              "description": "Partner with strategists focused on your success.",
+              "icon": "handshake"
+            }
+          }
+        }
+      },
+      "products": {
+        "label": "Products",
+        "dropdown": {
+          "title": "Explore the Phishy Platform",
+          "description": "Explore modular products that reinforce human resilience.",
+          "sections": {
+            "catalog": {
+              "title": "Product Suite",
+              "description": "Pick the modules that match your security goals.",
+              "icon": "layers",
+              "items": {
+                "simulation": {
+                  "title": "Simulation",
+                  "description": "Run realistic phishing drills with automated follow-ups.",
+                  "href": "/phishing-simulation"
+                },
+                "phishyTraining": {
+                  "title": "Phishy Training",
+                  "description": "Deliver 2-minute gamified trainings that change behaviour.",
+                  "href": "/phishy-training"
+                },
+                "incidentResponse": {
+                  "title": "Phishy Incident Response",
+                  "description": "Coordinate rapid response when threats break through.",
+                  "href": "/incident-response"
+                },
+                "phishypot": {
+                  "title": "Phishypot",
+                  "description": "Trap malicious emails before they reach inboxes.",
+                  "href": "/products/phishypot"
+                }
+              }
+            }
+          }
+        }
+      },
+      "company": {
+        "label": "Company",
+        "dropdown": {
+          "title": "Inside Phishy",
+          "description": "Meet the team securing modern workplaces.",
+          "sections": {
+            "about": {
+              "title": "About Us",
+              "description": "Our mission, story, and leadership team.",
+              "icon": "users",
+              "items": {
+                "aboutPage": {
+                  "title": "Get to know Phishy",
+                  "description": "Meet the people behind the platform.",
+                  "href": "/company/about"
+                }
+              }
+            },
+            "careers": {
+              "title": "Careers",
+              "description": "Join our globally distributed security experts.",
+              "icon": "sparkle"
+            },
+            "news": {
+              "title": "News & Press",
+              "description": "See the latest updates from our team.",
+              "icon": "globe"
+            }
+          }
+        }
+      },
+      "contact": {
+        "label": "Contact Us"
+      },
+      "requestDemo": {
+        "label": "Request Demo"
+      },
+      "blog": {
+        "label": "Blog"
+      },
+      "phishingSimulation": {
+        "label": "Phishing Simulation"
+      }
+    },
+    "languageSwitcher": {
+      "label": "Select language",
+      "options": {
+        "en": "English",
+        "tr": "Türkçe"
+      }
+    },
+    "cta": {
+      "getDemo": "Get Demo"
+    }
+  },
+  "Hero": {
+    "statsBadge": "Trusted by 10,000+ companies worldwide",
+    "heading": "World's best source of cybersecurity & phishing protection",
+    "subheading": "From awareness to action - Secure Every Click with advanced training and simulation tools.",
+    "cta": {
+      "primary": "Request a demo",
+      "secondary": "Watch video"
+    },
+    "tooltipCards": {
+      "simulation": {
+        "title": "Simulation Engine",
+        "description": "Advanced phishing simulation with 50+ ready scenarios"
+      },
+      "training": {
+        "title": "Training Module",
+        "description": "Gamified cybersecurity training sessions"
+      },
+      "detection": {
+        "title": "AI Detection",
+        "description": "Intelligent phishing detection in 10 seconds"
+      },
+      "analytics": {
+        "title": "Real-time Analytics",
+        "description": "Comprehensive insights and reporting"
+      }
+    },
+    "platformImageAlt": "Phishy Security Platform"
+  },
+  "WhatWeDo": {
+    "heading": "What We Do",
+    "description": "For comprehensive cybersecurity protection, we offer an advanced platform that helps you secure your organization through intelligent simulations, training, and real-time threat detection in minutes.",
+    "features": {
+      "simulation": "Simulation Engine",
+      "training": "Training Module",
+      "aiDetection": "AI Detection",
+      "analytics": "Real-time Analytics",
+      "incidentResponse": "Incident Response",
+      "phishypot": "Phishypot",
+      "secure": "Secure & Fast",
+      "dashboard": "Dashboard",
+      "integrations": "Integrations"
+    },
+    "cta": "Get Demo",
+    "imageAlt": "Code Editor"
+  },
+  "Threats": {
+    "badge": "Threat Landscape",
+    "heading": "Securing the <highlight>Human Factor</highlight>",
+    "subheading": "Understanding the threat",
+    "items": {
+      "hackerTarget": {
+        "title": "Hacker's Target",
+        "description": "Attackers focus on human error—turn your employees into a resilient barrier."
+      },
+      "phishingArt": {
+        "title": "The Art of Phishing",
+        "description": "Phishing emails disguise themselves as trusted messages—equip teams to spot and stop them."
+      },
+      "userInteraction": {
+        "title": "User Interaction",
+        "description": "Transform every team member into an active participant on the frontline of security."
+      }
+    }
+  },
+  "ValueProposition": {
+    "badge": "Value Proposition",
+    "heading": "Phishy: Crafting <highlight>Cyber Resilience</highlight>",
+    "items": {
+      "proactiveDetection": {
+        "title": "Proactive Detection",
+        "description": "Empower employees to recognise threats first-hand.",
+        "before": "Reactive approach",
+        "after": "Proactive detection"
+      },
+      "behavioralShield": {
+        "title": "Behavioral Shield",
+        "description": "Interactive training embeds best security practices into daily routines.",
+        "before": "Passive communication",
+        "after": "Active behaviour change"
+      },
+      "culturalTransformation": {
+        "title": "Cultural Transformation",
+        "description": "Shift mindsets so every employee stays alert against digital dangers.",
+        "before": "Tech-only focus",
+        "after": "Culture-first mindset"
+      }
+    }
+  },
+  "Features": {
+    "heading": "What Makes Us Stand Out",
+    "subheading": "Why teams rely on Phishy to strengthen their security posture.",
+    "cards": {
+      "dashboard": {
+        "title": "Easy Dashboard",
+        "description": "Simplify program management with an intuitive dashboard to launch, monitor and optimise campaigns."
+      },
+      "secure": {
+        "title": "Secure, Fast & Reliable",
+        "description": "Deliver secure simulations and training with enterprise-grade reliability and performance."
+      },
+      "integrations": {
+        "title": "Explore Integrations",
+        "description": "Connect seamlessly with the tools your teams already use every day."
+      },
+      "analytics": {
+        "title": "Analyse Performance",
+        "description": "Track engagement, outcomes and progress with rich analytics.",
+        "subtitle": ""
+      },
+      "chatbox": {
+        "title": "Powered by OpenAI Chatbox",
+        "description": "Offer personalised guidance with AI-assisted coaching experiences."
+      },
+      "publish": {
+        "title": "Publish on Your Domain",
+        "description": "Launch branded training portals and reports on your preferred domain."
+      }
+    }
+  },
+  "Function": {
+    "badge": "Function",
+    "heading": "The Future is Happening Now",
+    "description": "Our adaptive AI security assistants reduce workload for security teams while improving response speed and precision.",
+    "items": {
+      "threatDetection": {
+        "title": "AI-Powered Threat Detection",
+        "description": "Streamline threat detection and response with intelligent, customisable workflows."
+      },
+      "collaboration": {
+        "title": "Real-Time Collaboration",
+        "description": "Coordinate teams instantly with automated assignments and shared insights.",
+        "keywords": {
+          "realTimeSync": "Real-time Sync",
+          "taskAutomation": "Task Automation",
+          "smartSuggestions": "Smart Suggestions",
+          "autoTask": "Auto Task Assignment",
+          "crossPlatform": "Cross-Platform Integration"
+        }
+      },
+      "notifications": {
+        "title": "Automated Notifications",
+        "description": "Stay ahead with AI-driven alerts, reminders and escalations."
+      },
+      "performance": {
+        "title": "High-Performance Solutions",
+        "description": "Run fast, reliable security operations built for scale."
+      },
+      "customization": {
+        "title": "Global Customisation",
+        "description": "Tailor AI workflows to match regional and organisational requirements."
+      },
+      "dataIntegration": {
+        "title": "Data Integration",
+        "description": "Unify data sources to create actionable intelligence in real time."
+      }
+    }
+  },
+  "Pages": {
+    "SolutionsEnterprises": {
+      "title": "Enterprises",
+      "subtitle": "Enterprise-grade security solutions",
+      "description": "Regardless of how many employees you have, measure how prepared you are for cybersecurity risks with Phishy and optimize your KPIs.",
+      "hero": {
+        "headlinePrimary": "Enterprise Security Solutions",
+        "headlineAccent": "Built for Scale and Compliance",
+        "cards": {
+          "first": {
+            "title": "100k+ Users Without Problem",
+            "description": "Proven scalability for large enterprise deployments. System works effectively regardless of team size."
+          },
+          "second": {
+            "title": "On-Premise Ready",
+            "description": "Full on-premise deployment with regulatory compliance. Your data stays private and secure."
+          },
+          "third": {
+            "title": "No Internet Connection Required",
+            "description": "Only access to Phishy subdomains needed. Can work without it, but some features may be unavailable."
+          }
+        }
+      },
+      "featureTabs": {
+        "heading": "Enterprise-grade security solutions",
+        "subheading": "Discover how Phishy scales to meet enterprise needs while maintaining security and compliance.",
+        "metrics": {
+          "first": {
+            "title": "Scalability",
+            "description": "System remains effective regardless of team size or user count."
+          },
+          "second": {
+            "title": "Compliance",
+            "description": "On-premise deployment ensures regulatory compliance and data privacy."
+          }
+        }
+      },
+      "sections": [
+        {
+          "title": "Scalability & Performance",
+          "description": "Support for 100k+ end users. Scalable architecture ensures the system works effectively regardless of number of employees.",
+          "points": [
+            "Support for up to 100k+ end users",
+            "System works effectively regardless of team size",
+            "Unlimited growth with scalable architecture",
+            "High performance and low latency"
+          ]
+        },
+        {
+          "title": "On-Premise Deployment & Data Privacy",
+          "description": "Fully on-premise deployment capability. Your data stays private and secure. You only need to grant access to our subdomains, no other access needed.",
+          "points": [
+            "Fully on-premise deployment capability",
+            "On-premise architecture for regulatory compliance",
+            "Your data stays private and secure",
+            "Minimal access requirements: Only access to our subdomains needed",
+            "No data leaves your infrastructure"
+          ]
+        },
+        {
+          "title": "Enterprise Understanding",
+          "description": "We understand enterprise challenges: Large user bases mean significant risk potential, and we tailor solutions accordingly.",
+          "points": [
+            "Deep understanding of enterprise challenges",
+            "Large user base = significant risk potential",
+            "Tailored solutions for enterprise scale",
+            "Designed for organizations with serious user bases"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Request Demo",
+        "href": "/request-demo"
+      }
+    },
+    "SolutionsCISO": {
+      "hero": {
+        "badge": "By Role / CISO & Risk Leaders",
+        "headline": "Make human-driven cybersecurity risks visible and measurable.",
+        "description": "Phishy collects and measures user behavior and incident processes in a single panel; connects metrics to your quarterly goals.",
+        "metrics": {
+          "description": "Your behavioral metrics refresh live in the dashboard.",
+          "nextAction": "Trigger the triage playbook to close critical reports within minutes.",
+          "clickRate": {
+            "label": "Click rate",
+            "badge": "Risk ↓"
+          },
+          "reportRate": {
+            "label": "Report rate",
+            "badge": "Awareness"
+          },
+          "triageTime": {
+            "label": "Time-to-Triage",
+            "badge": "Response"
+          }
+        },
+        "centerCard": {
+          "badge": "Live",
+          "title": "CISO Dashboard",
+          "description": "Human-driven cybersecurity risks visible and measurable.",
+          "valueLabel": "Click Rate"
+        },
+        "cta": {
+          "primary": "Request Demo",
+          "secondary": "2-minute overview"
+        }
+      },
+      "problems": {
+        "badge": "Problems → Impact → Target Results",
+        "heading": "Problems & Target Results",
+        "subheading": "Every risk maps to a clear outcome; the journey lives in one flow.",
+        "1": {
+          "title": "Fragmented management summaries",
+          "description": "Decision metrics are delayed."
+        },
+        "2": {
+          "title": "Training impact not measured",
+          "description": "Training is completed but its impact on behavior is not measured."
+        },
+        "3": {
+          "title": "Scattered incident processes",
+          "description": "Triage and closure time is long."
+        }
+      },
+      "targets": {
+        "1": {
+          "title": "Reduce click rate, increase reporting",
+          "description": "Reduce click rate from X% → Y%, increase reporting rate."
+        },
+        "2": {
+          "title": "Reduce triage time to minutes",
+          "description": "Ensure consistency with automation."
+        },
+        "3": {
+          "title": "Compliance evidence at one click",
+          "description": "Link to quarterly goals with PDF/CSV."
+        }
+      },
+      "howItWorks": {
+        "badge": "Workflow",
+        "heading": "How It Works",
+        "subheading": "Program management in 5 steps",
+        "steps": {
+          "plan": {
+            "label": "Plan",
+            "description": "Select segment, apply ready templates."
+          },
+          "run": {
+            "label": "Run",
+            "description": "Campaign and notification flows begin."
+          },
+          "triage": {
+            "label": "Triage",
+            "description": "Reported emails are automatically enriched, make decision."
+          },
+          "train": {
+            "label": "Train",
+            "description": "Micro content/quiz assigned to clickers."
+          },
+          "report": {
+            "label": "Report",
+            "description": "Management panel and export (PDF/CSV)."
+          }
+        }
+      },
+      "modules": {
+        "heading": "Module Mapping"
+      },
+      "timeline": {
+        "badge": "Timeline",
+        "heading": "Example Scenario Timeline",
+        "subheading": "Implementation timeline from setup to scale",
+        "events": {
+          "1": {
+            "time": "Week 1",
+            "title": "Program KPI and thresholds",
+            "description": "Set target metrics and configure threshold values."
+          },
+          "2": {
+            "time": "Week 2–3",
+            "title": "Segment-based simulation",
+            "description": "Launch campaigns tailored to different user groups."
+          },
+          "3": {
+            "time": "Week 3",
+            "title": "Triage & playbook",
+            "description": "Automatically triage reported incidents and apply playbook."
+          },
+          "4": {
+            "time": "Week 4",
+            "title": "Micro training + quiz",
+            "description": "Send instant training content to users who clicked."
+          },
+          "5": {
+            "time": "Month end",
+            "title": "Management summary & evidence package",
+            "description": "Generate reports and prepare compliance evidence."
+          }
+        }
+      },
+      "kpi": {
+        "heading": "KPI & ROI",
+        "badge": "Program KPI Panel",
+        "description": "Track human-driven risks in orbit dashboard; KPI cards align with your quarterly goals.",
+        "labels": {
+          "clickRate": "Click rate",
+          "reportRate": "Report rate",
+          "triageTime": "Time-to-Triage",
+          "completionRate": "Completion rate",
+          "improvementScore": "Improvement score"
+        },
+        "tooltips": {
+          "clickRate": "Click rate reduction",
+          "reportRate": "Reporting rate increase",
+          "triageTime": "Triage time reduction",
+          "completionRate": "Training completion rate",
+          "improvementScore": "User improvement score"
+        },
+        "centerCard": {
+          "badge": "ROI Model",
+          "title": "ROI Formula",
+          "description": "Reduced incidents × Average incident cost = Estimated savings",
+          "content": "Report can be automatically emailed to management team at quarter close."
+        },
+        "directionLabels": {
+          "up": "Increase",
+          "down": "Reduction"
+        }
+      },
+      "evidence": {
+        "heading": "Evidence & FAQ"
+      },
+      "faq": {
+        "badge": "FAQ's",
+        "questionLabel": "Question",
+        "items": {
+          "1": {
+            "question": "What is the setup time and data security?",
+            "answer": "Setup time varies depending on your organization's size. Your data is completely secure, and on-premise option is available."
+          },
+          "2": {
+            "question": "What integrations are available (M365/Google/Exchange)?",
+            "answer": "M365, Google Workspace, and Exchange integrations are available. Request a demo for details."
+          },
+          "3": {
+            "question": "What is included in the compliance evidence package?",
+            "answer": "ISO/NIST/GDPR mapping, evidence packages (PDF/CSV), and audit trail are included."
+          },
+          "4": {
+            "question": "Can we customize the training content?",
+            "answer": "Yes, you can fully customize training content and present it with your own brand."
+          },
+          "5": {
+            "question": "What is the licensing and support model?",
+            "answer": "We offer flexible licensing options and 24/7 support service. Contact us for details."
+          }
+        }
+      },
+      "cta": {
+        "heading": "Ready to take action?",
+        "description": "Let's schedule a demo to see your CISO panel live.",
+        "primary": "Request Demo",
+        "secondary": "2-minute overview"
+      }
+    },
+    "HowItWorks": {
+      "title": "How Phishy Works",
+      "subtitle": "Security outcomes, end to end",
+      "description": "Explore how Phishy orchestrates simulations, education, and insights to transform workforce behaviour and reduce phishing risk.",
+      "sections": [
+        {
+          "title": "Assess Readiness",
+          "description": "Identify exposure across teams before a threat strikes.",
+          "points": [
+            "Benchmark risk posture with templated assessments",
+            "Segment audiences by function, seniority, or geography",
+            "Align training paths with regulatory obligations"
+          ]
+        },
+        {
+          "title": "Launch Realistic Simulations",
+          "description": "Automate campaigns that mirror real attackers.",
+          "points": [
+            "Use ready-to-go scenarios or import your own templates",
+            "Trigger adaptive follow-ups based on employee actions",
+            "Monitor engagement metrics in real time"
+          ]
+        },
+        {
+          "title": "Coach & Measure",
+          "description": "Close knowledge gaps and evidence behaviour change.",
+          "points": [
+            "Deliver bite-sized nudges within the flow of work",
+            "Share executive-ready summaries with a single click",
+            "Track progress toward risk reduction goals"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Request a demo",
+        "href": "/request-demo"
+      }
+    },
+    "WhyPhishy": {
+      "title": "Why Phishy",
+      "subtitle": "Security that keeps people safe and productive",
+      "description": "Discover how Phishy combines human insight and automation to neutralize phishing campaigns faster.",
+      "hero": {
+        "headlinePrimary": "See phishing campaigns before they reach people",
+        "headlineAccent": "Orchestrate human insight with automated defenses",
+        "body": "Phishy unifies behavior analytics, decoy intelligence, and guided response so your organization stays resilient while teams stay focused.",
+        "card": {
+          "title": "Unified Incident Console",
+          "status": "Live",
+          "description": "Monitor every reported threat and trigger the next best action from a single workspace.",
+          "metrics": {
+            "first": {
+              "title": "Real-Time Alerts",
+              "description": "Surface high-risk activity instantly and prioritize what matters."
+            },
+            "second": {
+              "title": "Response Playbooks",
+              "description": "Automate triage, assignment, and collaboration with built-in workflows."
+            },
+            "third": {
+              "title": "Ecosystem Integrations",
+              "description": "Connect to SIEM, ticketing, and chat so every stakeholder stays aligned."
+            }
+          }
+        }
+      },
+      "featureTabs": {
+        "heading": "Proactive phishing defense, tailored to your team.",
+        "subheading": "Explore how Phishy unifies decoys, detection, and response to neutralize phishing attempts before they escalate.",
+        "metrics": {
+          "first": {
+            "title": "Signal Strength",
+            "description": "Immediate visibility when suspicious actors engage with your decoys."
+          },
+          "second": {
+            "title": "Response Speed",
+            "description": "Automated workflows escalate critical events to the right responders fast."
+          }
+        },
+        "items": [
+          {
+            "key": "proactive-defense",
+            "label": "Proactive Defense",
+            "description": "Deploy decoys and automated detections that stop phishing before it spreads.",
+            "icon": "shield",
+            "sectionKey": "Proactive Defense Network"
+          },
+          {
+            "key": "intelligent-visibility",
+            "label": "Intelligent Visibility",
+            "description": "Correlate signals from humans, mailboxes, and infrastructure in real time.",
+            "icon": "radar",
+            "sectionKey": "Intelligence Amplified"
+          },
+          {
+            "key": "people-first",
+            "label": "People-First Enablement",
+            "description": "Coach every employee with contextual nudges and measure behavior change.",
+            "icon": "bell",
+            "sectionKey": "People-First Enablement"
+          }
+        ]
+      },
+      "segments": {
+        "eyebrow": "Built for",
+        "capabilitiesTitle": "Featured Capabilities",
+        "items": [
+          {
+            "key": "ai-automation",
+            "label": "AI & Automation Teams",
+            "eyebrow": "Secure autonomous workflows",
+            "headline": "Make AI-assisted operations provably safe.",
+            "description": "Control how autonomous agents access tools, data, and human approvals without slowing innovation.",
+            "capabilities": [
+              "Token vaulting",
+              "Policy-aware automation",
+              "Zero trust approvals"
+            ],
+            "primary": {
+              "label": "Harden every action",
+              "description": "Validate agents, apps, and users before sensitive events execute."
+            },
+            "secondary": {
+              "label": "Route with confidence",
+              "description": "Automate escalations that bring humans into the loop when risk spikes."
+            },
+            "tertiary": {
+              "label": "Teach the workforce",
+              "description": "Deliver contextual coaching inside the tools employees already use."
+            },
+            "callout": {
+              "headline": "Autonomous Session Guarded",
+              "copy": "AI-driven requests verified, scored, and logged across channels.",
+              "chips": [
+                "Agent verified",
+                "Policy enforced"
+              ]
+            }
+          },
+          {
+            "key": "sec-ops",
+            "label": "Security & IT Operations",
+            "eyebrow": "Coordinate every responder",
+            "headline": "Orchestrate decisive, cross-team response.",
+            "description": "Give analysts a shared workspace that connects phishing reports to automation and collaboration.",
+            "capabilities": [
+              "Hybrid investigation queues",
+              "Case collaboration",
+              "Automated containment"
+            ],
+            "primary": {
+              "label": "Accelerate triage",
+              "description": "Normalize signals from inboxes, SIEM, and humans within minutes."
+            },
+            "secondary": {
+              "label": "Automate remediation",
+              "description": "Trigger workflows that revoke access, quarantine assets, and notify owners."
+            },
+            "tertiary": {
+              "label": "Prove outcomes",
+              "description": "Track response time, coverage, and resolved root causes in one view."
+            },
+            "callout": {
+              "headline": "Incident Collaboration Live",
+              "copy": "Critical alerts synced to chat, ticketing, and war rooms in real time.",
+              "chips": [
+                "Playbook running",
+                "Owners notified"
+              ]
+            }
+          },
+          {
+            "key": "exec-leadership",
+            "label": "Executive Leadership",
+            "eyebrow": "Earn measurable trust",
+            "headline": "Give leaders the proof they need.",
+            "description": "Translate phishing resilience into business outcomes with transparent reporting.",
+            "capabilities": [
+              "Outcome dashboards",
+              "Risk trending insights",
+              "Board-ready summaries"
+            ],
+            "primary": {
+              "label": "Show real impact",
+              "description": "Connect behavior change to reduced incident volume and faster response."
+            },
+            "secondary": {
+              "label": "Forecast exposure",
+              "description": "Model which business units need investment before attacks land."
+            },
+            "tertiary": {
+              "label": "Align partners",
+              "description": "Share curated updates with executives, partners, and regulators."
+            },
+            "callout": {
+              "headline": "Executive Brief Ready",
+              "copy": "Live metrics and narrative packaged for leadership conversations.",
+              "chips": [
+                "KPIs updated",
+                "Insights shared"
+              ]
+            }
+          }
+        ]
+      },
+      "workflow": {
+        "eyebrow": "Honeypot Function",
+        "heading": "The Future Is Happening Now",
+        "description": "Our adaptive honeypot workflows reduce security team workload while improving response speed and precision.",
+        "features": [
+          {
+            "title": "Deploy Intelligent Decoys",
+            "description": "Blend seeded inboxes, web forms, and collaboration traps to attract adversaries safely.",
+            "emoji": "📨",
+            "chips": [
+              "Adaptive identities",
+              "Safe payload capture",
+              "Mailbox parity"
+            ]
+          },
+          {
+            "title": "Monitor Without Blind Spots",
+            "description": "Stream every interaction into unified analytics that highlight emerging campaigns faster.",
+            "emoji": "🛰️",
+            "chips": [
+              "Live signal sync",
+              "Noise suppression",
+              "Auto task routing"
+            ]
+          },
+          {
+            "title": "Automate Human Coaching",
+            "description": "Pair detections with contextual guidance so employees know what happened and how to react.",
+            "emoji": "🧠",
+            "chips": [
+              "Behavioral scoring",
+              "Targeted nudges",
+              "Risk analytics"
+            ]
+          }
+        ]
+      },
+      "sections": [
+        {
+          "title": "Proactive Defense Network",
+          "description": "Blend decoys, abuse mailbox automation, and threat intelligence to stop campaigns early.",
+          "points": [
+            "Continuously seed monitored decoy identities across risk channels",
+            "Auto-escalate suspicious traffic with contextual evidence",
+            "Blend human and automated review with zero manual rework"
+          ]
+        },
+        {
+          "title": "Intelligence Amplified",
+          "description": "Correlate behavior, telemetry, and automation outcomes into a single source of truth.",
+          "points": [
+            "Fuse phishing reports, SIEM data, and mailbox signals instantly",
+            "Translate complex detections into narratives stakeholders understand",
+            "Surface trends that guide investment, staffing, and policy"
+          ]
+        },
+        {
+          "title": "People-First Enablement",
+          "description": "Drive durable behavior change without burning out busy teams.",
+          "points": [
+            "Deliver in-the-moment coaching directly inside collaboration tools",
+            "Localize experiences for every region, function, and risk profile",
+            "Celebrate progress with metrics that resonate beyond security"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Talk with security advisors",
+        "href": "/contact-us"
+      }
+    },
+    "Products": {
+      "title": "Phishy Product Suite",
+      "subtitle": "Modular capabilities, unified mission",
+      "description": "Choose the mix of simulations, training, and automation tools that match your security objectives.",
+      "sections": [
+        {
+          "title": "Simulation",
+          "description": "Run sophisticated phishing drills with zero maintenance.",
+          "points": [
+            "Library of targeted attack scenarios",
+            "Dynamic payload generation and link tracking",
+            "Executive and operational dashboards"
+          ]
+        },
+        {
+          "title": "Training",
+          "description": "Deliver memorable learning moments that actually change behaviour.",
+          "points": [
+            "Micro-learning in the flow of work",
+            "Gamified modules and knowledge checks",
+            "Personalised reinforcement paths"
+          ]
+        },
+        {
+          "title": "Incident Response",
+          "description": "Investigate, triage, and coordinate response faster than attackers move.",
+          "points": [
+            "Centralised queue for reported threats",
+            "Automation rules that cut manual toil",
+            "Collaboration tools for security and IT"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Explore all products",
+        "href": "/contact-us"
+      }
+    },
+    "ProductsSimulation": {
+      "hero": {
+        "eyebrow": "Simulation Engine",
+        "title": "Get started with the Simulation Engine",
+        "highlight": "Launch realistic phishing journeys in minutes",
+        "description": "Design, orchestrate, and learn from realistic adversary simulations without touching legacy tooling.",
+        "note": "No engineering required to get value.",
+        "checklist": [
+          "Clone real-world phishing templates with AI assistance",
+          "Route events into your existing SOC workflows",
+          "Coach employees instantly after risky behaviour"
+        ],
+        "cta": {
+          "label": "Request a demo",
+          "href": "/request-demo"
+        },
+        "secondaryCta": {
+          "label": "See all products",
+          "href": "/products"
+        }
+      },
+      "steps": {
+        "create": {
+          "badge": "Step 1",
+          "title": "Create a Simulation",
+          "description": "Point the engine at your phishing template and choose the audience to experience it.",
+          "promptLabel": "Deliver simulations to",
+          "promptPlaceholder": "security@phishy.io → Finance, Executives, EMEA",
+          "fields": [
+            {
+              "label": "Campaign Name",
+              "value": "Board-quarter spear phish"
+            },
+            {
+              "label": "Scenario Source",
+              "value": "Import from real email"
+            },
+            {
+              "label": "Launch Window",
+              "value": "Week of 18 Nov • Auto time optimisation"
+            }
+          ],
+          "tags": [
+            "Auto-personalise",
+            "Safe payloads"
+          ],
+          "helper": "Simulations auto-expire if launch approval is not received.",
+          "cta": "Generate campaign draft"
+        },
+        "configure": {
+          "badge": "Step 2",
+          "title": "Configure Responses",
+          "description": "Choose how the platform scores every click, routes events, and coaches employees.",
+          "route": {
+            "method": "POST",
+            "path": "/api/simulations/v1/events"
+          },
+          "requestSections": [
+            {
+              "label": "Event Body",
+              "items": [
+                "event: click_detected",
+                "risk_score: adaptive",
+                "coaching: micro-lesson"
+              ]
+            },
+            {
+              "label": "Response Actions",
+              "items": [
+                "Notify SOC on high-risk signals",
+                "Create Jira follow-up automatically",
+                "Send Slack recap to managers"
+              ]
+            }
+          ],
+          "policies": [
+            "PCI Data",
+            "EU Data",
+            "Behavioural Analytics"
+          ],
+          "helper": "All payloads and events are encrypted in transit and at rest.",
+          "cta": "Save routing policy"
+        }
+      }
+    },
+    "ProductsTraining": {
+      "title": "Training",
+      "subtitle": "Build confident, resilient teams",
+      "description": "Deliver personalised lessons that keep your workforce sharp between simulations.",
+      "sections": [
+        {
+          "title": "Micro-Learning Library",
+          "description": "Modern content designed for 5-minute bursts.",
+          "points": [
+            "Video, interactive, and narrative formats",
+            "Content localised to 20+ languages",
+            "Accessibility-compliant experiences"
+          ]
+        },
+        {
+          "title": "Adaptive Learning Paths",
+          "description": "Assign courses based on behaviour and risk profile.",
+          "points": [
+            "Automatic enrollment from simulation outcomes",
+            "Manager dashboards for tracking completion",
+            "Nudges via email, chat, or LMS integrations"
+          ]
+        },
+        {
+          "title": "Certification & Reporting",
+          "description": "Prove compliance and celebrate progress.",
+          "points": [
+            "Policy acknowledgement workflows",
+            "Downloadable certificates for auditors",
+            "KPIs aligned to regulatory frameworks"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Browse course catalog",
+        "href": "/contact-us"
+      }
+    },
+    "ProductsIncidentResponse": {
+      "title": "Incident Response",
+      "subtitle": "Respond to phishing signals at speed",
+      "description": "Keep investigations organised and teams aligned from first report to closure.",
+      "sections": [
+        {
+          "title": "Unified Inbox",
+          "description": "Aggregate alerts from email clients, chat, and ticketing tools.",
+          "points": [
+            "Prioritise based on sender reputation and payload risk",
+            "Auto-assign tasks to the right responder",
+            "Track SLA performance across teams"
+          ]
+        },
+        {
+          "title": "Automated Playbooks",
+          "description": "Orchestrate repetitive tasks so analysts can focus on decisions.",
+          "points": [
+            "Detonate attachments in sandbox environments",
+            "Quarantine reported emails across mailboxes",
+            "Push updates back to employees who reported"
+          ]
+        },
+        {
+          "title": "Post-Incident Insights",
+          "description": "Capture lessons learned to improve future readiness.",
+          "points": [
+            "Generate closure reports with one click",
+            "Feed findings into simulation campaigns",
+            "Share summaries with stakeholders securely"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Connect with response experts",
+        "href": "/contact-us"
+      }
+    },
+    "ProductsPhishypot": {
+      "title": "Phishypot",
+      "subtitle": "Catch threats before they land",
+      "description": "Deploy decoy inboxes that attract attackers and surface emerging campaigns.",
+      "sections": [
+        {
+          "title": "Smart Decoys",
+          "description": "Blend decoy accounts into your environment without operational overhead.",
+          "points": [
+            "Generate believable personas with a single click",
+            "Auto-rotate credentials and mailbox activity",
+            "Mirror collaboration tools to extend coverage"
+          ]
+        },
+        {
+          "title": "Threat Intelligence",
+          "description": "Turn captured artifacts into actionable intelligence.",
+          "points": [
+            "Extract domains, payloads, and TTPs automatically",
+            "Share indicators to block lists and SIEMs",
+            "Enrich alerts with context from global feeds"
+          ]
+        },
+        {
+          "title": "Continuous Optimisation",
+          "description": "Tune decoys to keep adversaries engaged.",
+          "points": [
+            "Rotate lures based on attacker behaviour",
+            "Blend automated and analyst-driven responses",
+            "Measure impact with clear funnel analytics"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Schedule a walkthrough",
+        "href": "/request-demo"
+      }
+    },
+    "ProductsRequestMode": {
+      "title": "Request Mode",
+      "subtitle": "Empower every employee to report quickly",
+      "description": "Streamline how suspicious messages and files flow to your security team.",
+      "sections": [
+        {
+          "title": "Frictionless Reporting",
+          "description": "Embed reporting into the tools your teams already use.",
+          "points": [
+            "Add buttons to Outlook, Gmail, Slack, and Teams",
+            "One-tap reporting from mobile devices",
+            "Instant acknowledgements that reinforce good behaviour"
+          ]
+        },
+        {
+          "title": "Automated Enrichment",
+          "description": "Collect context the moment a report is submitted.",
+          "points": [
+            "Capture headers, attachments, and user notes",
+            "Enrich with sandbox verdicts in seconds",
+            "Detect duplicates and link related reports"
+          ]
+        },
+        {
+          "title": "Feedback Loops",
+          "description": "Close the loop so employees keep reporting.",
+          "points": [
+            "Share safe vs. malicious verdicts automatically",
+            "Celebrate top reporters with leaderboards",
+            "Provide immediate micro-training when needed"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Enable Request Mode",
+        "href": "/contact-us"
+      }
+    },
+    "SolutionsStartups": {
+      "title": "Startups",
+      "subtitle": "Security solutions for startups",
+      "description": "While growing your startup, you don't want to put your employees at risk. Get this service at an affordable price, stay informed about current events, and minimize risk by running simulations and assigning training to your employees.",
+      "hero": {
+        "headlinePrimary": "Startup Security Solutions",
+        "headlineAccent": "Cloud SaaS, Zero Setup, Instant Start",
+        "cards": {
+          "first": {
+            "title": "Cloud SaaS - Zero Setup",
+            "description": "Fully cloud-based solution. Zero setup, start using instantly. No installation required."
+          },
+          "second": {
+            "title": "Affordable Pricing",
+            "description": "Affordable pricing for startups. Get enterprise-grade security without enterprise costs."
+          },
+          "third": {
+            "title": "Stay Updated & Train",
+            "description": "Stay informed about current threats. Run simulations and assign training to minimize risk."
+          }
+        }
+      },
+      "featureTabs": {
+        "heading": "Startup-focused security solutions",
+        "subheading": "Keep your employees safe while growing. Get affordable security that scales with your startup.",
+        "metrics": {
+          "first": {
+            "title": "Instant Start",
+            "description": "Zero setup, start using immediately. No installation or configuration required."
+          },
+          "second": {
+            "title": "Affordable",
+            "description": "Get enterprise-grade security at startup-friendly pricing. Scale as you grow."
+          }
+        }
+      },
+      "sections": [
+        {
+          "title": "Cloud SaaS & Zero Setup",
+          "description": "Fully cloud-based SaaS solution. Zero setup, start using instantly. No installation required.",
+          "points": [
+            "Fully cloud-based solution",
+            "Zero setup, instant usage",
+            "Start using immediately",
+            "No installation required",
+            "Works without any configuration"
+          ]
+        },
+        {
+          "title": "Affordable Security While Growing",
+          "description": "Affordable pricing for startups. Don't want to put employees at risk while growing. Get informed about current events and minimize risk.",
+          "points": [
+            "Affordable pricing for startups",
+            "Don't put employees at risk while growing",
+            "Get informed about current events",
+            "Run simulations and assign training",
+            "Minimize risk"
+          ]
+        },
+        {
+          "title": "Risk Minimization",
+          "description": "Stay informed about current threats. Run simulations based on current events and assign training to employees to minimize risk.",
+          "points": [
+            "Stay informed about current threats",
+            "Run simulations based on current events",
+            "Assign training to employees",
+            "Minimize risk with affordable service",
+            "Keep security while growing"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Request Demo",
+        "href": "/request-demo"
+      }
+    },
+    "SolutionsNonprofits": {
+      "title": "Nonprofits",
+      "subtitle": "Security solutions for nonprofit organizations",
+      "description": "Nonprofit organizations need affordable security solutions that align with their mission. Get special pricing, mission-focused solutions, and ethical licensing to protect your organization, donors, and volunteers.",
+      "hero": {
+        "headlinePrimary": "Nonprofit Security Solutions",
+        "headlineAccent": "Special Pricing, Mission-Focused, Ethical Licensing",
+        "cards": {
+          "first": {
+            "title": "Special Pricing",
+            "description": "Special pricing for nonprofit organizations. Get enterprise-grade security at nonprofit-friendly rates."
+          },
+          "second": {
+            "title": "Mission-Focused Solution",
+            "description": "Solutions tailored for nonprofit missions and values. Protect your organization while staying true to your mission."
+          },
+          "third": {
+            "title": "Ethical Licensing",
+            "description": "Ethical licensing options designed for nonprofits. Transparent pricing and mission-aligned solutions."
+          }
+        }
+      },
+      "featureTabs": {
+        "heading": "Nonprofit-focused security solutions",
+        "subheading": "Protect your organization, donors, and volunteers with mission-aligned security solutions.",
+        "metrics": {
+          "first": {
+            "title": "Special Pricing",
+            "description": "Get enterprise-grade security at nonprofit-friendly rates. Transparent pricing for mission-driven organizations."
+          },
+          "second": {
+            "title": "Mission-Aligned",
+            "description": "Solutions designed to support your mission. Protect your organization while staying true to your values."
+          }
+        }
+      },
+      "sections": [
+        {
+          "title": "Special Pricing & Ethical Licensing",
+          "description": "Special pricing for nonprofit organizations. Ethical licensing options designed for mission-driven organizations.",
+          "points": [
+            "Special pricing for nonprofit organizations",
+            "Ethical licensing options",
+            "Affordable security for limited budgets",
+            "Support for mission-driven organizations",
+            "Transparent pricing and mission-aligned solutions"
+          ]
+        },
+        {
+          "title": "Mission-Focused Security",
+          "description": "Solutions tailored for nonprofit missions. Protecting donor data and privacy, compliance with nonprofit regulations.",
+          "points": [
+            "Solutions tailored for nonprofit missions",
+            "Protecting donor data and privacy",
+            "Compliance with nonprofit regulations",
+            "Trust and transparency",
+            "Security without compromising your mission"
+          ]
+        },
+        {
+          "title": "Volunteer & Staff Security",
+          "description": "Protect volunteers and staff with security awareness training. Run simulations and assign training to protect sensitive information.",
+          "points": [
+            "Volunteer management and training",
+            "Staff security awareness",
+            "Run simulations and assign training",
+            "Protect sensitive information",
+            "Safe environment for volunteers and staff"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Request Demo",
+        "href": "/request-demo"
+      }
+    },
+    "SolutionsSecOps": {
+      "hero": {
+        "badge": "By Role / SecOps / SOC",
+        "headline": "Suspicious email → one-click triage.",
+        "description": "Reduce closure time to minutes with automatic enrichment and playbooks.",
+        "cta": {
+          "primary": "Request Demo"
+        },
+        "metrics": {
+          "description": "Triage metrics update in real-time on your dashboard."
+        }
+      },
+      "problems": {
+        "badge": "Problems → Impact → Target Results",
+        "heading": "Problems & Target Results",
+        "subheading": "Every risk maps to a clear target; the journey is visible in one flow.",
+        "1": {
+          "title": "Manual triage time is long",
+          "description": "Every email is manually reviewed."
+        },
+        "2": {
+          "title": "High false positives",
+          "description": "Time waste and fatigue increase."
+        },
+        "3": {
+          "title": "Playbook inconsistency",
+          "description": "Different analysts apply different processes."
+        }
+      },
+      "targets": {
+        "1": {
+          "title": "Reduce triage time to minutes",
+          "description": "Quick decision with automatic enrichment."
+        },
+        "2": {
+          "title": "Reduce false positives",
+          "description": "With IOC extraction and playbooks."
+        },
+        "3": {
+          "title": "Consistency with automation",
+          "description": "Standard processes for every analyst."
+        }
+      },
+      "howItWorks": {
+        "heading": "How It Works",
+        "steps": {
+          "receive": {
+            "description": "Suspicious email is reported."
+          },
+          "enrich": {
+            "description": "Automatic IOC extraction and enrichment."
+          },
+          "analyze": {
+            "description": "Analysis with playbooks."
+          },
+          "decide": {
+            "description": "Safe or malicious?"
+          },
+          "close": {
+            "description": "Close or escalate."
+          }
+        }
+      },
+      "modules": {
+        "heading": "Module Mapping"
+      },
+      "timeline": {
+        "badge": "Timeline",
+        "heading": "Example Scenario Timeline",
+        "subheading": "Implementation timeline from setup to scale"
+      },
+      "kpi": {
+        "badge": "Program KPI Panel",
+        "heading": "KPI & ROI",
+        "description": "Track triage metrics on your orbit dashboard; KPI cards align with your quarterly goals."
+      },
+      "evidence": {
+        "heading": "Evidence & FAQ"
+      },
+      "cta": {
+        "heading": "Ready to take action?",
+        "description": "Let's schedule a demo to see your SecOps panel live.",
+        "copy": "Learn how the process works with the frequently asked questions below. Contact us for additional details.",
+        "primary": "Request Demo"
+      }
+    },
+    "SolutionsLDTraining": {
+      "hero": {
+        "badge": "By Role / L&D / Training",
+        "headline": "Micro Content Plans with Completion & Certification Tracking",
+        "description": "Design micro content plans with segmentation. Track completion rates and generate certificates. Measure training effectiveness. Integrate with existing LMS platforms.",
+        "cta": {
+          "primary": "Request Demo"
+        },
+        "metrics": {
+          "description": "Training completion rates increase with micro content and automated tracking"
+        }
+      },
+      "overview": {
+        "title": "This page is for:",
+        "role": {
+          "label": "Role:",
+          "value": "L&D Directors, Training Managers, Learning Coordinators, HR Teams"
+        },
+        "companySize": {
+          "label": "Company Size:",
+          "value": "All sizes—especially organizations with 200+ employees requiring structured training programs"
+        },
+        "useCase": {
+          "label": "Use Case:",
+          "value": "Micro content planning, completion tracking, certification generation, segmentation, LMS integration"
+        },
+        "why": {
+          "label": "Why this persona cares:",
+          "value": "Training completion is hard to track. Certificates are manual. Content isn't segmented. Training effectiveness isn't measured."
+        },
+        "goal": {
+          "label": "Your goal:",
+          "value": "Automate training delivery and tracking. Phishy helps by providing micro content plans, automatic completion tracking, certificate generation, and segmentation."
+        }
+      },
+      "problems": {
+        "badge": "Problems & Solutions",
+        "heading": "Problems → Impact → Target Results",
+        "subheading": "Each problem leads to impact, which drives targeted results.",
+        "0": {
+          "problem": "Training completion not tracked automatically",
+          "impact": "Completion rates unknown. Certificates manual. Compliance gaps occur.",
+          "result": "100% completion tracking. Automatic certificate generation. Compliance evidence maintained."
+        },
+        "1": {
+          "problem": "Content not segmented by role or risk",
+          "impact": "One-size-fits-all training. Low engagement. Resources wasted.",
+          "result": "Role-based segmentation. Risk-based targeting. Engagement increases 60-80%."
+        },
+        "2": {
+          "problem": "Training effectiveness not measured",
+          "impact": "ROI unclear. Program improvements not data-driven. Budget support wanes.",
+          "result": "Effectiveness metrics tracked. Improvement scores calculated. ROI visible."
+        }
+      },
+      "workflow": {
+        "badge": "Workflow",
+        "heading": "How It Works",
+        "subheading": "5-step operational flow for L&D training programs"
+      },
+      "modules": {
+        "badge": "Module Mapping",
+        "heading": "Module Mapping",
+        "simulation": {
+          "label": "Simulation",
+          "title": "Simulation",
+          "description": "Simulations identify training needs. Click data informs content assignment. Risk-based segmentation."
+        },
+        "training": {
+          "label": "Training",
+          "title": "Training",
+          "description": "Core module: Micro content delivery, completion tracking, certificate generation, segmentation, effectiveness measurement."
+        },
+        "incident": {
+          "label": "Incident Response",
+          "title": "Incident Response",
+          "description": "Not typically the focus of L&D programs, but available for incident-based training triggers."
+        },
+        "phishysafe": {
+          "label": "PhishySafe",
+          "title": "PhishySafe",
+          "description": "Not typically used in L&D programs, but available for infrastructure testing."
+        },
+        "phishypot": {
+          "label": "PhishyPot",
+          "title": "PhishyPot",
+          "description": "Not typically used in L&D programs, but available for early warning systems."
+        },
+        "integrations": {
+          "label": "Integrations",
+          "title": "Integrations",
+          "description": "M365, Google Workspace, Exchange: User sync. LMS integration (Cornerstone, Workday, SAP SuccessFactors). HRIS integration. Certificate management systems."
+        }
+      },
+      "timeline": {
+        "badge": "Timeline",
+        "heading": "Timeline",
+        "0": {
+          "week": "Week 1",
+          "title": "Content plan & segmentation",
+          "description": "Design micro content plan. Configure segments. Select modules."
+        },
+        "1": {
+          "week": "Week 1-2",
+          "title": "LMS integration setup",
+          "description": "Integrate with LMS. Configure user sync. Set up certificate templates."
+        },
+        "2": {
+          "week": "Week 2",
+          "title": "Training deployment",
+          "description": "Deploy training to segments. Assign modules. Track initial progress."
+        },
+        "3": {
+          "week": "Week 3-4",
+          "title": "Completion monitoring",
+          "description": "Monitor completion rates. Follow up with non-completers. Generate certificates."
+        },
+        "4": {
+          "week": "Month-end",
+          "title": "Effectiveness assessment",
+          "description": "Calculate effectiveness metrics. Generate reports. Measure ROI."
+        }
+      },
+      "kpi": {
+        "badge": "KPI & ROI",
+        "heading": "KPI & ROI"
+      },
+      "testimonials": {
+        "badge": "Evidence & Testimonials",
+        "heading": "Evidence & Testimonials",
+        "trusted": "Trusted by Leading Organizations"
+      },
+      "security": {
+        "badge": "Security & Privacy",
+        "heading": "Security & Privacy",
+        "0": {
+          "label": "On-prem / Air-gapped",
+          "description": "Full on-premise deployment available"
+        },
+        "1": {
+          "label": "Data Residency",
+          "description": "Data stays in your region"
+        },
+        "2": {
+          "label": "MFA/SSO",
+          "description": "Enterprise authentication supported"
+        },
+        "3": {
+          "label": "Encryption",
+          "description": "End-to-end encryption at rest and in transit"
+        },
+        "4": {
+          "label": "SOC2 (Coming)",
+          "description": "SOC2 Type II certification in progress"
+        }
+      },
+      "faq": {
+        "0": {
+          "question": "What is micro content?",
+          "answer": "Micro content is short, focused training modules (2-5 minutes) designed for just-in-time learning. Improves completion rates and engagement compared to long-form training."
+        },
+        "1": {
+          "question": "How does segmentation work?",
+          "answer": "Segmentation allows you to assign different training content to different user groups based on role, department, risk level, or custom attributes. Ensures right content to right learners."
+        },
+        "2": {
+          "question": "Can we customize certificates?",
+          "answer": "Yes. Certificate templates are fully customizable. Add your branding, format, and specific information. Certificates generate automatically upon completion."
+        },
+        "3": {
+          "question": "What LMS platforms are supported?",
+          "answer": "Phishy integrates with major LMS platforms including Cornerstone, Workday, SAP SuccessFactors, Moodle, and more. Custom integrations available."
+        },
+        "4": {
+          "question": "How is training effectiveness measured?",
+          "answer": "Effectiveness is measured through completion rates, improvement scores, engagement metrics, and behavior change. Reports show training impact over time."
+        }
+      },
+      "cta": {
+        "heading": "Ready to take action?",
+        "description": "Let's schedule your live demo. See how automated training tracking improves completion rates and engagement.",
+        "copy": "Learn how the process works with the frequently asked questions below. Contact us for additional details.",
+        "primary": "Request Demo"
+      }
+    },
+    "SolutionsCyberAwareness": {
+      "title": "Increasing Cyber Awareness",
+      "description": "Build stronger cyber awareness across your organization with Phishy. Increase your cybersecurity awareness with simulations, training, and measurable metrics.",
+      "hero": {
+        "title": "Increasing Cyber Awareness",
+        "subtitle": "Build stronger security awareness across your organization"
+      },
+      "problems": {
+        "title": "The Challenge",
+        "description": "Organizations face significant challenges when it comes to building and maintaining strong cyber awareness.",
+        "items": [
+          {
+            "title": "Employee Awareness Gaps",
+            "description": "Employees lack sufficient knowledge about recognizing and protecting against cybersecurity threats.",
+            "icon": "alert-triangle"
+          },
+          {
+            "title": "Difficulty Measuring Awareness",
+            "description": "It's challenging to measure current awareness levels and identify areas for improvement.",
+            "icon": "bar-chart"
+          },
+          {
+            "title": "Lack of Systematic Training",
+            "description": "Without a regular and systematic training approach, it's difficult to increase awareness levels.",
+            "icon": "brain"
+          },
+          {
+            "title": "Reactive Approach",
+            "description": "A reactive rather than proactive approach requires intervention after problems arise.",
+            "icon": "alert-triangle"
+          }
+        ]
+      },
+      "solutions": {
+        "title": "How Phishy Helps",
+        "description": "Phishy provides comprehensive tools and solutions to build and measure cyber awareness effectively.",
+        "items": [
+          {
+            "title": "Phishing Simulations",
+            "description": "Test your employees' awareness levels and identify weak points with realistic phishing simulations.",
+            "icon": "target"
+          },
+          {
+            "title": "Training Modules and Micro-Learning",
+            "description": "Drive behavior change with 2-minute gamified trainings. Provide instant learning opportunities after risky behaviors with automated follow-up training.",
+            "icon": "lightbulb"
+          },
+          {
+            "title": "Real-Time Awareness Metrics",
+            "description": "Monitor and measure awareness scores, click rates, and improvement areas in real-time.",
+            "icon": "trending-up"
+          },
+          {
+            "title": "Automated Follow-Up Training",
+            "description": "Enable continuous improvement by automatically sending micro-learning content after risky behaviors.",
+            "icon": "shield-check"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "What You Get",
+        "description": "Measurable outcomes and benefits from using Phishy for cyber awareness.",
+        "items": [
+          {
+            "title": "Improved Awareness Scores",
+            "description": "See measurable improvements in awareness scores with regular simulations and training.",
+            "metric": "+40%",
+            "icon": "trending-up"
+          },
+          {
+            "title": "Reduced Click Rates",
+            "description": "Record significant decreases in click rates on phishing emails.",
+            "metric": "-60%",
+            "icon": "target"
+          },
+          {
+            "title": "Better Incident Reporting",
+            "description": "Employees report suspicious emails faster and more frequently.",
+            "metric": "+80%",
+            "icon": "users"
+          },
+          {
+            "title": "Measurable ROI",
+            "description": "Measure and report return on investment with clear metrics.",
+            "icon": "bar-chart"
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Real-World Use Cases",
+        "description": "See how organizations use Phishy to increase cyber awareness in different scenarios.",
+        "items": [
+          {
+            "title": "New Employee Onboarding",
+            "description": "Train new employees on cybersecurity awareness in their first days on the job.",
+            "outcomes": [
+              "Basic awareness training within the first week",
+              "Phishing simulation within the first month",
+              "Continuous tracking and evaluation"
+            ],
+            "icon": "users"
+          },
+          {
+            "title": "Quarterly Awareness Campaigns",
+            "description": "Maintain and increase awareness levels with regular simulations and training each quarter.",
+            "outcomes": [
+              "Regular awareness measurement",
+              "Simulations based on current threats",
+              "Department-based performance comparison"
+            ],
+            "icon": "target"
+          },
+          {
+            "title": "Compliance-Driven Training",
+            "description": "Automatically assign and track required training for compliance with regulations like GDPR, HIPAA.",
+            "outcomes": [
+              "Automated compliance reporting",
+              "Adherence to regulatory requirements",
+              "Audit-ready documentation"
+            ],
+            "icon": "shield-check"
+          }
+        ]
+      },
+      "ctaSection": {
+        "title": "Ready to Increase Your Cyber Awareness?",
+        "description": "Start building stronger security awareness across your organization today."
+      },
+      "cta": {
+        "label": "Request Demo",
+        "href": "/request-demo"
+      }
+    },
+    "SolutionsPhishingIncidents": {
+      "title": "Managing Phishing Incidents",
+      "description": "Respond to and manage phishing threats effectively with Phishy. Streamline incident management with unified inbox, automated playbooks, and real-time threat intelligence.",
+      "hero": {
+        "title": "Managing Phishing Incidents",
+        "subtitle": "Respond to and manage phishing threats effectively"
+      },
+      "problems": {
+        "title": "The Challenge",
+        "description": "Managing phishing incidents effectively requires the right tools and processes.",
+        "items": [
+          {
+            "title": "Slow Incident Response Times",
+            "description": "When response times to incidents are long, damage increases and security risk rises.",
+            "icon": "clock"
+          },
+          {
+            "title": "Difficulty Tracking and Managing Incidents",
+            "description": "Tracking, prioritizing, and managing numerous incidents is complex and time-consuming.",
+            "icon": "mail"
+          },
+          {
+            "title": "Lack of Automation",
+            "description": "Manual processes increase error risk and extend response times.",
+            "icon": "alert-triangle"
+          },
+          {
+            "title": "Poor Threat Visibility",
+            "description": "Lack of visibility into the threat landscape makes it difficult to take proactive measures.",
+            "icon": "activity"
+          }
+        ]
+      },
+      "solutions": {
+        "title": "How Phishy Helps",
+        "description": "Phishy provides comprehensive incident management tools to respond to and manage phishing threats effectively.",
+        "items": [
+          {
+            "title": "Unified Incident Management Inbox",
+            "description": "Collect, prioritize, and manage all phishing incidents in one central location. Single view for all incidents.",
+            "icon": "mail"
+          },
+          {
+            "title": "Automated Playbooks and Workflows",
+            "description": "Create automated playbooks for common scenarios. Incidents are automatically routed to the right workflow.",
+            "icon": "zap"
+          },
+          {
+            "title": "Real-Time Threat Intelligence",
+            "description": "Take proactive measures with current threat intelligence. Monitor and analyze threat trends.",
+            "icon": "activity"
+          },
+          {
+            "title": "Post-Incident Analysis and Insights",
+            "description": "Perform detailed post-incident analysis, identify improvement areas, and prevent future incidents.",
+            "icon": "bar-chart"
+          }
+        ]
+      },
+      "benefits": {
+        "title": "What You Get",
+        "description": "Measurable outcomes and benefits from using Phishy for incident management.",
+        "items": [
+          {
+            "title": "Faster Response Times",
+            "description": "Significantly reduce response times to incidents with automation and centralized management.",
+            "metric": "-70%",
+            "icon": "zap"
+          },
+          {
+            "title": "Better Incident Tracking",
+            "description": "Track all incidents in one central location and monitor their status in real-time.",
+            "metric": "100%",
+            "icon": "target"
+          },
+          {
+            "title": "Automated Remediation",
+            "description": "Reduce the need for manual intervention with automated remediation processes for common scenarios.",
+            "metric": "+50%",
+            "icon": "shield-alert"
+          },
+          {
+            "title": "Improved Security Posture",
+            "description": "Improve your overall security posture with proactive measures and rapid response.",
+            "icon": "check-circle"
+          }
+        ]
+      },
+      "useCases": {
+        "title": "Real-World Use Cases",
+        "description": "See how organizations use Phishy to manage phishing incidents effectively.",
+        "items": [
+          {
+            "title": "Automated Incident Response",
+            "description": "Create automated playbooks for common phishing scenarios and automatically resolve incidents.",
+            "outcomes": [
+              "Instant incident detection and response",
+              "Automated remediation processes",
+              "Reduced need for manual intervention"
+            ],
+            "icon": "zap"
+          },
+          {
+            "title": "Threat Intelligence Integration",
+            "description": "Integrate with external threat intelligence sources and take proactive measures.",
+            "outcomes": [
+              "Real-time threat alerts",
+              "Proactive threat prevention",
+              "Enhanced security visibility"
+            ],
+            "icon": "activity"
+          },
+          {
+            "title": "Compliance Reporting",
+            "description": "Document and report your incident management processes in compliance with regulatory requirements.",
+            "outcomes": [
+              "Automated compliance reports",
+              "Audit-ready documentation",
+              "Adherence to regulatory requirements"
+            ],
+            "icon": "file-text"
+          }
+        ]
+      },
+      "ctaSection": {
+        "title": "Ready to Improve Your Incident Management?",
+        "description": "Start managing phishing incidents more effectively today."
+      },
+      "cta": {
+        "label": "Request Demo",
+        "href": "/request-demo"
+      }
+    },
+    "Company": {
+      "title": "Inside Phishy",
+      "subtitle": "People, mission, and momentum",
+      "description": "Discover the team behind Phishy and how we partner with organisations worldwide.",
+      "sections": [
+        {
+          "title": "Mission & Values",
+          "description": "We exist to make every employee a confident defender.",
+          "points": [
+            "Human-centred design in everything we ship",
+            "Radical transparency with customers and teammates",
+            "Accountability for meaningful outcomes"
+          ]
+        },
+        {
+          "title": "Leadership",
+          "description": "Security veterans and product builders guiding our roadmap.",
+          "points": [
+            "Decades of combined experience across Fortune 500 security teams",
+            "Advisory board of CISOs and behavioural scientists",
+            "Inclusive leadership representing global perspectives"
+          ]
+        },
+        {
+          "title": "Global Footprint",
+          "description": "Supporting modern workforces regardless of location.",
+          "points": [
+            "Operations across North America, EMEA, and APAC",
+            "24/7 multi-lingual customer success coverage",
+            "Compliance ready for highly regulated industries"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Meet the team",
+        "href": "/company/about"
+      }
+    },
+    "CompanyAbout": {
+      "title": "About Phishy",
+      "subtitle": "Our story and vision",
+      "description": "Learn how a passion for human-centric security sparked the Phishy platform.",
+      "sections": [
+        {
+          "title": "From Idea to Impact",
+          "description": "Phishy was founded by security practitioners frustrated with outdated awareness programs.",
+          "points": [
+            "Bootstrapped to focus on product excellence from day one",
+            "Partnered with design experts to make security engaging",
+            "Earned trust from highly targeted industries within the first year"
+          ]
+        },
+        {
+          "title": "Building With Customers",
+          "description": "Our roadmap is shaped alongside security, IT, and compliance teams.",
+          "points": [
+            "Customer advisory councils across industries",
+            "Early access programs for breakthrough features",
+            "Shared success metrics that matter to stakeholders"
+          ]
+        },
+        {
+          "title": "Future Focus",
+          "description": "We keep investing in research and innovation to stay ahead of attackers.",
+          "points": [
+            "Dedicated R&D for emerging phishing techniques",
+            "Behavioural science partnerships with universities",
+            "Commitment to ethical, responsible AI practices"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Connect with us",
+        "href": "/contact-us"
+      }
+    },
+    "Contact": {
+      "title": "Contact Phishy",
+      "subtitle": "We are here to help",
+      "description": "Reach out to the right team so we can support your security initiatives.",
+      "sections": [
+        {
+          "title": "Talk to Sales",
+          "description": "Explore platform fit, pricing, and rollout strategies.",
+          "points": [
+            "Schedule a tailored demo for your stakeholders",
+            "Understand deployment timelines and onboarding",
+            "Receive security and procurement documentation"
+          ]
+        },
+        {
+          "title": "Customer Support",
+          "description": "Already a customer? We are ready when you need us.",
+          "points": [
+            "Log requests through the support portal 24/7",
+            "Access implementation guides and best practices",
+            "Join monthly customer office hours"
+          ]
+        },
+        {
+          "title": "Press & Partnerships",
+          "description": "Media, alliances, and community engagement.",
+          "points": [
+            "Request interviews with Phishy leadership",
+            "Co-market with strategic partners worldwide",
+            "Bring Phishy experts to your next event"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Email us",
+        "href": "mailto:hello@phishy.io"
+      },
+      "cardTitle": "Schedule a demo",
+      "cardDescription": "Share a work email and our team will reach out shortly.",
+      "ctaPrompt": "Share a work email and our team will reach out shortly.",
+      "emailPlaceholder": "work.email@company.com"
+    },
+    "RequestDemo": {
+      "title": "Request a Demo",
+      "subtitle": "See Phishy tailored to your environment",
+      "description": "Share a few details and we will prepare a walkthrough focused on your goals.",
+      "sections": [
+        {
+          "title": "What You Will See",
+          "description": "Experience the platform end-to-end in under 30 minutes.",
+          "points": [
+            "Scenario builder and adaptive simulations",
+            "Training library with personalised pathways",
+            "Executive insights that prove value fast"
+          ]
+        },
+        {
+          "title": "Who Should Join",
+          "description": "Invite stakeholders who influence security culture.",
+          "points": [
+            "Security or IT operations leaders",
+            "People teams driving training and communications",
+            "Compliance owners tracking regulatory outcomes"
+          ]
+        },
+        {
+          "title": "Next Steps",
+          "description": "Walk away with a clear plan to launch or migrate.",
+          "points": [
+            "Deployment roadmap and success milestones",
+            "Tailored pricing aligned to your organisation",
+            "Resources to engage leadership and employees"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Book your session",
+        "href": "/contact-us"
+      }
+    },
+    "PhishyTraining": {
+      "hero": {
+        "title": "2-Minute Gamified Trainings that Reshape Behavior",
+        "subtitle": "Join rapid, interactive cybersecurity training. Prepare your team to navigate the digital world safely. With 94% learner satisfaction, every click becomes a confident security choice.",
+        "cta": "Get Demo"
+      },
+      "mainFeatures": {
+        "title": "Main Features",
+        "heading": "Engaging Training, Simplified Access",
+        "description": "Phishy Training keeps cybersecurity learnings focused, fun, and available exactly when your teams need them.",
+        "items": {
+          "videoLibrary": {
+            "icon": "video",
+            "title": "Engaging Video Library",
+            "description": "60+ custom-produced, 2-minute 2D videos that make cybersecurity learning fast and enjoyable."
+          },
+          "oneClickAccess": {
+            "icon": "click",
+            "title": "One-Click Learning Access",
+            "description": "Learners reach assigned training sessions with a single click through a streamlined training portal."
+          },
+          "userFeedback": {
+            "icon": "star",
+            "title": "Positive User Feedback",
+            "description": "Designed to boost learning without consuming extra time, our bite-sized videos keep users coming back."
+          }
+        }
+      },
+      "visualOne": {
+        "image": "/Asset-12.png",
+        "imageAlt": "Training dashboard with progress metrics",
+        "caption": "Seamless Training Management"
+      },
+      "management": {
+        "title": "Seamless Training Management",
+        "subtitle": "Assign with Ease, Track with Precision",
+        "bullets": [
+          "Assign training modules to individuals or teams in just a few clicks.",
+          "Track real-time progress through an intuitive, user-friendly dashboard.",
+          "Ensure every team member completes their training with automated follow-up.",
+          "Keep teams on track with gentle reminder notifications for pending sessions."
+        ]
+      },
+      "uniqueApproach": {
+        "title": "Unique Approach to Learning",
+        "subtitle": "Customized Training, Proven Effectiveness",
+        "curriculum": {
+          "title": "Exclusive Cybersecurity Curriculum",
+          "subtitle": "Build tailored content and demonstrate its impact",
+          "bullets": [
+            "Expert-built, exclusive content proven to improve cybersecurity awareness.",
+            "Trusted training modules adopted by leading organisations worldwide.",
+            "Continuously updated materials that address the latest security threats.",
+            "Interactive, hands-on exercises that reinforce real-world application."
+          ]
+        }
+      },
+      "visualTwo": {
+        "image": "/Asset-11.png",
+        "imageAlt": "Cybersecurity training materials"
+      },
+      "impact": {
+        "title": "Real Impact, Real Feedback",
+        "subtitle": "User-Approved Training Experience",
+        "heading": "Training that Transforms Mindsets and Enhances Skills",
+        "description": "Our training platform shines with positive feedback from learners who see real improvements in cybersecurity awareness."
+      },
+      "testimonials": {
+        "title": "Transformative Results",
+        "cards": {
+          "fitEducation": {
+            "title": "Fit Education Into Your Day",
+            "lines": [
+              "Busy schedules are no barrier to meaningful learning.",
+              "Learners love how training modules adapt to their time constraints."
+            ]
+          },
+          "neverFallBehind": {
+            "title": "Never Fall Behind",
+            "lines": [
+              "Phishy's reminder system ensures every assigned training gets completed.",
+              "Keep every team member aligned with ongoing cybersecurity learning."
+            ]
+          },
+          "behavioralChange": {
+            "title": "Behavioral Change",
+            "lines": [
+              "Content goes beyond teaching—it drives lasting behaviour change.",
+              "Create safer workplaces by empowering teams against cyber threats."
+            ]
+          },
+          "futureFeature": {
+            "title": "",
+            "lines": []
+          }
+        }
+      },
+      "footerCta": {
+        "title": "Get Started",
+        "subtitle": "Start training your team on cybersecurity today.",
+        "primaryCta": "Start Now",
+        "secondaryCta": "Learn More"
+      }
+    },
+    "PhishyTrainingPage": {
+      "Hero": {
+        "badge": "Trusted by security leaders worldwide",
+        "title": "Phishing Simulation",
+        "subtitle": "Real-World Defense",
+        "description": "This product is designed to enhance companies' cybersecurity. Prepare your team for real-world threats with advanced simulation tools.",
+        "primaryCta": "Request a demo",
+        "secondaryCta": "Watch video"
+      },
+      "Prepare": {
+        "title": "Prepare Simulations",
+        "description": "Create professional phishing simulations quickly and easily. Use drag-and-drop interfaces, custom branding, and real website content to build realistic training scenarios.",
+        "features": [
+          "Drag-and-Drop Email Creation",
+          "Custom Website Branding",
+          "Content Scraping",
+          "Scheduling & Targeting"
+        ],
+        "cta": "Get Started",
+        "imageAlt": "Prepare Simulations"
+      },
+      "RunSimulations": {
+        "title": "Run Simulations",
+        "subtitle": "Launch campaigns and track them in real-time",
+        "features": {
+          "liveMonitoring": {
+            "title": "Live Campaign Monitoring",
+            "description": "Launch campaigns and monitor live data as your team responds. Get real-time insights into how your employees interact with simulated phishing attempts, allowing you to identify vulnerabilities and improve security awareness immediately.",
+            "longDescription": "Our live monitoring system provides comprehensive visibility into campaign performance. Track email opens, link clicks, and user responses in real-time. Receive instant notifications when users engage with simulated threats, enabling quick intervention and immediate training opportunities. Monitor multiple campaigns simultaneously with our intuitive dashboard that displays key metrics, response rates, and engagement patterns.",
+            "bullets": [
+              "Real-time activity tracking",
+              "Instant alert notifications",
+              "Multi-campaign dashboard",
+              "Live response analytics"
+            ]
+          },
+          "interactionTracking": {
+            "title": "Click and Interaction Tracking",
+            "description": "See which users clicked on links and shared information. Gain detailed insights into user behavior patterns and identify which types of phishing attempts are most effective in your organization.",
+            "longDescription": "Comprehensive tracking of every user interaction with your simulated phishing campaigns. Monitor link clicks, form submissions, and data entry patterns. Understand the complete user journey from initial email receipt to final interaction. Identify high-risk behaviors and vulnerable departments that require additional training. Export detailed reports showing interaction timelines, click-through rates, and user engagement metrics.",
+            "bullets": [
+              "Link click tracking",
+              "Form submission monitoring",
+              "User journey mapping",
+              "Behavioral analytics"
+            ]
+          },
+          "fileTracking": {
+            "title": "File Download Tracking",
+            "description": "Track downloads and file openings for each team member. Monitor when users download attachments from phishing emails and which files they open, providing critical insights into security awareness levels.",
+            "longDescription": "Advanced file tracking capabilities that monitor every download and file interaction from simulated phishing campaigns. Track which attachments users download, when they open files, and how they interact with malicious content. Identify employees who frequently download suspicious attachments and require immediate security training. Receive alerts when users interact with potentially dangerous file types, enabling rapid response and education.",
+            "bullets": [
+              "Download activity monitoring",
+              "File open tracking",
+              "Attachment type analysis",
+              "Risk-level assessment"
+            ]
+          },
+          "statistics": {
+            "title": "Campaign Statistics",
+            "description": "View comprehensive statistics of users who stopped phishing campaigns. Analyze success rates, identify trends, and measure the effectiveness of your security training programs over time.",
+            "longDescription": "Powerful analytics dashboard that provides deep insights into campaign performance and user behavior. Track success rates, identify trends, and measure the effectiveness of your security training programs. Compare performance across different departments, campaigns, and time periods. Generate detailed reports showing improvement metrics, vulnerability patterns, and training impact. Use data-driven insights to optimize your phishing simulation strategy and enhance organizational security.",
+            "bullets": [
+              "Performance analytics",
+              "Trend identification",
+              "Department comparisons",
+              "Training effectiveness metrics"
+            ]
+          }
+        }
+      },
+      "SeeResults": {
+        "cards": {
+          "analytics": {
+            "badge": "Analytics",
+            "title": "Email Engagement Analytics",
+            "description": "Detailed reports on opened emails, clicked links, and entered data to measure campaign effectiveness.",
+            "bullets": [
+              "Track email open rates.",
+              "Monitor link click-through rates."
+            ],
+            "cta": "View Reports"
+          },
+          "statistics": {
+            "title": "Campaign Statistics",
+            "metricLabel": "Total Clicks",
+            "metricValue": "1,247",
+            "metricDelta": "23% increase from last week",
+            "barHeights": [65, 80, 55],
+            "chart": {
+              "yAxisTicks": [0, 25, 50, 75, 100],
+              "clicks": [
+                {"x": 0, "y": 45, "label": "Mon"},
+                {"x": 25, "y": 60, "label": "Tue"},
+                {"x": 50, "y": 40, "label": "Wed"},
+                {"x": 75, "y": 70, "label": "Thu"},
+                {"x": 100, "y": 55, "label": "Fri"}
+              ],
+              "reports": [
+                {"x": 0, "y": 20, "label": "Mon"},
+                {"x": 25, "y": 35, "label": "Tue"},
+                {"x": 50, "y": 25, "label": "Wed"},
+                {"x": 75, "y": 45, "label": "Thu"},
+                {"x": 100, "y": 30, "label": "Fri"}
+              ],
+              "legend": {
+                "clicks": "Clicks",
+                "reports": "Reports"
+              }
+            }
+          },
+          "engagement": {
+            "title": "Engagement Metrics",
+            "donut": {
+              "percentage": 73,
+              "centerLabel": "73%",
+              "centerSubLabel": "Opened",
+              "callout": "27% Not Opened"
+            },
+            "metrics": [
+              {"label": "Emails Opened", "value": "73%"},
+              {"label": "Links Clicked", "value": "42%"},
+              {"label": "Data Entered", "value": "18%"}
+            ]
+          },
+          "incident": {
+            "badge": "Reports",
+            "title": "Incident Reporting Effectiveness",
+            "description": "Measure the effectiveness of your team's incident reporting process and file activity tracking.",
+            "stats": [
+              {"value": "92%", "label": "Reported Incidents"},
+              {"value": "1,450", "label": "Files Tracked"}
+            ]
+          }
+        }
+      }
+    },
+    "RequestDemo": {
+      "title": "Request a Demo",
+      "subtitle": "See Phishy tailored to your environment",
+      "description": "Share a few details and we will prepare a walkthrough focused on your goals.",
+      "sections": [
+        {
+          "title": "What You Will See",
+          "description": "Experience the platform end-to-end in under 30 minutes.",
+          "points": [
+            "Scenario builder and adaptive simulations",
+            "Training library with personalised pathways",
+            "Executive insights that prove value fast"
+          ]
+        },
+        {
+          "title": "Who Should Join",
+          "description": "Invite stakeholders who influence security culture.",
+          "points": [
+            "Security or IT operations leaders",
+            "People teams driving training and communications",
+            "Compliance owners tracking regulatory outcomes"
+          ]
+        },
+        {
+          "title": "Next Steps",
+          "description": "Walk away with a clear plan to launch or migrate.",
+          "points": [
+            "Deployment roadmap and success milestones",
+            "Tailored pricing aligned to your organisation",
+            "Resources to engage leadership and employees"
+          ]
+        }
+      ],
+      "cta": {
+        "label": "Book your session",
+        "href": "/contact-us"
+      }
+    },
+    "SolutionsSecurityOnboarding": {}
+  },
+  "Blog": {
+    "badge": "Blog",
+    "title": "Blog",
+    "subtitle": "Latest articles and tips on cybersecurity, phishing protection, and digital security",
+    "readMore": "Read More",
+    "noPosts": "No blog posts available yet.",
+    "backToBlog": "Back to Blog",
+    "postNotFound": "Post Not Found",
+    "postNotFoundTitle": "Post Not Found - Phishy",
+    "postNotFoundDescription": "The blog post you are looking for could not be found.",
+    "tags": "Tags",
+    "relatedPosts": "Related Posts",
+    "mostReadPosts": "Most Read Posts",
+    "newsletter": {
+      "title": "Newsletter",
+      "emailPlaceholder": "Enter your email address",
+      "subscribe": "Subscribe"
+    },
+    "author": "Author",
+    "date": "Date",
+    "pagination": {
+      "pageInfo": "Page {currentPage} / {totalPages} • Total {total} posts",
+      "previousPage": "Previous page",
+      "nextPage": "Next page",
+      "pageNumber": "Page {page}"
+    },
+    "audio": {
+      "play": "Play",
+      "pause": "Pause",
+      "mute": "Mute",
+      "unmute": "Unmute",
+      "close": "Close",
+      "low": "Low",
+      "normal": "Normal",
+      "high": "High"
+    },
+    "summary": {
+      "button": "Summarize",
+      "title": "Article Summary",
+      "loading": "Generating summary...",
+      "error": "An error occurred while generating the summary"
+    },
+    "tableOfContents": {
+      "title": "Table of Contents",
+      "moveLeft": "Move Left",
+      "moveRight": "Move Right"
+    },
+    "readAloud": {
+      "start": "Read Aloud",
+      "stop": "Stop",
+      "reading": "Reading..."
+    },
+    "search": {
+      "placeholder": "Search articles...",
+      "clear": "Clear search"
+    },
+    "filter": {
+      "category": "All Categories",
+      "allCategories": "All Categories",
+      "clearAll": "Clear All",
+      "resultsCount": "Showing {count} articles",
+      "filteredResultsCount": "Showing {count} of {total} articles"
+    },
+    "sort": {
+      "newest": "Newest First",
+      "oldest": "Oldest First",
+      "titleAsc": "Title A-Z",
+      "titleDesc": "Title Z-A"
+    }
+  }
+}
